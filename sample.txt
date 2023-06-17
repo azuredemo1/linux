@@ -1,0 +1,21 @@
+# Sample text file content:
+1. This is a sample text file.
+2. It contains some lines with various patterns.
+3. 12345
+4. abc
+5. def
+6. apple
+7. banana
+8. colour
+9. color
+10. word
+11. regex
+12. example@email.com
+13. http://example.com
+14. https://www.example.com/page
+15. Phone: 123-456-7890
+16. Phone: (533) 654-3210
+17. Phone: +90 533 123 4567
+
+# Additional line of text:
+18. This is an extra line for testing.
