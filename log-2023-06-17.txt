@@ -1,0 +1,147 @@
+[Sun Jun 18 16:15:52 2023] ata30: SATA link down (SStatus 0 SControl 300)
+[Sun Jun 18 16:15:52 2023] ata26: SATA link down (SStatus 0 SControl 300)
+[Sun Jun 18 16:15:52 2023] ata28: SATA link down (SStatus 0 SControl 300)
+[Sun Jun 18 16:15:52 2023] sr 3:0:0:0: [sr0] scsi3-mmc drive: 1x/1x writer dvd-ram cd/rw xa/form2 cdda tray
+[Sun Jun 18 16:15:52 2023] cdrom: Uniform CD-ROM driver Revision: 3.20
+[Sun Jun 18 16:15:52 2023] sr 3:0:0:0: Attached scsi CD-ROM sr0
+[Sun Jun 18 16:15:52 2023] sr 3:0:0:0: Attached scsi generic sg1 type 5
+[Sun Jun 18 16:15:52 2023] raid6: avx2x4   gen() 49955 MB/s
+[Sun Jun 18 16:15:52 2023] raid6: avx2x4   xor() 21833 MB/s
+[Sun Jun 18 16:15:53 2023] raid6: avx2x2   gen() 48211 MB/s
+[Sun Jun 18 16:15:53 2023] raid6: avx2x2   xor() 31319 MB/s
+[Sun Jun 18 16:15:53 2023] raid6: avx2x1   gen() 41825 MB/s
+[Sun Jun 18 16:15:53 2023] raid6: avx2x1   xor() 25438 MB/s
+[Sun Jun 18 16:15:53 2023] raid6: sse2x4   gen() 19377 MB/s
+[Sun Jun 18 16:15:53 2023] raid6: sse2x4   xor() 11329 MB/s
+[Sun Jun 18 16:15:53 2023] raid6: sse2x2   gen() 20442 MB/s
+[Sun Jun 18 16:15:53 2023] raid6: sse2x2   xor() 12627 MB/s
+[Sun Jun 18 16:15:53 2023] raid6: sse2x1   gen() 16735 MB/s
+[Sun Jun 18 16:15:53 2023] raid6: sse2x1   xor()  8843 MB/s
+[Sun Jun 18 16:15:53 2023] raid6: using algorithm avx2x4 gen() 49955 MB/s
+[Sun Jun 18 16:15:53 2023] raid6: .... xor() 21833 MB/s, rmw enabled
+[Sun Jun 18 16:15:53 2023] raid6: using avx2x2 recovery algorithm
+[Sun Jun 18 16:15:53 2023] xor: automatically using best checksumming function   avx       
+[Sun Jun 18 16:15:53 2023] async_tx: api initialized (async)
+[Sun Jun 18 16:15:53 2023] Btrfs loaded, crc32c=crc32c-intel, zoned=yes, fsverity=yes
+[Sun Jun 18 16:15:54 2023] EXT4-fs (dm-0): mounted filesystem with ordered data mode. Opts: (null). Quota mode: none.
+[Sun Jun 18 16:15:54 2023] systemd[1]: Inserted module 'autofs4'
+[Sun Jun 18 16:15:54 2023] systemd[1]: systemd 249.11-0ubuntu3.9 running in system mode (+PAM +AUDIT +SELINUX +APPARMOR +IMA +SMACK +SECCOMP +GCRYPT +GNUTLS +OPENSSL +ACL +BLKID +CURL +ELFUTILS +FIDO2 +IDN2 -IDN +IPTC +KMOD +LIBCRYPTSETUP +LIBFDISK +PCRE2 -PWQUALITY -P11KIT -QRENCODE +BZIP2 +LZ4 +XZ +ZLIB +ZSTD -XKBCOMMON +UTMP +SYSVINIT default-hierarchy=unified)
+[Sun Jun 18 16:15:54 2023] systemd[1]: Detected virtualization vmware.
+[Sun Jun 18 16:15:54 2023] systemd[1]: Detected architecture x86-64.
+[Sun Jun 18 16:15:54 2023] systemd[1]: Hostname set to <server1>.
+[Sun Jun 18 16:15:54 2023] systemd[1]: Queued start job for default target Graphical Interface.
+[Sun Jun 18 16:15:54 2023] systemd[1]: Created slice Slice /system/modprobe.
+[Sun Jun 18 16:15:54 2023] systemd[1]: Created slice Slice /system/systemd-fsck.
+[Sun Jun 18 16:15:54 2023] systemd[1]: Created slice User and Session Slice.
+[Sun Jun 18 16:15:54 2023] systemd[1]: Started Forward Password Requests to Wall Directory Watch.
+[Sun Jun 18 16:15:54 2023] systemd[1]: Set up automount Arbitrary Executable File Formats File System Automount Point.
+[Sun Jun 18 16:15:54 2023] systemd[1]: Reached target Slice Units.
+[Sun Jun 18 16:15:54 2023] systemd[1]: Reached target Mounting snaps.
+[Sun Jun 18 16:15:54 2023] systemd[1]: Reached target Local Verity Protected Volumes.
+[Sun Jun 18 16:15:54 2023] systemd[1]: Listening on Device-mapper event daemon FIFOs.
+[Sun Jun 18 16:15:54 2023] systemd[1]: Listening on LVM2 poll daemon socket.
+[Sun Jun 18 16:15:54 2023] systemd[1]: Listening on multipathd control socket.
+[Sun Jun 18 16:15:54 2023] systemd[1]: Listening on Syslog Socket.
+[Sun Jun 18 16:15:54 2023] systemd[1]: Listening on fsck to fsckd communication Socket.
+[Sun Jun 18 16:15:54 2023] systemd[1]: Listening on initctl Compatibility Named Pipe.
+[Sun Jun 18 16:15:54 2023] systemd[1]: Listening on Journal Audit Socket.
+[Sun Jun 18 16:15:54 2023] systemd[1]: Listening on Journal Socket (/dev/log).
+[Sun Jun 18 16:15:54 2023] systemd[1]: Listening on Journal Socket.
+[Sun Jun 18 16:15:54 2023] systemd[1]: Listening on Network Service Netlink Socket.
+[Sun Jun 18 16:15:54 2023] systemd[1]: Listening on udev Control Socket.
+[Sun Jun 18 16:15:54 2023] systemd[1]: Listening on udev Kernel Socket.
+[Sun Jun 18 16:15:54 2023] systemd[1]: Mounting Huge Pages File System...
+[Sun Jun 18 16:15:54 2023] systemd[1]: Mounting POSIX Message Queue File System...
+[Sun Jun 18 16:15:54 2023] systemd[1]: Mounting Kernel Debug File System...
+[Sun Jun 18 16:15:54 2023] systemd[1]: Mounting Kernel Trace File System...
+[Sun Jun 18 16:15:54 2023] systemd[1]: Starting Journal Service...
+[Sun Jun 18 16:15:54 2023] systemd[1]: Starting Set the console keyboard layout...
+[Sun Jun 18 16:15:54 2023] systemd[1]: Starting Create List of Static Device Nodes...
+[Sun Jun 18 16:15:54 2023] systemd[1]: Starting Monitoring of LVM2 mirrors, snapshots etc. using dmeventd or progress polling...
+[Sun Jun 18 16:15:54 2023] systemd[1]: Condition check resulted in LXD - agent being skipped.
+[Sun Jun 18 16:15:54 2023] systemd[1]: Starting Load Kernel Module chromeos_pstore...
+[Sun Jun 18 16:15:54 2023] systemd[1]: Starting Load Kernel Module configfs...
+[Sun Jun 18 16:15:54 2023] systemd[1]: Starting Load Kernel Module drm...
+[Sun Jun 18 16:15:54 2023] systemd[1]: Starting Load Kernel Module efi_pstore...
+[Sun Jun 18 16:15:54 2023] systemd[1]: Starting Load Kernel Module fuse...
+[Sun Jun 18 16:15:54 2023] systemd[1]: Starting Load Kernel Module pstore_blk...
+[Sun Jun 18 16:15:54 2023] systemd[1]: Starting Load Kernel Module pstore_zone...
+[Sun Jun 18 16:15:54 2023] systemd[1]: Starting Load Kernel Module ramoops...
+[Sun Jun 18 16:15:54 2023] systemd[1]: Condition check resulted in OpenVSwitch configuration for cleanup being skipped.
+[Sun Jun 18 16:15:54 2023] systemd[1]: Condition check resulted in File System Check on Root Device being skipped.
+[Sun Jun 18 16:15:54 2023] pstore: Using crash dump compression: deflate
+[Sun Jun 18 16:15:54 2023] pstore: Registered efi as persistent store backend
+[Sun Jun 18 16:15:54 2023] systemd[1]: Starting Load Kernel Modules...
+[Sun Jun 18 16:15:54 2023] systemd[1]: Starting Remount Root and Kernel File Systems...
+[Sun Jun 18 16:15:54 2023] systemd[1]: Starting Coldplug All udev Devices...
+[Sun Jun 18 16:15:54 2023] systemd[1]: Mounted Huge Pages File System.
+[Sun Jun 18 16:15:54 2023] systemd[1]: Mounted POSIX Message Queue File System.
+[Sun Jun 18 16:15:54 2023] systemd[1]: Mounted Kernel Debug File System.
+[Sun Jun 18 16:15:54 2023] systemd[1]: Mounted Kernel Trace File System.
+[Sun Jun 18 16:15:54 2023] EXT4-fs (dm-0): re-mounted. Opts: (null). Quota mode: none.
+[Sun Jun 18 16:15:54 2023] systemd[1]: Finished Create List of Static Device Nodes.
+[Sun Jun 18 16:15:54 2023] systemd[1]: modprobe@configfs.service: Deactivated successfully.
+[Sun Jun 18 16:15:54 2023] systemd[1]: Finished Load Kernel Module configfs.
+[Sun Jun 18 16:15:54 2023] systemd[1]: modprobe@drm.service: Deactivated successfully.
+[Sun Jun 18 16:15:54 2023] systemd[1]: Finished Load Kernel Module drm.
+[Sun Jun 18 16:15:54 2023] systemd[1]: modprobe@efi_pstore.service: Deactivated successfully.
+[Sun Jun 18 16:15:55 2023] systemd[1]: Finished Load Kernel Module efi_pstore.
+[Sun Jun 18 16:15:55 2023] systemd[1]: modprobe@fuse.service: Deactivated successfully.
+[Sun Jun 18 16:15:55 2023] systemd[1]: Finished Load Kernel Module fuse.
+[Sun Jun 18 16:15:55 2023] systemd[1]: modprobe@pstore_blk.service: Deactivated successfully.
+[Sun Jun 18 16:15:55 2023] systemd[1]: Finished Load Kernel Module pstore_blk.
+[Sun Jun 18 16:15:55 2023] systemd[1]: Finished Set the console keyboard layout.
+[Sun Jun 18 16:15:55 2023] systemd[1]: modprobe@pstore_zone.service: Deactivated successfully.
+[Sun Jun 18 16:15:55 2023] systemd[1]: Finished Load Kernel Module pstore_zone.
+[Sun Jun 18 16:15:55 2023] systemd[1]: modprobe@ramoops.service: Deactivated successfully.
+[Sun Jun 18 16:15:55 2023] systemd[1]: Finished Load Kernel Module ramoops.
+[Sun Jun 18 16:15:55 2023] systemd[1]: Finished Load Kernel Modules.
+[Sun Jun 18 16:15:55 2023] systemd[1]: Finished Remount Root and Kernel File Systems.
+[Sun Jun 18 16:15:55 2023] systemd[1]: Activating swap /swap.img...
+[Sun Jun 18 16:15:55 2023] systemd[1]: Mounting FUSE Control File System...
+[Sun Jun 18 16:15:55 2023] systemd[1]: Mounting Kernel Configuration File System...
+[Sun Jun 18 16:15:55 2023] Adding 4194300k swap on /swap.img.  Priority:-2 extents:11 across:9101308k FS
+[Sun Jun 18 16:15:55 2023] systemd[1]: Starting Device-Mapper Multipath Device Controller...
+[Sun Jun 18 16:15:55 2023] systemd[1]: Starting Apply Kernel Variables...
+[Sun Jun 18 16:15:55 2023] systemd[1]: Starting Create System Users...
+[Sun Jun 18 16:15:55 2023] alua: device handler registered
+[Sun Jun 18 16:15:55 2023] systemd[1]: Activated swap /swap.img.
+[Sun Jun 18 16:15:55 2023] systemd[1]: Finished Monitoring of LVM2 mirrors, snapshots etc. using dmeventd or progress polling.
+[Sun Jun 18 16:15:55 2023] emc: device handler registered
+[Sun Jun 18 16:15:55 2023] systemd[1]: modprobe@chromeos_pstore.service: Deactivated successfully.
+[Sun Jun 18 16:15:55 2023] systemd[1]: Finished Load Kernel Module chromeos_pstore.
+[Sun Jun 18 16:15:55 2023] rdac: device handler registered
+[Sun Jun 18 16:15:55 2023] systemd[1]: Mounted FUSE Control File System.
+[Sun Jun 18 16:15:55 2023] systemd[1]: Mounted Kernel Configuration File System.
+[Sun Jun 18 16:15:55 2023] systemd[1]: Reached target Swaps.
+[Sun Jun 18 16:15:55 2023] systemd[1]: Finished Apply Kernel Variables.
+[Sun Jun 18 16:15:55 2023] systemd[1]: Finished Create System Users.
+[Sun Jun 18 16:15:55 2023] systemd[1]: Starting Create Static Device Nodes in /dev...
+[Sun Jun 18 16:15:55 2023] systemd[1]: Finished Create Static Device Nodes in /dev.
+[Sun Jun 18 16:15:55 2023] systemd[1]: Starting Rule-based Manager for Device Events and Files...
+[Sun Jun 18 16:15:55 2023] systemd[1]: Started Journal Service.
+[Sun Jun 18 16:15:55 2023] vmw_vmci 0000:00:07.7: enabling device (0000 -> 0003)
+[Sun Jun 18 16:15:55 2023] vmw_vmci 0000:00:07.7: MMIO register access is available
+[Sun Jun 18 16:15:55 2023] vmw_vmci 0000:00:07.7: Using capabilities 0x3c
+[Sun Jun 18 16:15:55 2023] Guest personality initialized and is active
+[Sun Jun 18 16:15:55 2023] VMCI host device registered (name=vmci, major=10, minor=123)
+[Sun Jun 18 16:15:55 2023] Initialized host personality
+[Sun Jun 18 16:15:55 2023] Bluetooth: Core ver 2.22
+[Sun Jun 18 16:15:55 2023] NET: Registered PF_BLUETOOTH protocol family
+[Sun Jun 18 16:15:55 2023] Bluetooth: HCI device and connection manager initialized
+[Sun Jun 18 16:15:55 2023] Bluetooth: HCI socket layer initialized
+[Sun Jun 18 16:15:55 2023] Bluetooth: L2CAP socket layer initialized
+[Sun Jun 18 16:15:55 2023] Bluetooth: SCO socket layer initialized
+[Sun Jun 18 16:15:55 2023] usbcore: registered new interface driver btusb
+[Sun Jun 18 16:15:55 2023] snd_ens1371 0000:02:02.0: enabling device (0000 -> 0001)
+[Sun Jun 18 16:15:55 2023] RAPL PMU: API unit is 2^-32 Joules, 0 fixed counters, 10737418240 ms ovfl timer
+[Sun Jun 18 16:15:55 2023] EXT4-fs (sda2): mounted filesystem with ordered data mode. Opts: (null). Quota mode: none.
+[Sun Jun 18 16:15:55 2023] EXT4-fs (dm-1): mounted filesystem with ordered data mode. Opts: (null). Quota mode: none.
+[Sun Jun 18 16:15:55 2023] loop0: detected capacity change from 0 to 229272
+[Sun Jun 18 16:15:55 2023] loop1: detected capacity change from 0 to 129600
+[Sun Jun 18 16:15:55 2023] loop2: detected capacity change from 0 to 102072
+[Sun Jun 18 16:15:55 2023] systemd-journald[597]: Received client request to flush runtime journal.
+[Sun Jun 18 16:15:55 2023] systemd-journald[597]: File /var/log/journal/937c0390acbd4340aab942519e7668c3/system.journal corrupted or uncleanly shut down, renaming and replacing.
+[Sun Jun 18 16:15:55 2023] audit: type=1400 audit(1687103272.011:2): apparmor="STATUS" operation="profile_load" profile="unconfined" name="lsb_release" pid=859 comm="apparmor_parser"
+[Sun Jun 18 16:15:55 2023] audit: type=1400 audit(1687103272.011:3): apparmor="STATUS" operation="profile_load" profile="unconfined" name="nvidia_modprobe" pid=860 comm="apparmor_parser"
+[Sun Jun 18 16:15:55 2023] audit: type=1400 audit(1687103272.011:4): apparmor="STATUS" operation="profile_load" profile="unconfined" name="nvidia_modprobe//kmod" pid=860 comm="apparmor_parser"

@@ -1,0 +1,1909 @@
+[Sun Jun 18 16:15:44 2023] Linux version 5.15.0-75-generic (buildd@bos03-amd64-059) (gcc (Ubuntu 11.3.0-1ubuntu1~22.04.1) 11.3.0, GNU ld (GNU Binutils for Ubuntu) 2.38) #82-Ubuntu SMP Tue Jun 6 23:10:23 UTC 2023 (Ubuntu 5.15.0-75.82-generic 5.15.99)
+[Sun Jun 18 16:15:44 2023] Command line: BOOT_IMAGE=/vmlinuz-5.15.0-75-generic root=/dev/mapper/ubuntu--lvm-root ro
+[Sun Jun 18 16:15:44 2023] KERNEL supported cpus:
+[Sun Jun 18 16:15:44 2023]   Intel GenuineIntel
+[Sun Jun 18 16:15:44 2023]   AMD AuthenticAMD
+[Sun Jun 18 16:15:44 2023]   Hygon HygonGenuine
+[Sun Jun 18 16:15:44 2023]   Centaur CentaurHauls
+[Sun Jun 18 16:15:44 2023]   zhaoxin   Shanghai  
+[Sun Jun 18 16:15:44 2023] Disabled fast string operations
+[Sun Jun 18 16:15:44 2023] x86/fpu: Supporting XSAVE feature 0x001: 'x87 floating point registers'
+[Sun Jun 18 16:15:44 2023] x86/fpu: Supporting XSAVE feature 0x002: 'SSE registers'
+[Sun Jun 18 16:15:44 2023] x86/fpu: Supporting XSAVE feature 0x004: 'AVX registers'
+[Sun Jun 18 16:15:44 2023] x86/fpu: xstate_offset[2]:  576, xstate_sizes[2]:  256
+[Sun Jun 18 16:15:44 2023] x86/fpu: Enabled xstate features 0x7, context size is 832 bytes, using 'compacted' format.
+[Sun Jun 18 16:15:44 2023] signal: max sigframe size: 1776
+[Sun Jun 18 16:15:44 2023] BIOS-provided physical RAM map:
+[Sun Jun 18 16:15:44 2023] BIOS-e820: [mem 0x0000000000000000-0x0000000000000fff] ACPI NVS
+[Sun Jun 18 16:15:44 2023] BIOS-e820: [mem 0x0000000000001000-0x0000000000001fff] reserved
+[Sun Jun 18 16:15:44 2023] BIOS-e820: [mem 0x0000000000002000-0x000000000009ffff] usable
+[Sun Jun 18 16:15:44 2023] BIOS-e820: [mem 0x00000000000c0000-0x00000000000fffff] reserved
+[Sun Jun 18 16:15:44 2023] BIOS-e820: [mem 0x0000000000100000-0x000000000e02efff] usable
+[Sun Jun 18 16:15:44 2023] BIOS-e820: [mem 0x000000000e02f000-0x000000000e04bfff] ACPI data
+[Sun Jun 18 16:15:44 2023] BIOS-e820: [mem 0x000000000e04c000-0x000000000e04efff] usable
+[Sun Jun 18 16:15:44 2023] BIOS-e820: [mem 0x000000000e04f000-0x000000000e054fff] ACPI NVS
+[Sun Jun 18 16:15:44 2023] BIOS-e820: [mem 0x000000000e055000-0x000000000fb6efff] usable
+[Sun Jun 18 16:15:44 2023] BIOS-e820: [mem 0x000000000fb6f000-0x000000000fbdefff] reserved
+[Sun Jun 18 16:15:44 2023] BIOS-e820: [mem 0x000000000fbdf000-0x000000000fbfafff] ACPI data
+[Sun Jun 18 16:15:44 2023] BIOS-e820: [mem 0x000000000fbfb000-0x000000000fbfefff] ACPI NVS
+[Sun Jun 18 16:15:44 2023] BIOS-e820: [mem 0x000000000fbff000-0x00000000bfffffff] usable
+[Sun Jun 18 16:15:44 2023] BIOS-e820: [mem 0x00000000ffc00000-0x00000000ffc29fff] reserved
+[Sun Jun 18 16:15:44 2023] BIOS-e820: [mem 0x0000000100000000-0x000000017affffff] usable
+[Sun Jun 18 16:15:44 2023] NX (Execute Disable) protection: active
+[Sun Jun 18 16:15:44 2023] e820: update [mem 0x06c70018-0x06c78057] usable ==> usable
+[Sun Jun 18 16:15:44 2023] e820: update [mem 0x06c70018-0x06c78057] usable ==> usable
+[Sun Jun 18 16:15:44 2023] e820: update [mem 0x06c6d018-0x06c6f057] usable ==> usable
+[Sun Jun 18 16:15:44 2023] e820: update [mem 0x06c6d018-0x06c6f057] usable ==> usable
+[Sun Jun 18 16:15:44 2023] e820: update [mem 0x06c6b018-0x06c6c857] usable ==> usable
+[Sun Jun 18 16:15:44 2023] e820: update [mem 0x06c6b018-0x06c6c857] usable ==> usable
+[Sun Jun 18 16:15:44 2023] e820: update [mem 0x06c68018-0x06c6a057] usable ==> usable
+[Sun Jun 18 16:15:44 2023] e820: update [mem 0x06c68018-0x06c6a057] usable ==> usable
+[Sun Jun 18 16:15:44 2023] extended physical RAM map:
+[Sun Jun 18 16:15:44 2023] reserve setup_data: [mem 0x0000000000000000-0x0000000000000fff] ACPI NVS
+[Sun Jun 18 16:15:44 2023] reserve setup_data: [mem 0x0000000000001000-0x0000000000001fff] reserved
+[Sun Jun 18 16:15:44 2023] reserve setup_data: [mem 0x0000000000002000-0x000000000009ffff] usable
+[Sun Jun 18 16:15:44 2023] reserve setup_data: [mem 0x00000000000c0000-0x00000000000fffff] reserved
+[Sun Jun 18 16:15:44 2023] reserve setup_data: [mem 0x0000000000100000-0x0000000006c68017] usable
+[Sun Jun 18 16:15:44 2023] reserve setup_data: [mem 0x0000000006c68018-0x0000000006c6a057] usable
+[Sun Jun 18 16:15:44 2023] reserve setup_data: [mem 0x0000000006c6a058-0x0000000006c6b017] usable
+[Sun Jun 18 16:15:44 2023] reserve setup_data: [mem 0x0000000006c6b018-0x0000000006c6c857] usable
+[Sun Jun 18 16:15:44 2023] reserve setup_data: [mem 0x0000000006c6c858-0x0000000006c6d017] usable
+[Sun Jun 18 16:15:44 2023] reserve setup_data: [mem 0x0000000006c6d018-0x0000000006c6f057] usable
+[Sun Jun 18 16:15:44 2023] reserve setup_data: [mem 0x0000000006c6f058-0x0000000006c70017] usable
+[Sun Jun 18 16:15:44 2023] reserve setup_data: [mem 0x0000000006c70018-0x0000000006c78057] usable
+[Sun Jun 18 16:15:44 2023] reserve setup_data: [mem 0x0000000006c78058-0x000000000e02efff] usable
+[Sun Jun 18 16:15:44 2023] reserve setup_data: [mem 0x000000000e02f000-0x000000000e04bfff] ACPI data
+[Sun Jun 18 16:15:44 2023] reserve setup_data: [mem 0x000000000e04c000-0x000000000e04efff] usable
+[Sun Jun 18 16:15:44 2023] reserve setup_data: [mem 0x000000000e04f000-0x000000000e054fff] ACPI NVS
+[Sun Jun 18 16:15:44 2023] reserve setup_data: [mem 0x000000000e055000-0x000000000fb6efff] usable
+[Sun Jun 18 16:15:44 2023] reserve setup_data: [mem 0x000000000fb6f000-0x000000000fbdefff] reserved
+[Sun Jun 18 16:15:44 2023] reserve setup_data: [mem 0x000000000fbdf000-0x000000000fbfafff] ACPI data
+[Sun Jun 18 16:15:44 2023] reserve setup_data: [mem 0x000000000fbfb000-0x000000000fbfefff] ACPI NVS
+[Sun Jun 18 16:15:44 2023] reserve setup_data: [mem 0x000000000fbff000-0x00000000bfffffff] usable
+[Sun Jun 18 16:15:44 2023] reserve setup_data: [mem 0x00000000ffc00000-0x00000000ffc29fff] reserved
+[Sun Jun 18 16:15:44 2023] reserve setup_data: [mem 0x0000000100000000-0x000000017affffff] usable
+[Sun Jun 18 16:15:44 2023] efi: EFI v2.70 by VMware, Inc.
+[Sun Jun 18 16:15:44 2023] efi: SMBIOS=0xe04f000 MEMATTR=0xf860518 ACPI 2.0=0xe02f000 MOKvar=0xfbce000 RNG=0xfbfa018 
+[Sun Jun 18 16:15:44 2023] random: crng init done
+[Sun Jun 18 16:15:44 2023] secureboot: Secure boot disabled
+[Sun Jun 18 16:15:44 2023] SMBIOS 2.7 present.
+[Sun Jun 18 16:15:44 2023] DMI: VMware, Inc. VMware20,1/440BX Desktop Reference Platform, BIOS VMW201.00V.20648489.B64.2210180829 10/18/2022
+[Sun Jun 18 16:15:44 2023] vmware: hypercall mode: 0x02
+[Sun Jun 18 16:15:44 2023] Hypervisor detected: VMware
+[Sun Jun 18 16:15:44 2023] vmware: TSC freq read from hypervisor : 2400.017 MHz
+[Sun Jun 18 16:15:44 2023] vmware: Host bus clock speed read from hypervisor : 66000000 Hz
+[Sun Jun 18 16:15:44 2023] vmware: using clock offset of 7558188323 ns
+[Sun Jun 18 16:15:44 2023] tsc: Detected 2400.017 MHz processor
+[Sun Jun 18 16:15:44 2023] e820: update [mem 0x00000000-0x00000fff] usable ==> reserved
+[Sun Jun 18 16:15:44 2023] e820: remove [mem 0x000a0000-0x000fffff] usable
+[Sun Jun 18 16:15:44 2023] last_pfn = 0x17b000 max_arch_pfn = 0x400000000
+[Sun Jun 18 16:15:44 2023] x86/PAT: Configuration [0-7]: WB  WC  UC- UC  WB  WP  UC- WT  
+[Sun Jun 18 16:15:44 2023] total RAM covered: 130048M
+[Sun Jun 18 16:15:44 2023] Found optimal setting for mtrr clean up
+[Sun Jun 18 16:15:44 2023]  gran_size: 64K 	chunk_size: 64K 	num_reg: 7  	lose cover RAM: 0G
+[Sun Jun 18 16:15:44 2023] e820: update [mem 0xc0000000-0xffffffff] usable ==> reserved
+[Sun Jun 18 16:15:44 2023] last_pfn = 0xc0000 max_arch_pfn = 0x400000000
+[Sun Jun 18 16:15:44 2023] Using GB pages for direct mapping
+[Sun Jun 18 16:15:44 2023] secureboot: Secure boot disabled
+[Sun Jun 18 16:15:44 2023] RAMDISK: [mem 0x06c79000-0x0d5ddfff]
+[Sun Jun 18 16:15:44 2023] ACPI: Early table checksum verification disabled
+[Sun Jun 18 16:15:44 2023] ACPI: RSDP 0x000000000E02F000 000024 (v02 VMWARE)
+[Sun Jun 18 16:15:44 2023] ACPI: XSDT 0x000000000E02F064 00005C (v01 INTEL  440BX    06040000 VMW  01324272)
+[Sun Jun 18 16:15:44 2023] ACPI: SRAT 0x000000000E02F0C0 0008D0 (v03 VMWARE EFISRAT  06040001 VMW  000007CE)
+[Sun Jun 18 16:15:44 2023] ACPI: FACP 0x000000000E04ACDD 0000F4 (v04 INTEL  440BX    06040000 PTL  000F4240)
+[Sun Jun 18 16:15:44 2023] ACPI: DSDT 0x000000000E02F990 01B34D (v01 PTLTD  Custom   00000000 INTL 20130823)
+[Sun Jun 18 16:15:44 2023] ACPI: FACS 0x000000000FBFE000 000040
+[Sun Jun 18 16:15:44 2023] ACPI: FACS 0x000000000FBFE000 000040
+[Sun Jun 18 16:15:44 2023] ACPI: APIC 0x000000000E04B000 000742 (v03 VMWARE EFIAPIC  06040001 VMW  000007CE)
+[Sun Jun 18 16:15:44 2023] ACPI: MCFG 0x000000000E04B742 00003C (v01 VMWARE EFIMCFG  06040001 VMW  000007CE)
+[Sun Jun 18 16:15:44 2023] ACPI: HPET 0x000000000E04B77E 000038 (v01 VMWARE VMW HPET 00000000 VMW  00000000)
+[Sun Jun 18 16:15:44 2023] ACPI: WAET 0x000000000E04B7B6 000028 (v01 VMWARE VMW WAET 06040001 VMW  00000001)
+[Sun Jun 18 16:15:44 2023] ACPI: WSMT 0x000000000E04B7DE 000028 (v01 VMWARE VMW WSMT 06040001 VMW  00000001)
+[Sun Jun 18 16:15:44 2023] ACPI: Reserving SRAT table memory at [mem 0xe02f0c0-0xe02f98f]
+[Sun Jun 18 16:15:44 2023] ACPI: Reserving FACP table memory at [mem 0xe04acdd-0xe04add0]
+[Sun Jun 18 16:15:44 2023] ACPI: Reserving DSDT table memory at [mem 0xe02f990-0xe04acdc]
+[Sun Jun 18 16:15:44 2023] ACPI: Reserving FACS table memory at [mem 0xfbfe000-0xfbfe03f]
+[Sun Jun 18 16:15:44 2023] ACPI: Reserving FACS table memory at [mem 0xfbfe000-0xfbfe03f]
+[Sun Jun 18 16:15:44 2023] ACPI: Reserving APIC table memory at [mem 0xe04b000-0xe04b741]
+[Sun Jun 18 16:15:44 2023] ACPI: Reserving MCFG table memory at [mem 0xe04b742-0xe04b77d]
+[Sun Jun 18 16:15:44 2023] ACPI: Reserving HPET table memory at [mem 0xe04b77e-0xe04b7b5]
+[Sun Jun 18 16:15:44 2023] ACPI: Reserving WAET table memory at [mem 0xe04b7b6-0xe04b7dd]
+[Sun Jun 18 16:15:44 2023] ACPI: Reserving WSMT table memory at [mem 0xe04b7de-0xe04b805]
+[Sun Jun 18 16:15:44 2023] system APIC only can use physical flat
+[Sun Jun 18 16:15:44 2023] Setting APIC routing to physical flat.
+[Sun Jun 18 16:15:44 2023] SRAT: PXM 0 -> APIC 0x00 -> Node 0
+[Sun Jun 18 16:15:44 2023] SRAT: PXM 0 -> APIC 0x02 -> Node 0
+[Sun Jun 18 16:15:44 2023] SRAT: PXM 0 -> APIC 0x04 -> Node 0
+[Sun Jun 18 16:15:44 2023] SRAT: PXM 0 -> APIC 0x06 -> Node 0
+[Sun Jun 18 16:15:44 2023] SRAT: PXM 0 -> APIC 0x08 -> Node 0
+[Sun Jun 18 16:15:44 2023] SRAT: PXM 0 -> APIC 0x0a -> Node 0
+[Sun Jun 18 16:15:44 2023] SRAT: PXM 0 -> APIC 0x0c -> Node 0
+[Sun Jun 18 16:15:44 2023] SRAT: PXM 0 -> APIC 0x0e -> Node 0
+[Sun Jun 18 16:15:44 2023] SRAT: PXM 0 -> APIC 0x10 -> Node 0
+[Sun Jun 18 16:15:44 2023] SRAT: PXM 0 -> APIC 0x12 -> Node 0
+[Sun Jun 18 16:15:44 2023] SRAT: PXM 0 -> APIC 0x14 -> Node 0
+[Sun Jun 18 16:15:44 2023] SRAT: PXM 0 -> APIC 0x16 -> Node 0
+[Sun Jun 18 16:15:44 2023] SRAT: PXM 0 -> APIC 0x18 -> Node 0
+[Sun Jun 18 16:15:44 2023] SRAT: PXM 0 -> APIC 0x1a -> Node 0
+[Sun Jun 18 16:15:44 2023] SRAT: PXM 0 -> APIC 0x1c -> Node 0
+[Sun Jun 18 16:15:44 2023] SRAT: PXM 0 -> APIC 0x1e -> Node 0
+[Sun Jun 18 16:15:44 2023] SRAT: PXM 0 -> APIC 0x20 -> Node 0
+[Sun Jun 18 16:15:44 2023] SRAT: PXM 0 -> APIC 0x22 -> Node 0
+[Sun Jun 18 16:15:44 2023] SRAT: PXM 0 -> APIC 0x24 -> Node 0
+[Sun Jun 18 16:15:44 2023] SRAT: PXM 0 -> APIC 0x26 -> Node 0
+[Sun Jun 18 16:15:44 2023] SRAT: PXM 0 -> APIC 0x28 -> Node 0
+[Sun Jun 18 16:15:44 2023] SRAT: PXM 0 -> APIC 0x2a -> Node 0
+[Sun Jun 18 16:15:44 2023] SRAT: PXM 0 -> APIC 0x2c -> Node 0
+[Sun Jun 18 16:15:44 2023] SRAT: PXM 0 -> APIC 0x2e -> Node 0
+[Sun Jun 18 16:15:44 2023] SRAT: PXM 0 -> APIC 0x30 -> Node 0
+[Sun Jun 18 16:15:44 2023] SRAT: PXM 0 -> APIC 0x32 -> Node 0
+[Sun Jun 18 16:15:44 2023] SRAT: PXM 0 -> APIC 0x34 -> Node 0
+[Sun Jun 18 16:15:44 2023] SRAT: PXM 0 -> APIC 0x36 -> Node 0
+[Sun Jun 18 16:15:44 2023] SRAT: PXM 0 -> APIC 0x38 -> Node 0
+[Sun Jun 18 16:15:44 2023] SRAT: PXM 0 -> APIC 0x3a -> Node 0
+[Sun Jun 18 16:15:44 2023] SRAT: PXM 0 -> APIC 0x3c -> Node 0
+[Sun Jun 18 16:15:44 2023] SRAT: PXM 0 -> APIC 0x3e -> Node 0
+[Sun Jun 18 16:15:44 2023] SRAT: PXM 0 -> APIC 0x40 -> Node 0
+[Sun Jun 18 16:15:44 2023] SRAT: PXM 0 -> APIC 0x42 -> Node 0
+[Sun Jun 18 16:15:44 2023] SRAT: PXM 0 -> APIC 0x44 -> Node 0
+[Sun Jun 18 16:15:44 2023] SRAT: PXM 0 -> APIC 0x46 -> Node 0
+[Sun Jun 18 16:15:44 2023] SRAT: PXM 0 -> APIC 0x48 -> Node 0
+[Sun Jun 18 16:15:44 2023] SRAT: PXM 0 -> APIC 0x4a -> Node 0
+[Sun Jun 18 16:15:44 2023] SRAT: PXM 0 -> APIC 0x4c -> Node 0
+[Sun Jun 18 16:15:44 2023] SRAT: PXM 0 -> APIC 0x4e -> Node 0
+[Sun Jun 18 16:15:44 2023] SRAT: PXM 0 -> APIC 0x50 -> Node 0
+[Sun Jun 18 16:15:44 2023] SRAT: PXM 0 -> APIC 0x52 -> Node 0
+[Sun Jun 18 16:15:44 2023] SRAT: PXM 0 -> APIC 0x54 -> Node 0
+[Sun Jun 18 16:15:44 2023] SRAT: PXM 0 -> APIC 0x56 -> Node 0
+[Sun Jun 18 16:15:44 2023] SRAT: PXM 0 -> APIC 0x58 -> Node 0
+[Sun Jun 18 16:15:44 2023] SRAT: PXM 0 -> APIC 0x5a -> Node 0
+[Sun Jun 18 16:15:44 2023] SRAT: PXM 0 -> APIC 0x5c -> Node 0
+[Sun Jun 18 16:15:44 2023] SRAT: PXM 0 -> APIC 0x5e -> Node 0
+[Sun Jun 18 16:15:44 2023] SRAT: PXM 0 -> APIC 0x60 -> Node 0
+[Sun Jun 18 16:15:44 2023] SRAT: PXM 0 -> APIC 0x62 -> Node 0
+[Sun Jun 18 16:15:44 2023] SRAT: PXM 0 -> APIC 0x64 -> Node 0
+[Sun Jun 18 16:15:44 2023] SRAT: PXM 0 -> APIC 0x66 -> Node 0
+[Sun Jun 18 16:15:44 2023] SRAT: PXM 0 -> APIC 0x68 -> Node 0
+[Sun Jun 18 16:15:44 2023] SRAT: PXM 0 -> APIC 0x6a -> Node 0
+[Sun Jun 18 16:15:44 2023] SRAT: PXM 0 -> APIC 0x6c -> Node 0
+[Sun Jun 18 16:15:44 2023] SRAT: PXM 0 -> APIC 0x6e -> Node 0
+[Sun Jun 18 16:15:44 2023] SRAT: PXM 0 -> APIC 0x70 -> Node 0
+[Sun Jun 18 16:15:44 2023] SRAT: PXM 0 -> APIC 0x72 -> Node 0
+[Sun Jun 18 16:15:44 2023] SRAT: PXM 0 -> APIC 0x74 -> Node 0
+[Sun Jun 18 16:15:44 2023] SRAT: PXM 0 -> APIC 0x76 -> Node 0
+[Sun Jun 18 16:15:44 2023] SRAT: PXM 0 -> APIC 0x78 -> Node 0
+[Sun Jun 18 16:15:44 2023] SRAT: PXM 0 -> APIC 0x7a -> Node 0
+[Sun Jun 18 16:15:44 2023] SRAT: PXM 0 -> APIC 0x7c -> Node 0
+[Sun Jun 18 16:15:44 2023] SRAT: PXM 0 -> APIC 0x7e -> Node 0
+[Sun Jun 18 16:15:44 2023] SRAT: PXM 0 -> APIC 0x80 -> Node 0
+[Sun Jun 18 16:15:44 2023] SRAT: PXM 0 -> APIC 0x82 -> Node 0
+[Sun Jun 18 16:15:44 2023] SRAT: PXM 0 -> APIC 0x84 -> Node 0
+[Sun Jun 18 16:15:44 2023] SRAT: PXM 0 -> APIC 0x86 -> Node 0
+[Sun Jun 18 16:15:44 2023] SRAT: PXM 0 -> APIC 0x88 -> Node 0
+[Sun Jun 18 16:15:44 2023] SRAT: PXM 0 -> APIC 0x8a -> Node 0
+[Sun Jun 18 16:15:44 2023] SRAT: PXM 0 -> APIC 0x8c -> Node 0
+[Sun Jun 18 16:15:44 2023] SRAT: PXM 0 -> APIC 0x8e -> Node 0
+[Sun Jun 18 16:15:44 2023] SRAT: PXM 0 -> APIC 0x90 -> Node 0
+[Sun Jun 18 16:15:44 2023] SRAT: PXM 0 -> APIC 0x92 -> Node 0
+[Sun Jun 18 16:15:44 2023] SRAT: PXM 0 -> APIC 0x94 -> Node 0
+[Sun Jun 18 16:15:44 2023] SRAT: PXM 0 -> APIC 0x96 -> Node 0
+[Sun Jun 18 16:15:44 2023] SRAT: PXM 0 -> APIC 0x98 -> Node 0
+[Sun Jun 18 16:15:44 2023] SRAT: PXM 0 -> APIC 0x9a -> Node 0
+[Sun Jun 18 16:15:44 2023] SRAT: PXM 0 -> APIC 0x9c -> Node 0
+[Sun Jun 18 16:15:44 2023] SRAT: PXM 0 -> APIC 0x9e -> Node 0
+[Sun Jun 18 16:15:44 2023] SRAT: PXM 0 -> APIC 0xa0 -> Node 0
+[Sun Jun 18 16:15:44 2023] SRAT: PXM 0 -> APIC 0xa2 -> Node 0
+[Sun Jun 18 16:15:44 2023] SRAT: PXM 0 -> APIC 0xa4 -> Node 0
+[Sun Jun 18 16:15:44 2023] SRAT: PXM 0 -> APIC 0xa6 -> Node 0
+[Sun Jun 18 16:15:44 2023] SRAT: PXM 0 -> APIC 0xa8 -> Node 0
+[Sun Jun 18 16:15:44 2023] SRAT: PXM 0 -> APIC 0xaa -> Node 0
+[Sun Jun 18 16:15:44 2023] SRAT: PXM 0 -> APIC 0xac -> Node 0
+[Sun Jun 18 16:15:44 2023] SRAT: PXM 0 -> APIC 0xae -> Node 0
+[Sun Jun 18 16:15:44 2023] SRAT: PXM 0 -> APIC 0xb0 -> Node 0
+[Sun Jun 18 16:15:44 2023] SRAT: PXM 0 -> APIC 0xb2 -> Node 0
+[Sun Jun 18 16:15:44 2023] SRAT: PXM 0 -> APIC 0xb4 -> Node 0
+[Sun Jun 18 16:15:44 2023] SRAT: PXM 0 -> APIC 0xb6 -> Node 0
+[Sun Jun 18 16:15:44 2023] SRAT: PXM 0 -> APIC 0xb8 -> Node 0
+[Sun Jun 18 16:15:44 2023] SRAT: PXM 0 -> APIC 0xba -> Node 0
+[Sun Jun 18 16:15:44 2023] SRAT: PXM 0 -> APIC 0xbc -> Node 0
+[Sun Jun 18 16:15:44 2023] SRAT: PXM 0 -> APIC 0xbe -> Node 0
+[Sun Jun 18 16:15:44 2023] SRAT: PXM 0 -> APIC 0xc0 -> Node 0
+[Sun Jun 18 16:15:44 2023] SRAT: PXM 0 -> APIC 0xc2 -> Node 0
+[Sun Jun 18 16:15:44 2023] SRAT: PXM 0 -> APIC 0xc4 -> Node 0
+[Sun Jun 18 16:15:44 2023] SRAT: PXM 0 -> APIC 0xc6 -> Node 0
+[Sun Jun 18 16:15:44 2023] SRAT: PXM 0 -> APIC 0xc8 -> Node 0
+[Sun Jun 18 16:15:44 2023] SRAT: PXM 0 -> APIC 0xca -> Node 0
+[Sun Jun 18 16:15:44 2023] SRAT: PXM 0 -> APIC 0xcc -> Node 0
+[Sun Jun 18 16:15:44 2023] SRAT: PXM 0 -> APIC 0xce -> Node 0
+[Sun Jun 18 16:15:44 2023] SRAT: PXM 0 -> APIC 0xd0 -> Node 0
+[Sun Jun 18 16:15:44 2023] SRAT: PXM 0 -> APIC 0xd2 -> Node 0
+[Sun Jun 18 16:15:44 2023] SRAT: PXM 0 -> APIC 0xd4 -> Node 0
+[Sun Jun 18 16:15:44 2023] SRAT: PXM 0 -> APIC 0xd6 -> Node 0
+[Sun Jun 18 16:15:44 2023] SRAT: PXM 0 -> APIC 0xd8 -> Node 0
+[Sun Jun 18 16:15:44 2023] SRAT: PXM 0 -> APIC 0xda -> Node 0
+[Sun Jun 18 16:15:44 2023] SRAT: PXM 0 -> APIC 0xdc -> Node 0
+[Sun Jun 18 16:15:44 2023] SRAT: PXM 0 -> APIC 0xde -> Node 0
+[Sun Jun 18 16:15:44 2023] SRAT: PXM 0 -> APIC 0xe0 -> Node 0
+[Sun Jun 18 16:15:44 2023] SRAT: PXM 0 -> APIC 0xe2 -> Node 0
+[Sun Jun 18 16:15:44 2023] SRAT: PXM 0 -> APIC 0xe4 -> Node 0
+[Sun Jun 18 16:15:44 2023] SRAT: PXM 0 -> APIC 0xe6 -> Node 0
+[Sun Jun 18 16:15:44 2023] SRAT: PXM 0 -> APIC 0xe8 -> Node 0
+[Sun Jun 18 16:15:44 2023] SRAT: PXM 0 -> APIC 0xea -> Node 0
+[Sun Jun 18 16:15:44 2023] SRAT: PXM 0 -> APIC 0xec -> Node 0
+[Sun Jun 18 16:15:44 2023] SRAT: PXM 0 -> APIC 0xee -> Node 0
+[Sun Jun 18 16:15:44 2023] SRAT: PXM 0 -> APIC 0xf0 -> Node 0
+[Sun Jun 18 16:15:44 2023] SRAT: PXM 0 -> APIC 0xf2 -> Node 0
+[Sun Jun 18 16:15:44 2023] SRAT: PXM 0 -> APIC 0xf4 -> Node 0
+[Sun Jun 18 16:15:44 2023] SRAT: PXM 0 -> APIC 0xf6 -> Node 0
+[Sun Jun 18 16:15:44 2023] SRAT: PXM 0 -> APIC 0xf8 -> Node 0
+[Sun Jun 18 16:15:44 2023] SRAT: PXM 0 -> APIC 0xfa -> Node 0
+[Sun Jun 18 16:15:44 2023] SRAT: PXM 0 -> APIC 0xfc -> Node 0
+[Sun Jun 18 16:15:44 2023] SRAT: PXM 0 -> APIC 0xfe -> Node 0
+[Sun Jun 18 16:15:44 2023] ACPI: SRAT: Node 0 PXM 0 [mem 0x00000000-0x0009ffff]
+[Sun Jun 18 16:15:44 2023] ACPI: SRAT: Node 0 PXM 0 [mem 0x00100000-0xbfffffff]
+[Sun Jun 18 16:15:44 2023] ACPI: SRAT: Node 0 PXM 0 [mem 0x100000000-0x17affffff]
+[Sun Jun 18 16:15:44 2023] ACPI: SRAT: Node 0 PXM 0 [mem 0x17b000000-0x13efffffff] hotplug
+[Sun Jun 18 16:15:44 2023] NUMA: Node 0 [mem 0x00000000-0x0009ffff] + [mem 0x00100000-0xbfffffff] -> [mem 0x00000000-0xbfffffff]
+[Sun Jun 18 16:15:44 2023] NUMA: Node 0 [mem 0x00000000-0xbfffffff] + [mem 0x100000000-0x17affffff] -> [mem 0x00000000-0x17affffff]
+[Sun Jun 18 16:15:44 2023] NODE_DATA(0) allocated [mem 0x17afd6000-0x17affffff]
+[Sun Jun 18 16:15:44 2023] Zone ranges:
+[Sun Jun 18 16:15:44 2023]   DMA      [mem 0x0000000000002000-0x0000000000ffffff]
+[Sun Jun 18 16:15:44 2023]   DMA32    [mem 0x0000000001000000-0x00000000ffffffff]
+[Sun Jun 18 16:15:44 2023]   Normal   [mem 0x0000000100000000-0x000000017affffff]
+[Sun Jun 18 16:15:44 2023]   Device   empty
+[Sun Jun 18 16:15:44 2023] Movable zone start for each node
+[Sun Jun 18 16:15:44 2023] Early memory node ranges
+[Sun Jun 18 16:15:44 2023]   node   0: [mem 0x0000000000002000-0x000000000009ffff]
+[Sun Jun 18 16:15:44 2023]   node   0: [mem 0x0000000000100000-0x000000000e02efff]
+[Sun Jun 18 16:15:44 2023]   node   0: [mem 0x000000000e04c000-0x000000000e04efff]
+[Sun Jun 18 16:15:44 2023]   node   0: [mem 0x000000000e055000-0x000000000fb6efff]
+[Sun Jun 18 16:15:44 2023]   node   0: [mem 0x000000000fbff000-0x00000000bfffffff]
+[Sun Jun 18 16:15:44 2023]   node   0: [mem 0x0000000100000000-0x000000017affffff]
+[Sun Jun 18 16:15:44 2023] Initmem setup node 0 [mem 0x0000000000002000-0x000000017affffff]
+[Sun Jun 18 16:15:44 2023] On node 0, zone DMA: 2 pages in unavailable ranges
+[Sun Jun 18 16:15:44 2023] On node 0, zone DMA: 96 pages in unavailable ranges
+[Sun Jun 18 16:15:44 2023] On node 0, zone DMA32: 29 pages in unavailable ranges
+[Sun Jun 18 16:15:44 2023] On node 0, zone DMA32: 6 pages in unavailable ranges
+[Sun Jun 18 16:15:44 2023] On node 0, zone DMA32: 144 pages in unavailable ranges
+[Sun Jun 18 16:15:44 2023] On node 0, zone Normal: 20480 pages in unavailable ranges
+[Sun Jun 18 16:15:44 2023] ACPI: PM-Timer IO Port: 0x448
+[Sun Jun 18 16:15:44 2023] system APIC only can use physical flat
+[Sun Jun 18 16:15:44 2023] ACPI: LAPIC_NMI (acpi_id[0x00] high edge lint[0x1])
+[Sun Jun 18 16:15:44 2023] ACPI: LAPIC_NMI (acpi_id[0x01] high edge lint[0x1])
+[Sun Jun 18 16:15:44 2023] ACPI: LAPIC_NMI (acpi_id[0x02] high edge lint[0x1])
+[Sun Jun 18 16:15:44 2023] ACPI: LAPIC_NMI (acpi_id[0x03] high edge lint[0x1])
+[Sun Jun 18 16:15:44 2023] ACPI: LAPIC_NMI (acpi_id[0x04] high edge lint[0x1])
+[Sun Jun 18 16:15:44 2023] ACPI: LAPIC_NMI (acpi_id[0x05] high edge lint[0x1])
+[Sun Jun 18 16:15:44 2023] ACPI: LAPIC_NMI (acpi_id[0x06] high edge lint[0x1])
+[Sun Jun 18 16:15:44 2023] ACPI: LAPIC_NMI (acpi_id[0x07] high edge lint[0x1])
+[Sun Jun 18 16:15:44 2023] ACPI: LAPIC_NMI (acpi_id[0x08] high edge lint[0x1])
+[Sun Jun 18 16:15:44 2023] ACPI: LAPIC_NMI (acpi_id[0x09] high edge lint[0x1])
+[Sun Jun 18 16:15:44 2023] ACPI: LAPIC_NMI (acpi_id[0x0a] high edge lint[0x1])
+[Sun Jun 18 16:15:44 2023] ACPI: LAPIC_NMI (acpi_id[0x0b] high edge lint[0x1])
+[Sun Jun 18 16:15:44 2023] ACPI: LAPIC_NMI (acpi_id[0x0c] high edge lint[0x1])
+[Sun Jun 18 16:15:44 2023] ACPI: LAPIC_NMI (acpi_id[0x0d] high edge lint[0x1])
+[Sun Jun 18 16:15:44 2023] ACPI: LAPIC_NMI (acpi_id[0x0e] high edge lint[0x1])
+[Sun Jun 18 16:15:44 2023] ACPI: LAPIC_NMI (acpi_id[0x0f] high edge lint[0x1])
+[Sun Jun 18 16:15:44 2023] ACPI: LAPIC_NMI (acpi_id[0x10] high edge lint[0x1])
+[Sun Jun 18 16:15:44 2023] ACPI: LAPIC_NMI (acpi_id[0x11] high edge lint[0x1])
+[Sun Jun 18 16:15:44 2023] ACPI: LAPIC_NMI (acpi_id[0x12] high edge lint[0x1])
+[Sun Jun 18 16:15:44 2023] ACPI: LAPIC_NMI (acpi_id[0x13] high edge lint[0x1])
+[Sun Jun 18 16:15:44 2023] ACPI: LAPIC_NMI (acpi_id[0x14] high edge lint[0x1])
+[Sun Jun 18 16:15:44 2023] ACPI: LAPIC_NMI (acpi_id[0x15] high edge lint[0x1])
+[Sun Jun 18 16:15:44 2023] ACPI: LAPIC_NMI (acpi_id[0x16] high edge lint[0x1])
+[Sun Jun 18 16:15:44 2023] ACPI: LAPIC_NMI (acpi_id[0x17] high edge lint[0x1])
+[Sun Jun 18 16:15:44 2023] ACPI: LAPIC_NMI (acpi_id[0x18] high edge lint[0x1])
+[Sun Jun 18 16:15:44 2023] ACPI: LAPIC_NMI (acpi_id[0x19] high edge lint[0x1])
+[Sun Jun 18 16:15:44 2023] ACPI: LAPIC_NMI (acpi_id[0x1a] high edge lint[0x1])
+[Sun Jun 18 16:15:44 2023] ACPI: LAPIC_NMI (acpi_id[0x1b] high edge lint[0x1])
+[Sun Jun 18 16:15:44 2023] ACPI: LAPIC_NMI (acpi_id[0x1c] high edge lint[0x1])
+[Sun Jun 18 16:15:44 2023] ACPI: LAPIC_NMI (acpi_id[0x1d] high edge lint[0x1])
+[Sun Jun 18 16:15:44 2023] ACPI: LAPIC_NMI (acpi_id[0x1e] high edge lint[0x1])
+[Sun Jun 18 16:15:44 2023] ACPI: LAPIC_NMI (acpi_id[0x1f] high edge lint[0x1])
+[Sun Jun 18 16:15:44 2023] ACPI: LAPIC_NMI (acpi_id[0x20] high edge lint[0x1])
+[Sun Jun 18 16:15:44 2023] ACPI: LAPIC_NMI (acpi_id[0x21] high edge lint[0x1])
+[Sun Jun 18 16:15:44 2023] ACPI: LAPIC_NMI (acpi_id[0x22] high edge lint[0x1])
+[Sun Jun 18 16:15:44 2023] ACPI: LAPIC_NMI (acpi_id[0x23] high edge lint[0x1])
+[Sun Jun 18 16:15:44 2023] ACPI: LAPIC_NMI (acpi_id[0x24] high edge lint[0x1])
+[Sun Jun 18 16:15:44 2023] ACPI: LAPIC_NMI (acpi_id[0x25] high edge lint[0x1])
+[Sun Jun 18 16:15:44 2023] ACPI: LAPIC_NMI (acpi_id[0x26] high edge lint[0x1])
+[Sun Jun 18 16:15:44 2023] ACPI: LAPIC_NMI (acpi_id[0x27] high edge lint[0x1])
+[Sun Jun 18 16:15:44 2023] ACPI: LAPIC_NMI (acpi_id[0x28] high edge lint[0x1])
+[Sun Jun 18 16:15:44 2023] ACPI: LAPIC_NMI (acpi_id[0x29] high edge lint[0x1])
+[Sun Jun 18 16:15:44 2023] ACPI: LAPIC_NMI (acpi_id[0x2a] high edge lint[0x1])
+[Sun Jun 18 16:15:44 2023] ACPI: LAPIC_NMI (acpi_id[0x2b] high edge lint[0x1])
+[Sun Jun 18 16:15:44 2023] ACPI: LAPIC_NMI (acpi_id[0x2c] high edge lint[0x1])
+[Sun Jun 18 16:15:44 2023] ACPI: LAPIC_NMI (acpi_id[0x2d] high edge lint[0x1])
+[Sun Jun 18 16:15:44 2023] ACPI: LAPIC_NMI (acpi_id[0x2e] high edge lint[0x1])
+[Sun Jun 18 16:15:44 2023] ACPI: LAPIC_NMI (acpi_id[0x2f] high edge lint[0x1])
+[Sun Jun 18 16:15:44 2023] ACPI: LAPIC_NMI (acpi_id[0x30] high edge lint[0x1])
+[Sun Jun 18 16:15:44 2023] ACPI: LAPIC_NMI (acpi_id[0x31] high edge lint[0x1])
+[Sun Jun 18 16:15:44 2023] ACPI: LAPIC_NMI (acpi_id[0x32] high edge lint[0x1])
+[Sun Jun 18 16:15:44 2023] ACPI: LAPIC_NMI (acpi_id[0x33] high edge lint[0x1])
+[Sun Jun 18 16:15:44 2023] ACPI: LAPIC_NMI (acpi_id[0x34] high edge lint[0x1])
+[Sun Jun 18 16:15:44 2023] ACPI: LAPIC_NMI (acpi_id[0x35] high edge lint[0x1])
+[Sun Jun 18 16:15:44 2023] ACPI: LAPIC_NMI (acpi_id[0x36] high edge lint[0x1])
+[Sun Jun 18 16:15:44 2023] ACPI: LAPIC_NMI (acpi_id[0x37] high edge lint[0x1])
+[Sun Jun 18 16:15:44 2023] ACPI: LAPIC_NMI (acpi_id[0x38] high edge lint[0x1])
+[Sun Jun 18 16:15:44 2023] ACPI: LAPIC_NMI (acpi_id[0x39] high edge lint[0x1])
+[Sun Jun 18 16:15:44 2023] ACPI: LAPIC_NMI (acpi_id[0x3a] high edge lint[0x1])
+[Sun Jun 18 16:15:44 2023] ACPI: LAPIC_NMI (acpi_id[0x3b] high edge lint[0x1])
+[Sun Jun 18 16:15:44 2023] ACPI: LAPIC_NMI (acpi_id[0x3c] high edge lint[0x1])
+[Sun Jun 18 16:15:44 2023] ACPI: LAPIC_NMI (acpi_id[0x3d] high edge lint[0x1])
+[Sun Jun 18 16:15:44 2023] ACPI: LAPIC_NMI (acpi_id[0x3e] high edge lint[0x1])
+[Sun Jun 18 16:15:44 2023] ACPI: LAPIC_NMI (acpi_id[0x3f] high edge lint[0x1])
+[Sun Jun 18 16:15:44 2023] ACPI: LAPIC_NMI (acpi_id[0x40] high edge lint[0x1])
+[Sun Jun 18 16:15:44 2023] ACPI: LAPIC_NMI (acpi_id[0x41] high edge lint[0x1])
+[Sun Jun 18 16:15:44 2023] ACPI: LAPIC_NMI (acpi_id[0x42] high edge lint[0x1])
+[Sun Jun 18 16:15:44 2023] ACPI: LAPIC_NMI (acpi_id[0x43] high edge lint[0x1])
+[Sun Jun 18 16:15:44 2023] ACPI: LAPIC_NMI (acpi_id[0x44] high edge lint[0x1])
+[Sun Jun 18 16:15:44 2023] ACPI: LAPIC_NMI (acpi_id[0x45] high edge lint[0x1])
+[Sun Jun 18 16:15:44 2023] ACPI: LAPIC_NMI (acpi_id[0x46] high edge lint[0x1])
+[Sun Jun 18 16:15:44 2023] ACPI: LAPIC_NMI (acpi_id[0x47] high edge lint[0x1])
+[Sun Jun 18 16:15:44 2023] ACPI: LAPIC_NMI (acpi_id[0x48] high edge lint[0x1])
+[Sun Jun 18 16:15:44 2023] ACPI: LAPIC_NMI (acpi_id[0x49] high edge lint[0x1])
+[Sun Jun 18 16:15:44 2023] ACPI: LAPIC_NMI (acpi_id[0x4a] high edge lint[0x1])
+[Sun Jun 18 16:15:44 2023] ACPI: LAPIC_NMI (acpi_id[0x4b] high edge lint[0x1])
+[Sun Jun 18 16:15:44 2023] ACPI: LAPIC_NMI (acpi_id[0x4c] high edge lint[0x1])
+[Sun Jun 18 16:15:44 2023] ACPI: LAPIC_NMI (acpi_id[0x4d] high edge lint[0x1])
+[Sun Jun 18 16:15:44 2023] ACPI: LAPIC_NMI (acpi_id[0x4e] high edge lint[0x1])
+[Sun Jun 18 16:15:44 2023] ACPI: LAPIC_NMI (acpi_id[0x4f] high edge lint[0x1])
+[Sun Jun 18 16:15:44 2023] ACPI: LAPIC_NMI (acpi_id[0x50] high edge lint[0x1])
+[Sun Jun 18 16:15:44 2023] ACPI: LAPIC_NMI (acpi_id[0x51] high edge lint[0x1])
+[Sun Jun 18 16:15:44 2023] ACPI: LAPIC_NMI (acpi_id[0x52] high edge lint[0x1])
+[Sun Jun 18 16:15:44 2023] ACPI: LAPIC_NMI (acpi_id[0x53] high edge lint[0x1])
+[Sun Jun 18 16:15:44 2023] ACPI: LAPIC_NMI (acpi_id[0x54] high edge lint[0x1])
+[Sun Jun 18 16:15:44 2023] ACPI: LAPIC_NMI (acpi_id[0x55] high edge lint[0x1])
+[Sun Jun 18 16:15:44 2023] ACPI: LAPIC_NMI (acpi_id[0x56] high edge lint[0x1])
+[Sun Jun 18 16:15:44 2023] ACPI: LAPIC_NMI (acpi_id[0x57] high edge lint[0x1])
+[Sun Jun 18 16:15:44 2023] ACPI: LAPIC_NMI (acpi_id[0x58] high edge lint[0x1])
+[Sun Jun 18 16:15:44 2023] ACPI: LAPIC_NMI (acpi_id[0x59] high edge lint[0x1])
+[Sun Jun 18 16:15:44 2023] ACPI: LAPIC_NMI (acpi_id[0x5a] high edge lint[0x1])
+[Sun Jun 18 16:15:44 2023] ACPI: LAPIC_NMI (acpi_id[0x5b] high edge lint[0x1])
+[Sun Jun 18 16:15:44 2023] ACPI: LAPIC_NMI (acpi_id[0x5c] high edge lint[0x1])
+[Sun Jun 18 16:15:44 2023] ACPI: LAPIC_NMI (acpi_id[0x5d] high edge lint[0x1])
+[Sun Jun 18 16:15:44 2023] ACPI: LAPIC_NMI (acpi_id[0x5e] high edge lint[0x1])
+[Sun Jun 18 16:15:44 2023] ACPI: LAPIC_NMI (acpi_id[0x5f] high edge lint[0x1])
+[Sun Jun 18 16:15:44 2023] ACPI: LAPIC_NMI (acpi_id[0x60] high edge lint[0x1])
+[Sun Jun 18 16:15:44 2023] ACPI: LAPIC_NMI (acpi_id[0x61] high edge lint[0x1])
+[Sun Jun 18 16:15:44 2023] ACPI: LAPIC_NMI (acpi_id[0x62] high edge lint[0x1])
+[Sun Jun 18 16:15:44 2023] ACPI: LAPIC_NMI (acpi_id[0x63] high edge lint[0x1])
+[Sun Jun 18 16:15:44 2023] ACPI: LAPIC_NMI (acpi_id[0x64] high edge lint[0x1])
+[Sun Jun 18 16:15:44 2023] ACPI: LAPIC_NMI (acpi_id[0x65] high edge lint[0x1])
+[Sun Jun 18 16:15:44 2023] ACPI: LAPIC_NMI (acpi_id[0x66] high edge lint[0x1])
+[Sun Jun 18 16:15:44 2023] ACPI: LAPIC_NMI (acpi_id[0x67] high edge lint[0x1])
+[Sun Jun 18 16:15:44 2023] ACPI: LAPIC_NMI (acpi_id[0x68] high edge lint[0x1])
+[Sun Jun 18 16:15:44 2023] ACPI: LAPIC_NMI (acpi_id[0x69] high edge lint[0x1])
+[Sun Jun 18 16:15:44 2023] ACPI: LAPIC_NMI (acpi_id[0x6a] high edge lint[0x1])
+[Sun Jun 18 16:15:44 2023] ACPI: LAPIC_NMI (acpi_id[0x6b] high edge lint[0x1])
+[Sun Jun 18 16:15:44 2023] ACPI: LAPIC_NMI (acpi_id[0x6c] high edge lint[0x1])
+[Sun Jun 18 16:15:44 2023] ACPI: LAPIC_NMI (acpi_id[0x6d] high edge lint[0x1])
+[Sun Jun 18 16:15:44 2023] ACPI: LAPIC_NMI (acpi_id[0x6e] high edge lint[0x1])
+[Sun Jun 18 16:15:44 2023] ACPI: LAPIC_NMI (acpi_id[0x6f] high edge lint[0x1])
+[Sun Jun 18 16:15:44 2023] ACPI: LAPIC_NMI (acpi_id[0x70] high edge lint[0x1])
+[Sun Jun 18 16:15:44 2023] ACPI: LAPIC_NMI (acpi_id[0x71] high edge lint[0x1])
+[Sun Jun 18 16:15:44 2023] ACPI: LAPIC_NMI (acpi_id[0x72] high edge lint[0x1])
+[Sun Jun 18 16:15:44 2023] ACPI: LAPIC_NMI (acpi_id[0x73] high edge lint[0x1])
+[Sun Jun 18 16:15:44 2023] ACPI: LAPIC_NMI (acpi_id[0x74] high edge lint[0x1])
+[Sun Jun 18 16:15:44 2023] ACPI: LAPIC_NMI (acpi_id[0x75] high edge lint[0x1])
+[Sun Jun 18 16:15:44 2023] ACPI: LAPIC_NMI (acpi_id[0x76] high edge lint[0x1])
+[Sun Jun 18 16:15:44 2023] ACPI: LAPIC_NMI (acpi_id[0x77] high edge lint[0x1])
+[Sun Jun 18 16:15:44 2023] ACPI: LAPIC_NMI (acpi_id[0x78] high edge lint[0x1])
+[Sun Jun 18 16:15:44 2023] ACPI: LAPIC_NMI (acpi_id[0x79] high edge lint[0x1])
+[Sun Jun 18 16:15:44 2023] ACPI: LAPIC_NMI (acpi_id[0x7a] high edge lint[0x1])
+[Sun Jun 18 16:15:44 2023] ACPI: LAPIC_NMI (acpi_id[0x7b] high edge lint[0x1])
+[Sun Jun 18 16:15:44 2023] ACPI: LAPIC_NMI (acpi_id[0x7c] high edge lint[0x1])
+[Sun Jun 18 16:15:44 2023] ACPI: LAPIC_NMI (acpi_id[0x7d] high edge lint[0x1])
+[Sun Jun 18 16:15:44 2023] ACPI: LAPIC_NMI (acpi_id[0x7e] high edge lint[0x1])
+[Sun Jun 18 16:15:44 2023] ACPI: LAPIC_NMI (acpi_id[0x7f] high edge lint[0x1])
+[Sun Jun 18 16:15:44 2023] IOAPIC[0]: apic_id 128, version 32, address 0xfec00000, GSI 0-23
+[Sun Jun 18 16:15:44 2023] ACPI: INT_SRC_OVR (bus 0 bus_irq 0 global_irq 2 high edge)
+[Sun Jun 18 16:15:44 2023] ACPI: Using ACPI (MADT) for SMP configuration information
+[Sun Jun 18 16:15:44 2023] ACPI: HPET id: 0x8086af01 base: 0xfed00000
+[Sun Jun 18 16:15:44 2023] smpboot: Allowing 128 CPUs, 120 hotplug CPUs
+[Sun Jun 18 16:15:44 2023] PM: hibernation: Registered nosave memory: [mem 0x00000000-0x00000fff]
+[Sun Jun 18 16:15:44 2023] PM: hibernation: Registered nosave memory: [mem 0x00001000-0x00001fff]
+[Sun Jun 18 16:15:44 2023] PM: hibernation: Registered nosave memory: [mem 0x000a0000-0x000bffff]
+[Sun Jun 18 16:15:44 2023] PM: hibernation: Registered nosave memory: [mem 0x000c0000-0x000fffff]
+[Sun Jun 18 16:15:44 2023] PM: hibernation: Registered nosave memory: [mem 0x06c68000-0x06c68fff]
+[Sun Jun 18 16:15:44 2023] PM: hibernation: Registered nosave memory: [mem 0x06c6a000-0x06c6afff]
+[Sun Jun 18 16:15:44 2023] PM: hibernation: Registered nosave memory: [mem 0x06c6b000-0x06c6bfff]
+[Sun Jun 18 16:15:44 2023] PM: hibernation: Registered nosave memory: [mem 0x06c6c000-0x06c6cfff]
+[Sun Jun 18 16:15:44 2023] PM: hibernation: Registered nosave memory: [mem 0x06c6d000-0x06c6dfff]
+[Sun Jun 18 16:15:44 2023] PM: hibernation: Registered nosave memory: [mem 0x06c6f000-0x06c6ffff]
+[Sun Jun 18 16:15:44 2023] PM: hibernation: Registered nosave memory: [mem 0x06c70000-0x06c70fff]
+[Sun Jun 18 16:15:44 2023] PM: hibernation: Registered nosave memory: [mem 0x06c78000-0x06c78fff]
+[Sun Jun 18 16:15:44 2023] PM: hibernation: Registered nosave memory: [mem 0x0e02f000-0x0e04bfff]
+[Sun Jun 18 16:15:44 2023] PM: hibernation: Registered nosave memory: [mem 0x0e04f000-0x0e054fff]
+[Sun Jun 18 16:15:44 2023] PM: hibernation: Registered nosave memory: [mem 0x0fb6f000-0x0fbdefff]
+[Sun Jun 18 16:15:44 2023] PM: hibernation: Registered nosave memory: [mem 0x0fbdf000-0x0fbfafff]
+[Sun Jun 18 16:15:44 2023] PM: hibernation: Registered nosave memory: [mem 0x0fbfb000-0x0fbfefff]
+[Sun Jun 18 16:15:44 2023] PM: hibernation: Registered nosave memory: [mem 0xc0000000-0xffbfffff]
+[Sun Jun 18 16:15:44 2023] PM: hibernation: Registered nosave memory: [mem 0xffc00000-0xffc29fff]
+[Sun Jun 18 16:15:44 2023] PM: hibernation: Registered nosave memory: [mem 0xffc2a000-0xffffffff]
+[Sun Jun 18 16:15:44 2023] [mem 0xc0000000-0xffbfffff] available for PCI devices
+[Sun Jun 18 16:15:44 2023] Booting paravirtualized kernel on VMware hypervisor
+[Sun Jun 18 16:15:44 2023] clocksource: refined-jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 7645519600211568 ns
+[Sun Jun 18 16:15:44 2023] setup_percpu: NR_CPUS:8192 nr_cpumask_bits:128 nr_cpu_ids:128 nr_node_ids:1
+[Sun Jun 18 16:15:44 2023] percpu: Embedded 60 pages/cpu s208896 r8192 d28672 u262144
+[Sun Jun 18 16:15:44 2023] pcpu-alloc: s208896 r8192 d28672 u262144 alloc=1*2097152
+[Sun Jun 18 16:15:44 2023] pcpu-alloc: [0] 000 001 002 003 004 005 006 007 
+[Sun Jun 18 16:15:44 2023] pcpu-alloc: [0] 008 009 010 011 012 013 014 015 
+[Sun Jun 18 16:15:44 2023] pcpu-alloc: [0] 016 017 018 019 020 021 022 023 
+[Sun Jun 18 16:15:44 2023] pcpu-alloc: [0] 024 025 026 027 028 029 030 031 
+[Sun Jun 18 16:15:44 2023] pcpu-alloc: [0] 032 033 034 035 036 037 038 039 
+[Sun Jun 18 16:15:44 2023] pcpu-alloc: [0] 040 041 042 043 044 045 046 047 
+[Sun Jun 18 16:15:44 2023] pcpu-alloc: [0] 048 049 050 051 052 053 054 055 
+[Sun Jun 18 16:15:44 2023] pcpu-alloc: [0] 056 057 058 059 060 061 062 063 
+[Sun Jun 18 16:15:44 2023] pcpu-alloc: [0] 064 065 066 067 068 069 070 071 
+[Sun Jun 18 16:15:44 2023] pcpu-alloc: [0] 072 073 074 075 076 077 078 079 
+[Sun Jun 18 16:15:44 2023] pcpu-alloc: [0] 080 081 082 083 084 085 086 087 
+[Sun Jun 18 16:15:44 2023] pcpu-alloc: [0] 088 089 090 091 092 093 094 095 
+[Sun Jun 18 16:15:44 2023] pcpu-alloc: [0] 096 097 098 099 100 101 102 103 
+[Sun Jun 18 16:15:44 2023] pcpu-alloc: [0] 104 105 106 107 108 109 110 111 
+[Sun Jun 18 16:15:44 2023] pcpu-alloc: [0] 112 113 114 115 116 117 118 119 
+[Sun Jun 18 16:15:44 2023] pcpu-alloc: [0] 120 121 122 123 124 125 126 127 
+[Sun Jun 18 16:15:44 2023] Built 1 zonelists, mobility grouping on.  Total pages: 1269647
+[Sun Jun 18 16:15:44 2023] Policy zone: Normal
+[Sun Jun 18 16:15:44 2023] Kernel command line: BOOT_IMAGE=/vmlinuz-5.15.0-75-generic root=/dev/mapper/ubuntu--lvm-root ro
+[Sun Jun 18 16:15:44 2023] Unknown kernel command line parameters "BOOT_IMAGE=/vmlinuz-5.15.0-75-generic", will be passed to user space.
+[Sun Jun 18 16:15:44 2023] printk: log_buf_len individual max cpu contribution: 4096 bytes
+[Sun Jun 18 16:15:44 2023] printk: log_buf_len total cpu_extra contributions: 520192 bytes
+[Sun Jun 18 16:15:44 2023] printk: log_buf_len min size: 262144 bytes
+[Sun Jun 18 16:15:44 2023] printk: log_buf_len: 1048576 bytes
+[Sun Jun 18 16:15:44 2023] printk: early log buf free: 234296(89%)
+[Sun Jun 18 16:15:45 2023] Dentry cache hash table entries: 1048576 (order: 11, 8388608 bytes, linear)
+[Sun Jun 18 16:15:45 2023] Inode-cache hash table entries: 524288 (order: 10, 4194304 bytes, linear)
+[Sun Jun 18 16:15:45 2023] mem auto-init: stack:off, heap alloc:on, heap free:off
+[Sun Jun 18 16:15:45 2023] Memory: 4765460K/5159852K available (16393K kernel code, 4383K rwdata, 10844K rodata, 3248K init, 18832K bss, 394132K reserved, 0K cma-reserved)
+[Sun Jun 18 16:15:45 2023] SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=128, Nodes=1
+[Sun Jun 18 16:15:45 2023] Kernel/User page tables isolation: enabled
+[Sun Jun 18 16:15:45 2023] ftrace: allocating 50600 entries in 198 pages
+[Sun Jun 18 16:15:45 2023] ftrace: allocated 198 pages with 4 groups
+[Sun Jun 18 16:15:45 2023] rcu: Hierarchical RCU implementation.
+[Sun Jun 18 16:15:45 2023] rcu: 	RCU restricting CPUs from NR_CPUS=8192 to nr_cpu_ids=128.
+[Sun Jun 18 16:15:45 2023] 	Rude variant of Tasks RCU enabled.
+[Sun Jun 18 16:15:45 2023] 	Tracing variant of Tasks RCU enabled.
+[Sun Jun 18 16:15:45 2023] rcu: RCU calculated value of scheduler-enlistment delay is 25 jiffies.
+[Sun Jun 18 16:15:45 2023] rcu: Adjusting geometry for rcu_fanout_leaf=16, nr_cpu_ids=128
+[Sun Jun 18 16:15:45 2023] NR_IRQS: 524544, nr_irqs: 1448, preallocated irqs: 16
+[Sun Jun 18 16:15:45 2023] Console: colour dummy device 80x25
+[Sun Jun 18 16:15:45 2023] printk: console [tty0] enabled
+[Sun Jun 18 16:15:45 2023] ACPI: Core revision 20210730
+[Sun Jun 18 16:15:45 2023] clocksource: hpet: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 133484882848 ns
+[Sun Jun 18 16:15:45 2023] APIC: Switch to symmetric I/O mode setup
+[Sun Jun 18 16:15:45 2023] x2apic enabled
+[Sun Jun 18 16:15:45 2023] Switched APIC routing to physical x2apic.
+[Sun Jun 18 16:15:45 2023] ..TIMER: vector=0x30 apic1=0 pin1=2 apic2=-1 pin2=-1
+[Sun Jun 18 16:15:45 2023] clocksource: tsc-early: mask: 0xffffffffffffffff max_cycles: 0x22984789d8d, max_idle_ns: 440795236594 ns
+[Sun Jun 18 16:15:45 2023] Calibrating delay loop (skipped) preset value.. 4800.03 BogoMIPS (lpj=9600071)
+[Sun Jun 18 16:15:45 2023] pid_max: default: 131072 minimum: 1024
+[Sun Jun 18 16:15:45 2023] LSM: Security Framework initializing
+[Sun Jun 18 16:15:45 2023] landlock: Up and running.
+[Sun Jun 18 16:15:45 2023] Yama: becoming mindful.
+[Sun Jun 18 16:15:45 2023] AppArmor: AppArmor initialized
+[Sun Jun 18 16:15:45 2023] Mount-cache hash table entries: 16384 (order: 5, 131072 bytes, linear)
+[Sun Jun 18 16:15:45 2023] Mountpoint-cache hash table entries: 16384 (order: 5, 131072 bytes, linear)
+[Sun Jun 18 16:15:45 2023] Disabled fast string operations
+[Sun Jun 18 16:15:45 2023] Last level iTLB entries: 4KB 64, 2MB 8, 4MB 8
+[Sun Jun 18 16:15:45 2023] Last level dTLB entries: 4KB 64, 2MB 0, 4MB 0, 1GB 4
+[Sun Jun 18 16:15:45 2023] Spectre V1 : Mitigation: usercopy/swapgs barriers and __user pointer sanitization
+[Sun Jun 18 16:15:45 2023] Spectre V2 : Mitigation: IBRS
+[Sun Jun 18 16:15:45 2023] Spectre V2 : Spectre v2 / SpectreRSB mitigation: Filling RSB on context switch
+[Sun Jun 18 16:15:45 2023] Spectre V2 : Spectre v2 / SpectreRSB : Filling RSB on VMEXIT
+[Sun Jun 18 16:15:45 2023] RETBleed: Mitigation: IBRS
+[Sun Jun 18 16:15:45 2023] Spectre V2 : mitigation: Enabling conditional Indirect Branch Prediction Barrier
+[Sun Jun 18 16:15:45 2023] Speculative Store Bypass: Mitigation: Speculative Store Bypass disabled via prctl and seccomp
+[Sun Jun 18 16:15:45 2023] MDS: Vulnerable: Clear CPU buffers attempted, no microcode
+[Sun Jun 18 16:15:45 2023] MMIO Stale Data: Vulnerable: Clear CPU buffers attempted, no microcode
+[Sun Jun 18 16:15:45 2023] SRBDS: Unknown: Dependent on hypervisor status
+[Sun Jun 18 16:15:45 2023] Freeing SMP alternatives memory: 44K
+[Sun Jun 18 16:15:45 2023] smpboot: CPU0: Intel(R) Core(TM) i9-10885H CPU @ 2.40GHz (family: 0x6, model: 0xa5, stepping: 0x2)
+[Sun Jun 18 16:15:45 2023] Performance Events: Skylake events, core PMU driver.
+[Sun Jun 18 16:15:45 2023] core: CPUID marked event: 'cpu cycles' unavailable
+[Sun Jun 18 16:15:45 2023] core: CPUID marked event: 'instructions' unavailable
+[Sun Jun 18 16:15:45 2023] core: CPUID marked event: 'bus cycles' unavailable
+[Sun Jun 18 16:15:45 2023] core: CPUID marked event: 'cache references' unavailable
+[Sun Jun 18 16:15:45 2023] core: CPUID marked event: 'cache misses' unavailable
+[Sun Jun 18 16:15:45 2023] core: CPUID marked event: 'branch instructions' unavailable
+[Sun Jun 18 16:15:45 2023] core: CPUID marked event: 'branch misses' unavailable
+[Sun Jun 18 16:15:45 2023] ... version:                1
+[Sun Jun 18 16:15:45 2023] ... bit width:              48
+[Sun Jun 18 16:15:45 2023] ... generic registers:      4
+[Sun Jun 18 16:15:45 2023] ... value mask:             0000ffffffffffff
+[Sun Jun 18 16:15:45 2023] ... max period:             000000007fffffff
+[Sun Jun 18 16:15:45 2023] ... fixed-purpose events:   0
+[Sun Jun 18 16:15:45 2023] ... event mask:             000000000000000f
+[Sun Jun 18 16:15:45 2023] rcu: Hierarchical SRCU implementation.
+[Sun Jun 18 16:15:45 2023] NMI watchdog: Perf NMI watchdog permanently disabled
+[Sun Jun 18 16:15:45 2023] smp: Bringing up secondary CPUs ...
+[Sun Jun 18 16:15:45 2023] x86: Booting SMP configuration:
+[Sun Jun 18 16:15:45 2023] .... node  #0, CPUs:          #1
+[Sun Jun 18 16:15:44 2023] Disabled fast string operations
+[Sun Jun 18 16:15:44 2023] smpboot: CPU 1 Converting physical 2 to logical package 1
+[Sun Jun 18 16:15:44 2023] smpboot: CPU 1 Converting physical 0 to logical die 1
+[Sun Jun 18 16:15:45 2023]    #2
+[Sun Jun 18 16:15:44 2023] Disabled fast string operations
+[Sun Jun 18 16:15:44 2023] smpboot: CPU 2 Converting physical 4 to logical package 2
+[Sun Jun 18 16:15:44 2023] smpboot: CPU 2 Converting physical 0 to logical die 2
+[Sun Jun 18 16:15:45 2023]    #3
+[Sun Jun 18 16:15:44 2023] Disabled fast string operations
+[Sun Jun 18 16:15:44 2023] smpboot: CPU 3 Converting physical 6 to logical package 3
+[Sun Jun 18 16:15:44 2023] smpboot: CPU 3 Converting physical 0 to logical die 3
+[Sun Jun 18 16:15:45 2023]    #4
+[Sun Jun 18 16:15:44 2023] Disabled fast string operations
+[Sun Jun 18 16:15:44 2023] smpboot: CPU 4 Converting physical 8 to logical package 4
+[Sun Jun 18 16:15:44 2023] smpboot: CPU 4 Converting physical 0 to logical die 4
+[Sun Jun 18 16:15:45 2023]    #5
+[Sun Jun 18 16:15:44 2023] Disabled fast string operations
+[Sun Jun 18 16:15:44 2023] smpboot: CPU 5 Converting physical 10 to logical package 5
+[Sun Jun 18 16:15:44 2023] smpboot: CPU 5 Converting physical 0 to logical die 5
+[Sun Jun 18 16:15:45 2023]    #6
+[Sun Jun 18 16:15:44 2023] Disabled fast string operations
+[Sun Jun 18 16:15:44 2023] smpboot: CPU 6 Converting physical 12 to logical package 6
+[Sun Jun 18 16:15:44 2023] smpboot: CPU 6 Converting physical 0 to logical die 6
+[Sun Jun 18 16:15:45 2023]    #7
+[Sun Jun 18 16:15:44 2023] Disabled fast string operations
+[Sun Jun 18 16:15:44 2023] smpboot: CPU 7 Converting physical 14 to logical package 7
+[Sun Jun 18 16:15:44 2023] smpboot: CPU 7 Converting physical 0 to logical die 7
+[Sun Jun 18 16:15:45 2023] smp: Brought up 1 node, 8 CPUs
+[Sun Jun 18 16:15:45 2023] smpboot: Max logical packages: 128
+[Sun Jun 18 16:15:45 2023] smpboot: Total of 8 processors activated (38400.28 BogoMIPS)
+[Sun Jun 18 16:15:45 2023] devtmpfs: initialized
+[Sun Jun 18 16:15:45 2023] x86/mm: Memory block size: 128MB
+[Sun Jun 18 16:15:45 2023] ACPI: PM: Registering ACPI NVS region [mem 0x00000000-0x00000fff] (4096 bytes)
+[Sun Jun 18 16:15:45 2023] ACPI: PM: Registering ACPI NVS region [mem 0x0e04f000-0x0e054fff] (24576 bytes)
+[Sun Jun 18 16:15:45 2023] ACPI: PM: Registering ACPI NVS region [mem 0x0fbfb000-0x0fbfefff] (16384 bytes)
+[Sun Jun 18 16:15:45 2023] clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 7645041785100000 ns
+[Sun Jun 18 16:15:45 2023] futex hash table entries: 32768 (order: 9, 2097152 bytes, linear)
+[Sun Jun 18 16:15:45 2023] pinctrl core: initialized pinctrl subsystem
+[Sun Jun 18 16:15:45 2023] PM: RTC time: 15:47:41, date: 2023-06-18
+[Sun Jun 18 16:15:45 2023] NET: Registered PF_NETLINK/PF_ROUTE protocol family
+[Sun Jun 18 16:15:45 2023] DMA: preallocated 1024 KiB GFP_KERNEL pool for atomic allocations
+[Sun Jun 18 16:15:45 2023] DMA: preallocated 1024 KiB GFP_KERNEL|GFP_DMA pool for atomic allocations
+[Sun Jun 18 16:15:45 2023] DMA: preallocated 1024 KiB GFP_KERNEL|GFP_DMA32 pool for atomic allocations
+[Sun Jun 18 16:15:45 2023] audit: initializing netlink subsys (disabled)
+[Sun Jun 18 16:15:45 2023] audit: type=2000 audit(1687103261.092:1): state=initialized audit_enabled=0 res=1
+[Sun Jun 18 16:15:45 2023] thermal_sys: Registered thermal governor 'fair_share'
+[Sun Jun 18 16:15:45 2023] thermal_sys: Registered thermal governor 'bang_bang'
+[Sun Jun 18 16:15:45 2023] thermal_sys: Registered thermal governor 'step_wise'
+[Sun Jun 18 16:15:45 2023] thermal_sys: Registered thermal governor 'user_space'
+[Sun Jun 18 16:15:45 2023] thermal_sys: Registered thermal governor 'power_allocator'
+[Sun Jun 18 16:15:45 2023] EISA bus registered
+[Sun Jun 18 16:15:45 2023] cpuidle: using governor ladder
+[Sun Jun 18 16:15:45 2023] cpuidle: using governor menu
+[Sun Jun 18 16:15:45 2023] ACPI: bus type PCI registered
+[Sun Jun 18 16:15:45 2023] acpiphp: ACPI Hot Plug PCI Controller Driver version: 0.5
+[Sun Jun 18 16:15:45 2023] PCI: MMCONFIG for domain 0000 [bus 00-7f] at [mem 0xe0000000-0xe7ffffff] (base 0xe0000000)
+[Sun Jun 18 16:15:45 2023] PCI: not using MMCONFIG
+[Sun Jun 18 16:15:45 2023] PCI: Using configuration type 1 for base access
+[Sun Jun 18 16:15:45 2023] kprobes: kprobe jump-optimization is enabled. All kprobes are optimized if possible.
+[Sun Jun 18 16:15:45 2023] HugeTLB registered 1.00 GiB page size, pre-allocated 0 pages
+[Sun Jun 18 16:15:45 2023] HugeTLB registered 2.00 MiB page size, pre-allocated 0 pages
+[Sun Jun 18 16:15:45 2023] fbcon: Taking over console
+[Sun Jun 18 16:15:45 2023] ACPI: Added _OSI(Module Device)
+[Sun Jun 18 16:15:45 2023] ACPI: Added _OSI(Processor Device)
+[Sun Jun 18 16:15:45 2023] ACPI: Added _OSI(3.0 _SCP Extensions)
+[Sun Jun 18 16:15:45 2023] ACPI: Added _OSI(Processor Aggregator Device)
+[Sun Jun 18 16:15:45 2023] ACPI: Added _OSI(Linux-Dell-Video)
+[Sun Jun 18 16:15:45 2023] ACPI: Added _OSI(Linux-Lenovo-NV-HDMI-Audio)
+[Sun Jun 18 16:15:45 2023] ACPI: Added _OSI(Linux-HPI-Hybrid-Graphics)
+[Sun Jun 18 16:15:45 2023] ACPI: 1 ACPI AML tables successfully acquired and loaded
+[Sun Jun 18 16:15:45 2023] ACPI: [Firmware Bug]: BIOS _OSI(Linux) query ignored
+[Sun Jun 18 16:15:45 2023] ACPI: BIOS _OSI(Darwin) query ignored
+[Sun Jun 18 16:15:45 2023] ACPI: Interpreter enabled
+[Sun Jun 18 16:15:45 2023] ACPI: PM: (supports S0 S1 S4 S5)
+[Sun Jun 18 16:15:45 2023] ACPI: Using IOAPIC for interrupt routing
+[Sun Jun 18 16:15:45 2023] PCI: MMCONFIG for domain 0000 [bus 00-7f] at [mem 0xe0000000-0xe7ffffff] (base 0xe0000000)
+[Sun Jun 18 16:15:45 2023] PCI: MMCONFIG at [mem 0xe0000000-0xe7ffffff] reserved in ACPI motherboard resources
+[Sun Jun 18 16:15:45 2023] PCI: Using host bridge windows from ACPI; if necessary, use "pci=nocrs" and report a bug
+[Sun Jun 18 16:15:45 2023] PCI: Using E820 reservations for host bridge windows
+[Sun Jun 18 16:15:45 2023] ACPI: Enabled 4 GPEs in block 00 to 0F
+[Sun Jun 18 16:15:45 2023] ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-7f])
+[Sun Jun 18 16:15:45 2023] acpi PNP0A03:00: _OSC: OS supports [ExtendedConfig ASPM ClockPM Segments MSI EDR HPX-Type3]
+[Sun Jun 18 16:15:45 2023] acpi PNP0A03:00: _OSC: platform does not support [AER LTR DPC]
+[Sun Jun 18 16:15:45 2023] acpi PNP0A03:00: _OSC: OS now controls [PCIeHotplug SHPCHotplug PME PCIeCapability]
+[Sun Jun 18 16:15:45 2023] PCI host bridge to bus 0000:00
+[Sun Jun 18 16:15:45 2023] pci_bus 0000:00: root bus resource [bus 00-7f]
+[Sun Jun 18 16:15:45 2023] pci_bus 0000:00: root bus resource [io  0x0000-0x0cf7 window]
+[Sun Jun 18 16:15:45 2023] pci_bus 0000:00: root bus resource [io  0x0d00-0xffff window]
+[Sun Jun 18 16:15:45 2023] pci_bus 0000:00: root bus resource [mem 0x000a0000-0x000bffff window]
+[Sun Jun 18 16:15:45 2023] pci_bus 0000:00: root bus resource [mem 0x000c4000-0x000cbfff window]
+[Sun Jun 18 16:15:45 2023] pci_bus 0000:00: root bus resource [mem 0x000d4000-0x000dbfff window]
+[Sun Jun 18 16:15:45 2023] pci_bus 0000:00: root bus resource [mem 0x000e4000-0x000effff window]
+[Sun Jun 18 16:15:45 2023] pci_bus 0000:00: root bus resource [mem 0xc0000000-0xefffffff window]
+[Sun Jun 18 16:15:45 2023] pci_bus 0000:00: root bus resource [mem 0xfa500000-0xfebfffff window]
+[Sun Jun 18 16:15:45 2023] pci_bus 0000:00: root bus resource [mem 0xfec10000-0xfed3ffff window]
+[Sun Jun 18 16:15:45 2023] pci_bus 0000:00: root bus resource [mem 0xfed45000-0xfedfffff window]
+[Sun Jun 18 16:15:45 2023] pci_bus 0000:00: root bus resource [mem 0xfef00000-0xffdfffff window]
+[Sun Jun 18 16:15:45 2023] pci_bus 0000:00: root bus resource [mem 0xf0000000-0xfa4fffff pref window]
+[Sun Jun 18 16:15:45 2023] pci 0000:00:00.0: [8086:7190] type 00 class 0x060000
+[Sun Jun 18 16:15:45 2023] pci 0000:00:01.0: [8086:7191] type 01 class 0x060400
+[Sun Jun 18 16:15:45 2023] pci 0000:00:07.0: [8086:7110] type 00 class 0x060100
+[Sun Jun 18 16:15:45 2023] pci 0000:00:07.1: [8086:7111] type 00 class 0x01018a
+[Sun Jun 18 16:15:45 2023] pci 0000:00:07.1: reg 0x20: [io  0x2150-0x215f]
+[Sun Jun 18 16:15:45 2023] pci 0000:00:07.1: legacy IDE quirk: reg 0x10: [io  0x01f0-0x01f7]
+[Sun Jun 18 16:15:45 2023] pci 0000:00:07.1: legacy IDE quirk: reg 0x14: [io  0x03f6]
+[Sun Jun 18 16:15:45 2023] pci 0000:00:07.1: legacy IDE quirk: reg 0x18: [io  0x0170-0x0177]
+[Sun Jun 18 16:15:45 2023] pci 0000:00:07.1: legacy IDE quirk: reg 0x1c: [io  0x0376]
+[Sun Jun 18 16:15:45 2023] pci 0000:00:07.3: [8086:7113] type 00 class 0x068000
+[Sun Jun 18 16:15:45 2023] pci 0000:00:07.3: quirk: [io  0x0440-0x047f] claimed by PIIX4 ACPI
+[Sun Jun 18 16:15:45 2023] pci 0000:00:07.7: [15ad:0740] type 00 class 0x088000
+[Sun Jun 18 16:15:45 2023] pci 0000:00:07.7: reg 0x10: [io  0x0000-0x003f]
+[Sun Jun 18 16:15:45 2023] pci 0000:00:07.7: reg 0x14: [mem 0x00000000-0x0003ffff 64bit]
+[Sun Jun 18 16:15:45 2023] pci 0000:00:0f.0: [15ad:0405] type 00 class 0x030000
+[Sun Jun 18 16:15:45 2023] pci 0000:00:0f.0: reg 0x10: [io  0x2140-0x214f]
+[Sun Jun 18 16:15:45 2023] pci 0000:00:0f.0: reg 0x14: [mem 0xf0000000-0xf7ffffff pref]
+[Sun Jun 18 16:15:45 2023] pci 0000:00:0f.0: reg 0x18: [mem 0xfb800000-0xfbffffff]
+[Sun Jun 18 16:15:45 2023] pci 0000:00:0f.0: reg 0x30: [mem 0xffff8000-0xffffffff pref]
+[Sun Jun 18 16:15:45 2023] pci 0000:00:0f.0: BAR 1: assigned to efifb
+[Sun Jun 18 16:15:45 2023] pci 0000:00:0f.0: Video device with shadowed ROM at [mem 0x000c0000-0x000dffff]
+[Sun Jun 18 16:15:45 2023] pci 0000:00:10.0: [1000:0030] type 00 class 0x010000
+[Sun Jun 18 16:15:45 2023] pci 0000:00:10.0: reg 0x10: [io  0x2000-0x20ff]
+[Sun Jun 18 16:15:45 2023] pci 0000:00:10.0: reg 0x14: [mem 0xffbe0000-0xffbfffff 64bit]
+[Sun Jun 18 16:15:45 2023] pci 0000:00:10.0: reg 0x1c: [mem 0xffbc0000-0xffbdffff 64bit]
+[Sun Jun 18 16:15:45 2023] pci 0000:00:10.0: reg 0x30: [mem 0xffffc000-0xffffffff pref]
+[Sun Jun 18 16:15:45 2023] pci 0000:00:11.0: [15ad:0790] type 01 class 0x060401
+[Sun Jun 18 16:15:45 2023] pci 0000:00:15.0: [15ad:07a0] type 01 class 0x060400
+[Sun Jun 18 16:15:45 2023] pci 0000:00:15.0: PME# supported from D0 D3hot D3cold
+[Sun Jun 18 16:15:45 2023] pci 0000:00:15.1: [15ad:07a0] type 01 class 0x060400
+[Sun Jun 18 16:15:45 2023] pci 0000:00:15.1: PME# supported from D0 D3hot D3cold
+[Sun Jun 18 16:15:45 2023] pci 0000:00:15.2: [15ad:07a0] type 01 class 0x060400
+[Sun Jun 18 16:15:45 2023] pci 0000:00:15.2: PME# supported from D0 D3hot D3cold
+[Sun Jun 18 16:15:45 2023] pci 0000:00:15.3: [15ad:07a0] type 01 class 0x060400
+[Sun Jun 18 16:15:45 2023] pci 0000:00:15.3: PME# supported from D0 D3hot D3cold
+[Sun Jun 18 16:15:45 2023] pci 0000:00:15.4: [15ad:07a0] type 01 class 0x060400
+[Sun Jun 18 16:15:45 2023] pci 0000:00:15.4: PME# supported from D0 D3hot D3cold
+[Sun Jun 18 16:15:45 2023] pci 0000:00:15.5: [15ad:07a0] type 01 class 0x060400
+[Sun Jun 18 16:15:45 2023] pci 0000:00:15.5: PME# supported from D0 D3hot D3cold
+[Sun Jun 18 16:15:45 2023] pci 0000:00:15.6: [15ad:07a0] type 01 class 0x060400
+[Sun Jun 18 16:15:45 2023] pci 0000:00:15.6: PME# supported from D0 D3hot D3cold
+[Sun Jun 18 16:15:45 2023] pci 0000:00:15.7: [15ad:07a0] type 01 class 0x060400
+[Sun Jun 18 16:15:45 2023] pci 0000:00:15.7: PME# supported from D0 D3hot D3cold
+[Sun Jun 18 16:15:45 2023] pci 0000:00:16.0: [15ad:07a0] type 01 class 0x060400
+[Sun Jun 18 16:15:45 2023] pci 0000:00:16.0: PME# supported from D0 D3hot D3cold
+[Sun Jun 18 16:15:45 2023] pci 0000:00:16.1: [15ad:07a0] type 01 class 0x060400
+[Sun Jun 18 16:15:45 2023] pci 0000:00:16.1: PME# supported from D0 D3hot D3cold
+[Sun Jun 18 16:15:45 2023] pci 0000:00:16.2: [15ad:07a0] type 01 class 0x060400
+[Sun Jun 18 16:15:45 2023] pci 0000:00:16.2: PME# supported from D0 D3hot D3cold
+[Sun Jun 18 16:15:45 2023] pci 0000:00:16.3: [15ad:07a0] type 01 class 0x060400
+[Sun Jun 18 16:15:45 2023] pci 0000:00:16.3: PME# supported from D0 D3hot D3cold
+[Sun Jun 18 16:15:45 2023] pci 0000:00:16.4: [15ad:07a0] type 01 class 0x060400
+[Sun Jun 18 16:15:45 2023] pci 0000:00:16.4: PME# supported from D0 D3hot D3cold
+[Sun Jun 18 16:15:45 2023] pci 0000:00:16.5: [15ad:07a0] type 01 class 0x060400
+[Sun Jun 18 16:15:45 2023] pci 0000:00:16.5: PME# supported from D0 D3hot D3cold
+[Sun Jun 18 16:15:45 2023] pci 0000:00:16.6: [15ad:07a0] type 01 class 0x060400
+[Sun Jun 18 16:15:45 2023] pci 0000:00:16.6: PME# supported from D0 D3hot D3cold
+[Sun Jun 18 16:15:45 2023] pci 0000:00:16.7: [15ad:07a0] type 01 class 0x060400
+[Sun Jun 18 16:15:45 2023] pci 0000:00:16.7: PME# supported from D0 D3hot D3cold
+[Sun Jun 18 16:15:45 2023] pci 0000:00:17.0: [15ad:07a0] type 01 class 0x060400
+[Sun Jun 18 16:15:45 2023] pci 0000:00:17.0: PME# supported from D0 D3hot D3cold
+[Sun Jun 18 16:15:45 2023] pci 0000:00:17.1: [15ad:07a0] type 01 class 0x060400
+[Sun Jun 18 16:15:45 2023] pci 0000:00:17.1: PME# supported from D0 D3hot D3cold
+[Sun Jun 18 16:15:45 2023] pci 0000:00:17.2: [15ad:07a0] type 01 class 0x060400
+[Sun Jun 18 16:15:45 2023] pci 0000:00:17.2: PME# supported from D0 D3hot D3cold
+[Sun Jun 18 16:15:45 2023] pci 0000:00:17.3: [15ad:07a0] type 01 class 0x060400
+[Sun Jun 18 16:15:45 2023] pci 0000:00:17.3: PME# supported from D0 D3hot D3cold
+[Sun Jun 18 16:15:45 2023] pci 0000:00:17.4: [15ad:07a0] type 01 class 0x060400
+[Sun Jun 18 16:15:45 2023] pci 0000:00:17.4: PME# supported from D0 D3hot D3cold
+[Sun Jun 18 16:15:45 2023] pci 0000:00:17.5: [15ad:07a0] type 01 class 0x060400
+[Sun Jun 18 16:15:45 2023] pci 0000:00:17.5: PME# supported from D0 D3hot D3cold
+[Sun Jun 18 16:15:45 2023] pci 0000:00:17.6: [15ad:07a0] type 01 class 0x060400
+[Sun Jun 18 16:15:45 2023] pci 0000:00:17.6: PME# supported from D0 D3hot D3cold
+[Sun Jun 18 16:15:45 2023] pci 0000:00:17.7: [15ad:07a0] type 01 class 0x060400
+[Sun Jun 18 16:15:45 2023] pci 0000:00:17.7: PME# supported from D0 D3hot D3cold
+[Sun Jun 18 16:15:45 2023] pci 0000:00:18.0: [15ad:07a0] type 01 class 0x060400
+[Sun Jun 18 16:15:45 2023] pci 0000:00:18.0: PME# supported from D0 D3hot D3cold
+[Sun Jun 18 16:15:45 2023] pci 0000:00:18.1: [15ad:07a0] type 01 class 0x060400
+[Sun Jun 18 16:15:45 2023] pci 0000:00:18.1: PME# supported from D0 D3hot D3cold
+[Sun Jun 18 16:15:45 2023] pci 0000:00:18.2: [15ad:07a0] type 01 class 0x060400
+[Sun Jun 18 16:15:45 2023] pci 0000:00:18.2: PME# supported from D0 D3hot D3cold
+[Sun Jun 18 16:15:45 2023] pci 0000:00:18.3: [15ad:07a0] type 01 class 0x060400
+[Sun Jun 18 16:15:45 2023] pci 0000:00:18.3: PME# supported from D0 D3hot D3cold
+[Sun Jun 18 16:15:45 2023] pci 0000:00:18.4: [15ad:07a0] type 01 class 0x060400
+[Sun Jun 18 16:15:45 2023] pci 0000:00:18.4: PME# supported from D0 D3hot D3cold
+[Sun Jun 18 16:15:45 2023] pci 0000:00:18.5: [15ad:07a0] type 01 class 0x060400
+[Sun Jun 18 16:15:45 2023] pci 0000:00:18.5: PME# supported from D0 D3hot D3cold
+[Sun Jun 18 16:15:45 2023] pci 0000:00:18.6: [15ad:07a0] type 01 class 0x060400
+[Sun Jun 18 16:15:45 2023] pci 0000:00:18.6: PME# supported from D0 D3hot D3cold
+[Sun Jun 18 16:15:45 2023] pci 0000:00:18.7: [15ad:07a0] type 01 class 0x060400
+[Sun Jun 18 16:15:45 2023] pci 0000:00:18.7: PME# supported from D0 D3hot D3cold
+[Sun Jun 18 16:15:45 2023] pci_bus 0000:01: extended config space not accessible
+[Sun Jun 18 16:15:45 2023] pci 0000:00:01.0: PCI bridge to [bus 01]
+[Sun Jun 18 16:15:45 2023] pci_bus 0000:02: extended config space not accessible
+[Sun Jun 18 16:15:45 2023] acpiphp: Slot [32] registered
+[Sun Jun 18 16:15:45 2023] acpiphp: Slot [33] registered
+[Sun Jun 18 16:15:45 2023] acpiphp: Slot [34] registered
+[Sun Jun 18 16:15:45 2023] acpiphp: Slot [35] registered
+[Sun Jun 18 16:15:45 2023] acpiphp: Slot [36] registered
+[Sun Jun 18 16:15:45 2023] acpiphp: Slot [37] registered
+[Sun Jun 18 16:15:45 2023] acpiphp: Slot [38] registered
+[Sun Jun 18 16:15:45 2023] acpiphp: Slot [39] registered
+[Sun Jun 18 16:15:45 2023] acpiphp: Slot [40] registered
+[Sun Jun 18 16:15:45 2023] acpiphp: Slot [41] registered
+[Sun Jun 18 16:15:45 2023] acpiphp: Slot [42] registered
+[Sun Jun 18 16:15:45 2023] acpiphp: Slot [43] registered
+[Sun Jun 18 16:15:45 2023] acpiphp: Slot [44] registered
+[Sun Jun 18 16:15:45 2023] acpiphp: Slot [45] registered
+[Sun Jun 18 16:15:45 2023] acpiphp: Slot [46] registered
+[Sun Jun 18 16:15:45 2023] acpiphp: Slot [47] registered
+[Sun Jun 18 16:15:45 2023] acpiphp: Slot [48] registered
+[Sun Jun 18 16:15:45 2023] acpiphp: Slot [49] registered
+[Sun Jun 18 16:15:45 2023] acpiphp: Slot [50] registered
+[Sun Jun 18 16:15:45 2023] acpiphp: Slot [51] registered
+[Sun Jun 18 16:15:45 2023] acpiphp: Slot [52] registered
+[Sun Jun 18 16:15:45 2023] acpiphp: Slot [53] registered
+[Sun Jun 18 16:15:45 2023] acpiphp: Slot [54] registered
+[Sun Jun 18 16:15:45 2023] acpiphp: Slot [55] registered
+[Sun Jun 18 16:15:45 2023] acpiphp: Slot [56] registered
+[Sun Jun 18 16:15:45 2023] acpiphp: Slot [57] registered
+[Sun Jun 18 16:15:45 2023] acpiphp: Slot [58] registered
+[Sun Jun 18 16:15:45 2023] acpiphp: Slot [59] registered
+[Sun Jun 18 16:15:45 2023] acpiphp: Slot [60] registered
+[Sun Jun 18 16:15:45 2023] acpiphp: Slot [61] registered
+[Sun Jun 18 16:15:45 2023] acpiphp: Slot [62] registered
+[Sun Jun 18 16:15:45 2023] acpiphp: Slot [63] registered
+[Sun Jun 18 16:15:45 2023] pci 0000:02:00.0: [15ad:0774] type 00 class 0x0c0300
+[Sun Jun 18 16:15:45 2023] pci 0000:02:00.0: reg 0x20: [io  0x1080-0x109f]
+[Sun Jun 18 16:15:45 2023] pci 0000:02:01.0: [8086:100f] type 00 class 0x020000
+[Sun Jun 18 16:15:45 2023] pci 0000:02:01.0: reg 0x10: [mem 0xfc000000-0xfc01ffff 64bit]
+[Sun Jun 18 16:15:45 2023] pci 0000:02:01.0: reg 0x18: [mem 0xfc020000-0xfc02ffff 64bit]
+[Sun Jun 18 16:15:45 2023] pci 0000:02:01.0: reg 0x20: [io  0x1040-0x107f]
+[Sun Jun 18 16:15:45 2023] pci 0000:02:01.0: reg 0x30: [mem 0xffff0000-0xffffffff pref]
+[Sun Jun 18 16:15:45 2023] pci 0000:02:01.0: PME# supported from D0 D3hot D3cold
+[Sun Jun 18 16:15:45 2023] pci 0000:02:02.0: [1274:1371] type 00 class 0x040100
+[Sun Jun 18 16:15:45 2023] pci 0000:02:02.0: reg 0x10: [io  0x1000-0x103f]
+[Sun Jun 18 16:15:45 2023] pci 0000:02:03.0: [15ad:0770] type 00 class 0x0c0320
+[Sun Jun 18 16:15:45 2023] pci 0000:02:03.0: reg 0x10: [mem 0xfc051000-0xfc051fff]
+[Sun Jun 18 16:15:45 2023] pci 0000:02:04.0: [15ad:07e0] type 00 class 0x010601
+[Sun Jun 18 16:15:45 2023] pci 0000:02:04.0: reg 0x24: [mem 0xfc050000-0xfc050fff]
+[Sun Jun 18 16:15:45 2023] pci 0000:02:04.0: reg 0x30: [mem 0xffff0000-0xffffffff pref]
+[Sun Jun 18 16:15:45 2023] pci 0000:02:04.0: PME# supported from D3hot
+[Sun Jun 18 16:15:45 2023] pci 0000:00:11.0: PCI bridge to [bus 02] (subtractive decode)
+[Sun Jun 18 16:15:45 2023] pci 0000:00:11.0:   bridge window [io  0x1000-0x1fff]
+[Sun Jun 18 16:15:45 2023] pci 0000:00:11.0:   bridge window [mem 0xfc000000-0xfc9fffff]
+[Sun Jun 18 16:15:45 2023] pci 0000:00:11.0:   bridge window [mem 0xf8000000-0xf84fffff 64bit pref]
+[Sun Jun 18 16:15:45 2023] pci 0000:00:11.0:   bridge window [io  0x0000-0x0cf7 window] (subtractive decode)
+[Sun Jun 18 16:15:45 2023] pci 0000:00:11.0:   bridge window [io  0x0d00-0xffff window] (subtractive decode)
+[Sun Jun 18 16:15:45 2023] pci 0000:00:11.0:   bridge window [mem 0x000a0000-0x000bffff window] (subtractive decode)
+[Sun Jun 18 16:15:45 2023] pci 0000:00:11.0:   bridge window [mem 0x000c4000-0x000cbfff window] (subtractive decode)
+[Sun Jun 18 16:15:45 2023] pci 0000:00:11.0:   bridge window [mem 0x000d4000-0x000dbfff window] (subtractive decode)
+[Sun Jun 18 16:15:45 2023] pci 0000:00:11.0:   bridge window [mem 0x000e4000-0x000effff window] (subtractive decode)
+[Sun Jun 18 16:15:45 2023] pci 0000:00:11.0:   bridge window [mem 0xc0000000-0xefffffff window] (subtractive decode)
+[Sun Jun 18 16:15:45 2023] pci 0000:00:11.0:   bridge window [mem 0xfa500000-0xfebfffff window] (subtractive decode)
+[Sun Jun 18 16:15:45 2023] pci 0000:00:11.0:   bridge window [mem 0xfec10000-0xfed3ffff window] (subtractive decode)
+[Sun Jun 18 16:15:45 2023] pci 0000:00:11.0:   bridge window [mem 0xfed45000-0xfedfffff window] (subtractive decode)
+[Sun Jun 18 16:15:45 2023] pci 0000:00:11.0:   bridge window [mem 0xfef00000-0xffdfffff window] (subtractive decode)
+[Sun Jun 18 16:15:45 2023] pci 0000:00:11.0:   bridge window [mem 0xf0000000-0xfa4fffff pref window] (subtractive decode)
+[Sun Jun 18 16:15:45 2023] pci 0000:00:15.0: PCI bridge to [bus 03]
+[Sun Jun 18 16:15:45 2023] pci 0000:00:15.0:   bridge window [mem 0xfea00000-0xfeafffff]
+[Sun Jun 18 16:15:45 2023] pci 0000:00:15.0:   bridge window [mem 0xfa400000-0xfa4fffff 64bit pref]
+[Sun Jun 18 16:15:46 2023] pci 0000:00:15.1: PCI bridge to [bus 04]
+[Sun Jun 18 16:15:46 2023] pci 0000:00:15.1:   bridge window [mem 0xfe900000-0xfe9fffff]
+[Sun Jun 18 16:15:46 2023] pci 0000:00:15.1:   bridge window [mem 0xfa300000-0xfa3fffff 64bit pref]
+[Sun Jun 18 16:15:46 2023] pci 0000:00:15.2: PCI bridge to [bus 05]
+[Sun Jun 18 16:15:46 2023] pci 0000:00:15.2:   bridge window [mem 0xfe800000-0xfe8fffff]
+[Sun Jun 18 16:15:46 2023] pci 0000:00:15.2:   bridge window [mem 0xfa200000-0xfa2fffff 64bit pref]
+[Sun Jun 18 16:15:46 2023] pci 0000:00:15.3: PCI bridge to [bus 06]
+[Sun Jun 18 16:15:46 2023] pci 0000:00:15.3:   bridge window [mem 0xfe700000-0xfe7fffff]
+[Sun Jun 18 16:15:46 2023] pci 0000:00:15.3:   bridge window [mem 0xfa100000-0xfa1fffff 64bit pref]
+[Sun Jun 18 16:15:46 2023] pci 0000:00:15.4: PCI bridge to [bus 07]
+[Sun Jun 18 16:15:46 2023] pci 0000:00:15.4:   bridge window [mem 0xfe600000-0xfe6fffff]
+[Sun Jun 18 16:15:46 2023] pci 0000:00:15.4:   bridge window [mem 0xfa000000-0xfa0fffff 64bit pref]
+[Sun Jun 18 16:15:46 2023] pci 0000:00:15.5: PCI bridge to [bus 08]
+[Sun Jun 18 16:15:46 2023] pci 0000:00:15.5:   bridge window [mem 0xfe500000-0xfe5fffff]
+[Sun Jun 18 16:15:46 2023] pci 0000:00:15.5:   bridge window [mem 0xf9f00000-0xf9ffffff 64bit pref]
+[Sun Jun 18 16:15:46 2023] pci 0000:00:15.6: PCI bridge to [bus 09]
+[Sun Jun 18 16:15:46 2023] pci 0000:00:15.6:   bridge window [mem 0xfe400000-0xfe4fffff]
+[Sun Jun 18 16:15:46 2023] pci 0000:00:15.6:   bridge window [mem 0xf9e00000-0xf9efffff 64bit pref]
+[Sun Jun 18 16:15:46 2023] pci 0000:00:15.7: PCI bridge to [bus 0a]
+[Sun Jun 18 16:15:46 2023] pci 0000:00:15.7:   bridge window [mem 0xfe300000-0xfe3fffff]
+[Sun Jun 18 16:15:46 2023] pci 0000:00:15.7:   bridge window [mem 0xf9d00000-0xf9dfffff 64bit pref]
+[Sun Jun 18 16:15:46 2023] pci 0000:00:16.0: PCI bridge to [bus 0b]
+[Sun Jun 18 16:15:46 2023] pci 0000:00:16.0:   bridge window [mem 0xfe200000-0xfe2fffff]
+[Sun Jun 18 16:15:46 2023] pci 0000:00:16.0:   bridge window [mem 0xf9c00000-0xf9cfffff 64bit pref]
+[Sun Jun 18 16:15:46 2023] pci 0000:00:16.1: PCI bridge to [bus 0c]
+[Sun Jun 18 16:15:46 2023] pci 0000:00:16.1:   bridge window [mem 0xfe100000-0xfe1fffff]
+[Sun Jun 18 16:15:46 2023] pci 0000:00:16.1:   bridge window [mem 0xf9b00000-0xf9bfffff 64bit pref]
+[Sun Jun 18 16:15:46 2023] pci 0000:00:16.2: PCI bridge to [bus 0d]
+[Sun Jun 18 16:15:46 2023] pci 0000:00:16.2:   bridge window [mem 0xfe000000-0xfe0fffff]
+[Sun Jun 18 16:15:46 2023] pci 0000:00:16.2:   bridge window [mem 0xf9a00000-0xf9afffff 64bit pref]
+[Sun Jun 18 16:15:46 2023] pci 0000:00:16.3: PCI bridge to [bus 0e]
+[Sun Jun 18 16:15:46 2023] pci 0000:00:16.3:   bridge window [mem 0xfdf00000-0xfdffffff]
+[Sun Jun 18 16:15:46 2023] pci 0000:00:16.3:   bridge window [mem 0xf9900000-0xf99fffff 64bit pref]
+[Sun Jun 18 16:15:46 2023] pci 0000:00:16.4: PCI bridge to [bus 0f]
+[Sun Jun 18 16:15:46 2023] pci 0000:00:16.4:   bridge window [mem 0xfde00000-0xfdefffff]
+[Sun Jun 18 16:15:46 2023] pci 0000:00:16.4:   bridge window [mem 0xf9800000-0xf98fffff 64bit pref]
+[Sun Jun 18 16:15:46 2023] pci 0000:00:16.5: PCI bridge to [bus 10]
+[Sun Jun 18 16:15:46 2023] pci 0000:00:16.5:   bridge window [mem 0xfdd00000-0xfddfffff]
+[Sun Jun 18 16:15:46 2023] pci 0000:00:16.5:   bridge window [mem 0xf9700000-0xf97fffff 64bit pref]
+[Sun Jun 18 16:15:46 2023] pci 0000:00:16.6: PCI bridge to [bus 11]
+[Sun Jun 18 16:15:46 2023] pci 0000:00:16.6:   bridge window [mem 0xfdc00000-0xfdcfffff]
+[Sun Jun 18 16:15:46 2023] pci 0000:00:16.6:   bridge window [mem 0xf9600000-0xf96fffff 64bit pref]
+[Sun Jun 18 16:15:46 2023] pci 0000:00:16.7: PCI bridge to [bus 12]
+[Sun Jun 18 16:15:46 2023] pci 0000:00:16.7:   bridge window [mem 0xfdb00000-0xfdbfffff]
+[Sun Jun 18 16:15:46 2023] pci 0000:00:16.7:   bridge window [mem 0xf9500000-0xf95fffff 64bit pref]
+[Sun Jun 18 16:15:46 2023] pci 0000:00:17.0: PCI bridge to [bus 13]
+[Sun Jun 18 16:15:46 2023] pci 0000:00:17.0:   bridge window [mem 0xfda00000-0xfdafffff]
+[Sun Jun 18 16:15:46 2023] pci 0000:00:17.0:   bridge window [mem 0xf9400000-0xf94fffff 64bit pref]
+[Sun Jun 18 16:15:46 2023] pci 0000:00:17.1: PCI bridge to [bus 14]
+[Sun Jun 18 16:15:46 2023] pci 0000:00:17.1:   bridge window [mem 0xfd900000-0xfd9fffff]
+[Sun Jun 18 16:15:46 2023] pci 0000:00:17.1:   bridge window [mem 0xf9300000-0xf93fffff 64bit pref]
+[Sun Jun 18 16:15:47 2023] pci 0000:00:17.2: PCI bridge to [bus 15]
+[Sun Jun 18 16:15:47 2023] pci 0000:00:17.2:   bridge window [mem 0xfd800000-0xfd8fffff]
+[Sun Jun 18 16:15:47 2023] pci 0000:00:17.2:   bridge window [mem 0xf9200000-0xf92fffff 64bit pref]
+[Sun Jun 18 16:15:47 2023] pci 0000:00:17.3: PCI bridge to [bus 16]
+[Sun Jun 18 16:15:47 2023] pci 0000:00:17.3:   bridge window [mem 0xfd700000-0xfd7fffff]
+[Sun Jun 18 16:15:47 2023] pci 0000:00:17.3:   bridge window [mem 0xf9100000-0xf91fffff 64bit pref]
+[Sun Jun 18 16:15:47 2023] pci 0000:00:17.4: PCI bridge to [bus 17]
+[Sun Jun 18 16:15:47 2023] pci 0000:00:17.4:   bridge window [mem 0xfd600000-0xfd6fffff]
+[Sun Jun 18 16:15:47 2023] pci 0000:00:17.4:   bridge window [mem 0xf9000000-0xf90fffff 64bit pref]
+[Sun Jun 18 16:15:47 2023] pci 0000:00:17.5: PCI bridge to [bus 18]
+[Sun Jun 18 16:15:47 2023] pci 0000:00:17.5:   bridge window [mem 0xfd500000-0xfd5fffff]
+[Sun Jun 18 16:15:47 2023] pci 0000:00:17.5:   bridge window [mem 0xf8f00000-0xf8ffffff 64bit pref]
+[Sun Jun 18 16:15:47 2023] pci 0000:00:17.6: PCI bridge to [bus 19]
+[Sun Jun 18 16:15:47 2023] pci 0000:00:17.6:   bridge window [mem 0xfd400000-0xfd4fffff]
+[Sun Jun 18 16:15:47 2023] pci 0000:00:17.6:   bridge window [mem 0xf8e00000-0xf8efffff 64bit pref]
+[Sun Jun 18 16:15:47 2023] pci 0000:00:17.7: PCI bridge to [bus 1a]
+[Sun Jun 18 16:15:47 2023] pci 0000:00:17.7:   bridge window [mem 0xfd300000-0xfd3fffff]
+[Sun Jun 18 16:15:47 2023] pci 0000:00:17.7:   bridge window [mem 0xf8d00000-0xf8dfffff 64bit pref]
+[Sun Jun 18 16:15:47 2023] pci 0000:00:18.0: PCI bridge to [bus 1b]
+[Sun Jun 18 16:15:47 2023] pci 0000:00:18.0:   bridge window [mem 0xfd200000-0xfd2fffff]
+[Sun Jun 18 16:15:47 2023] pci 0000:00:18.0:   bridge window [mem 0xf8c00000-0xf8cfffff 64bit pref]
+[Sun Jun 18 16:15:47 2023] pci 0000:00:18.1: PCI bridge to [bus 1c]
+[Sun Jun 18 16:15:47 2023] pci 0000:00:18.1:   bridge window [mem 0xfd100000-0xfd1fffff]
+[Sun Jun 18 16:15:47 2023] pci 0000:00:18.1:   bridge window [mem 0xf8b00000-0xf8bfffff 64bit pref]
+[Sun Jun 18 16:15:47 2023] pci 0000:00:18.2: PCI bridge to [bus 1d]
+[Sun Jun 18 16:15:47 2023] pci 0000:00:18.2:   bridge window [mem 0xfd000000-0xfd0fffff]
+[Sun Jun 18 16:15:47 2023] pci 0000:00:18.2:   bridge window [mem 0xf8a00000-0xf8afffff 64bit pref]
+[Sun Jun 18 16:15:47 2023] pci 0000:00:18.3: PCI bridge to [bus 1e]
+[Sun Jun 18 16:15:47 2023] pci 0000:00:18.3:   bridge window [mem 0xfcf00000-0xfcffffff]
+[Sun Jun 18 16:15:47 2023] pci 0000:00:18.3:   bridge window [mem 0xf8900000-0xf89fffff 64bit pref]
+[Sun Jun 18 16:15:47 2023] pci 0000:00:18.4: PCI bridge to [bus 1f]
+[Sun Jun 18 16:15:47 2023] pci 0000:00:18.4:   bridge window [mem 0xfce00000-0xfcefffff]
+[Sun Jun 18 16:15:47 2023] pci 0000:00:18.4:   bridge window [mem 0xf8800000-0xf88fffff 64bit pref]
+[Sun Jun 18 16:15:47 2023] pci 0000:00:18.5: PCI bridge to [bus 20]
+[Sun Jun 18 16:15:47 2023] pci 0000:00:18.5:   bridge window [mem 0xfcd00000-0xfcdfffff]
+[Sun Jun 18 16:15:47 2023] pci 0000:00:18.5:   bridge window [mem 0xf8700000-0xf87fffff 64bit pref]
+[Sun Jun 18 16:15:47 2023] pci 0000:00:18.6: PCI bridge to [bus 21]
+[Sun Jun 18 16:15:47 2023] pci 0000:00:18.6:   bridge window [mem 0xfcc00000-0xfccfffff]
+[Sun Jun 18 16:15:47 2023] pci 0000:00:18.6:   bridge window [mem 0xf8600000-0xf86fffff 64bit pref]
+[Sun Jun 18 16:15:47 2023] pci 0000:00:18.7: PCI bridge to [bus 22]
+[Sun Jun 18 16:15:47 2023] pci 0000:00:18.7:   bridge window [mem 0xfcb00000-0xfcbfffff]
+[Sun Jun 18 16:15:47 2023] pci 0000:00:18.7:   bridge window [mem 0xf8500000-0xf85fffff 64bit pref]
+[Sun Jun 18 16:15:47 2023] ACPI: PCI: Interrupt link LNKA configured for IRQ 0
+[Sun Jun 18 16:15:47 2023] ACPI: PCI: Interrupt link LNKA disabled
+[Sun Jun 18 16:15:47 2023] ACPI: PCI: Interrupt link LNKB configured for IRQ 0
+[Sun Jun 18 16:15:47 2023] ACPI: PCI: Interrupt link LNKB disabled
+[Sun Jun 18 16:15:47 2023] ACPI: PCI: Interrupt link LNKC configured for IRQ 0
+[Sun Jun 18 16:15:47 2023] ACPI: PCI: Interrupt link LNKC disabled
+[Sun Jun 18 16:15:47 2023] ACPI: PCI: Interrupt link LNKD configured for IRQ 0
+[Sun Jun 18 16:15:47 2023] ACPI: PCI: Interrupt link LNKD disabled
+[Sun Jun 18 16:15:47 2023] iommu: Default domain type: Translated 
+[Sun Jun 18 16:15:47 2023] iommu: DMA domain TLB invalidation policy: lazy mode 
+[Sun Jun 18 16:15:47 2023] SCSI subsystem initialized
+[Sun Jun 18 16:15:47 2023] libata version 3.00 loaded.
+[Sun Jun 18 16:15:47 2023] pci 0000:00:0f.0: vgaarb: setting as boot VGA device
+[Sun Jun 18 16:15:47 2023] pci 0000:00:0f.0: vgaarb: VGA device added: decodes=io+mem,owns=io+mem,locks=none
+[Sun Jun 18 16:15:47 2023] pci 0000:00:0f.0: vgaarb: bridge control possible
+[Sun Jun 18 16:15:47 2023] vgaarb: loaded
+[Sun Jun 18 16:15:47 2023] ACPI: bus type USB registered
+[Sun Jun 18 16:15:47 2023] usbcore: registered new interface driver usbfs
+[Sun Jun 18 16:15:47 2023] usbcore: registered new interface driver hub
+[Sun Jun 18 16:15:47 2023] usbcore: registered new device driver usb
+[Sun Jun 18 16:15:47 2023] pps_core: LinuxPPS API ver. 1 registered
+[Sun Jun 18 16:15:47 2023] pps_core: Software ver. 5.3.6 - Copyright 2005-2007 Rodolfo Giometti <giometti@linux.it>
+[Sun Jun 18 16:15:47 2023] PTP clock support registered
+[Sun Jun 18 16:15:47 2023] EDAC MC: Ver: 3.0.0
+[Sun Jun 18 16:15:47 2023] Registered efivars operations
+[Sun Jun 18 16:15:47 2023] NetLabel: Initializing
+[Sun Jun 18 16:15:47 2023] NetLabel:  domain hash size = 128
+[Sun Jun 18 16:15:47 2023] NetLabel:  protocols = UNLABELED CIPSOv4 CALIPSO
+[Sun Jun 18 16:15:47 2023] NetLabel:  unlabeled traffic allowed by default
+[Sun Jun 18 16:15:47 2023] PCI: Using ACPI for IRQ routing
+[Sun Jun 18 16:15:48 2023] PCI: pci_cache_line_size set to 64 bytes
+[Sun Jun 18 16:15:48 2023] e820: reserve RAM buffer [mem 0x06c68018-0x07ffffff]
+[Sun Jun 18 16:15:48 2023] e820: reserve RAM buffer [mem 0x06c6b018-0x07ffffff]
+[Sun Jun 18 16:15:48 2023] e820: reserve RAM buffer [mem 0x06c6d018-0x07ffffff]
+[Sun Jun 18 16:15:48 2023] e820: reserve RAM buffer [mem 0x06c70018-0x07ffffff]
+[Sun Jun 18 16:15:48 2023] e820: reserve RAM buffer [mem 0x0e02f000-0x0fffffff]
+[Sun Jun 18 16:15:48 2023] e820: reserve RAM buffer [mem 0x0e04f000-0x0fffffff]
+[Sun Jun 18 16:15:48 2023] e820: reserve RAM buffer [mem 0x0fb6f000-0x0fffffff]
+[Sun Jun 18 16:15:48 2023] e820: reserve RAM buffer [mem 0x17b000000-0x17bffffff]
+[Sun Jun 18 16:15:48 2023] hpet0: at MMIO 0xfed00000, IRQs 2, 8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+[Sun Jun 18 16:15:48 2023] hpet0: 16 comparators, 64-bit 14.318180 MHz counter
+[Sun Jun 18 16:15:48 2023] clocksource: Switched to clocksource tsc-early
+[Sun Jun 18 16:15:48 2023] VFS: Disk quotas dquot_6.6.0
+[Sun Jun 18 16:15:48 2023] VFS: Dquot-cache hash table entries: 512 (order 0, 4096 bytes)
+[Sun Jun 18 16:15:48 2023] AppArmor: AppArmor Filesystem Enabled
+[Sun Jun 18 16:15:48 2023] pnp: PnP ACPI init
+[Sun Jun 18 16:15:48 2023] pnp 00:00: disabling [io  0x0010-0x001f] because it overlaps 0000:00:07.7 BAR 0 [io  0x0000-0x003f]
+[Sun Jun 18 16:15:48 2023] pnp 00:00: disabling [io  0x0024-0x0025] because it overlaps 0000:00:07.7 BAR 0 [io  0x0000-0x003f]
+[Sun Jun 18 16:15:48 2023] pnp 00:00: disabling [io  0x0028-0x0029] because it overlaps 0000:00:07.7 BAR 0 [io  0x0000-0x003f]
+[Sun Jun 18 16:15:48 2023] pnp 00:00: disabling [io  0x002c-0x002d] because it overlaps 0000:00:07.7 BAR 0 [io  0x0000-0x003f]
+[Sun Jun 18 16:15:48 2023] pnp 00:00: disabling [io  0x002e-0x002f] because it overlaps 0000:00:07.7 BAR 0 [io  0x0000-0x003f]
+[Sun Jun 18 16:15:48 2023] pnp 00:00: disabling [io  0x0030-0x0031] because it overlaps 0000:00:07.7 BAR 0 [io  0x0000-0x003f]
+[Sun Jun 18 16:15:48 2023] pnp 00:00: disabling [io  0x0034-0x0035] because it overlaps 0000:00:07.7 BAR 0 [io  0x0000-0x003f]
+[Sun Jun 18 16:15:48 2023] pnp 00:00: disabling [io  0x0038-0x0039] because it overlaps 0000:00:07.7 BAR 0 [io  0x0000-0x003f]
+[Sun Jun 18 16:15:48 2023] pnp 00:00: disabling [io  0x003c-0x003d] because it overlaps 0000:00:07.7 BAR 0 [io  0x0000-0x003f]
+[Sun Jun 18 16:15:48 2023] pnp 00:00: disabling [io  0x0000-0x000f] because it overlaps 0000:00:07.7 BAR 0 [io  0x0000-0x003f]
+[Sun Jun 18 16:15:48 2023] system 00:00: [io  0x0440-0x047f] has been reserved
+[Sun Jun 18 16:15:48 2023] system 00:00: [io  0x5658-0x5659] has been reserved
+[Sun Jun 18 16:15:48 2023] system 00:00: [io  0x5670] has been reserved
+[Sun Jun 18 16:15:48 2023] system 00:00: [io  0x0cf0-0x0cf1] has been reserved
+[Sun Jun 18 16:15:48 2023] system 00:04: [mem 0xfed00000-0xfed003ff] has been reserved
+[Sun Jun 18 16:15:48 2023] system 00:06: [io  0x0400-0x041f] has been reserved
+[Sun Jun 18 16:15:48 2023] system 00:06: [mem 0xe0000000-0xe7ffffff] has been reserved
+[Sun Jun 18 16:15:48 2023] system 00:06: [mem 0xffc00000-0xffdfffff] could not be reserved
+[Sun Jun 18 16:15:48 2023] pnp: PnP ACPI: found 7 devices
+[Sun Jun 18 16:15:48 2023] clocksource: acpi_pm: mask: 0xffffff max_cycles: 0xffffff, max_idle_ns: 2085701024 ns
+[Sun Jun 18 16:15:48 2023] NET: Registered PF_INET protocol family
+[Sun Jun 18 16:15:48 2023] IP idents hash table entries: 131072 (order: 8, 1048576 bytes, linear)
+[Sun Jun 18 16:15:48 2023] tcp_listen_portaddr_hash hash table entries: 4096 (order: 4, 65536 bytes, linear)
+[Sun Jun 18 16:15:48 2023] Table-perturb hash table entries: 65536 (order: 6, 262144 bytes, linear)
+[Sun Jun 18 16:15:48 2023] TCP established hash table entries: 65536 (order: 7, 524288 bytes, linear)
+[Sun Jun 18 16:15:48 2023] TCP bind hash table entries: 65536 (order: 8, 1048576 bytes, linear)
+[Sun Jun 18 16:15:48 2023] TCP: Hash tables configured (established 65536 bind 65536)
+[Sun Jun 18 16:15:48 2023] MPTCP token hash table entries: 8192 (order: 5, 196608 bytes, linear)
+[Sun Jun 18 16:15:48 2023] UDP hash table entries: 4096 (order: 5, 131072 bytes, linear)
+[Sun Jun 18 16:15:48 2023] UDP-Lite hash table entries: 4096 (order: 5, 131072 bytes, linear)
+[Sun Jun 18 16:15:48 2023] NET: Registered PF_UNIX/PF_LOCAL protocol family
+[Sun Jun 18 16:15:48 2023] NET: Registered PF_XDP protocol family
+[Sun Jun 18 16:15:48 2023] pci 0000:00:10.0: can't claim BAR 6 [mem 0xffffc000-0xffffffff pref]: no compatible bridge window
+[Sun Jun 18 16:15:48 2023] pci 0000:02:01.0: can't claim BAR 6 [mem 0xffff0000-0xffffffff pref]: no compatible bridge window
+[Sun Jun 18 16:15:48 2023] pci 0000:02:04.0: can't claim BAR 6 [mem 0xffff0000-0xffffffff pref]: no compatible bridge window
+[Sun Jun 18 16:15:48 2023] pci 0000:00:15.0: bridge window [io  0x1000-0x0fff] to [bus 03] add_size 1000
+[Sun Jun 18 16:15:48 2023] pci 0000:00:15.1: bridge window [io  0x1000-0x0fff] to [bus 04] add_size 1000
+[Sun Jun 18 16:15:48 2023] pci 0000:00:15.2: bridge window [io  0x1000-0x0fff] to [bus 05] add_size 1000
+[Sun Jun 18 16:15:48 2023] pci 0000:00:15.3: bridge window [io  0x1000-0x0fff] to [bus 06] add_size 1000
+[Sun Jun 18 16:15:48 2023] pci 0000:00:15.4: bridge window [io  0x1000-0x0fff] to [bus 07] add_size 1000
+[Sun Jun 18 16:15:48 2023] pci 0000:00:15.5: bridge window [io  0x1000-0x0fff] to [bus 08] add_size 1000
+[Sun Jun 18 16:15:48 2023] pci 0000:00:15.6: bridge window [io  0x1000-0x0fff] to [bus 09] add_size 1000
+[Sun Jun 18 16:15:48 2023] pci 0000:00:15.7: bridge window [io  0x1000-0x0fff] to [bus 0a] add_size 1000
+[Sun Jun 18 16:15:48 2023] pci 0000:00:16.0: bridge window [io  0x1000-0x0fff] to [bus 0b] add_size 1000
+[Sun Jun 18 16:15:48 2023] pci 0000:00:16.1: bridge window [io  0x1000-0x0fff] to [bus 0c] add_size 1000
+[Sun Jun 18 16:15:48 2023] pci 0000:00:16.2: bridge window [io  0x1000-0x0fff] to [bus 0d] add_size 1000
+[Sun Jun 18 16:15:48 2023] pci 0000:00:16.3: bridge window [io  0x1000-0x0fff] to [bus 0e] add_size 1000
+[Sun Jun 18 16:15:48 2023] pci 0000:00:16.4: bridge window [io  0x1000-0x0fff] to [bus 0f] add_size 1000
+[Sun Jun 18 16:15:48 2023] pci 0000:00:16.5: bridge window [io  0x1000-0x0fff] to [bus 10] add_size 1000
+[Sun Jun 18 16:15:48 2023] pci 0000:00:16.6: bridge window [io  0x1000-0x0fff] to [bus 11] add_size 1000
+[Sun Jun 18 16:15:48 2023] pci 0000:00:16.7: bridge window [io  0x1000-0x0fff] to [bus 12] add_size 1000
+[Sun Jun 18 16:15:48 2023] pci 0000:00:17.0: bridge window [io  0x1000-0x0fff] to [bus 13] add_size 1000
+[Sun Jun 18 16:15:48 2023] pci 0000:00:17.1: bridge window [io  0x1000-0x0fff] to [bus 14] add_size 1000
+[Sun Jun 18 16:15:48 2023] pci 0000:00:17.2: bridge window [io  0x1000-0x0fff] to [bus 15] add_size 1000
+[Sun Jun 18 16:15:48 2023] pci 0000:00:17.3: bridge window [io  0x1000-0x0fff] to [bus 16] add_size 1000
+[Sun Jun 18 16:15:48 2023] pci 0000:00:17.4: bridge window [io  0x1000-0x0fff] to [bus 17] add_size 1000
+[Sun Jun 18 16:15:48 2023] pci 0000:00:17.5: bridge window [io  0x1000-0x0fff] to [bus 18] add_size 1000
+[Sun Jun 18 16:15:48 2023] pci 0000:00:17.6: bridge window [io  0x1000-0x0fff] to [bus 19] add_size 1000
+[Sun Jun 18 16:15:48 2023] pci 0000:00:17.7: bridge window [io  0x1000-0x0fff] to [bus 1a] add_size 1000
+[Sun Jun 18 16:15:48 2023] pci 0000:00:18.0: bridge window [io  0x1000-0x0fff] to [bus 1b] add_size 1000
+[Sun Jun 18 16:15:48 2023] pci 0000:00:18.1: bridge window [io  0x1000-0x0fff] to [bus 1c] add_size 1000
+[Sun Jun 18 16:15:48 2023] pci 0000:00:18.2: bridge window [io  0x1000-0x0fff] to [bus 1d] add_size 1000
+[Sun Jun 18 16:15:48 2023] pci 0000:00:18.3: bridge window [io  0x1000-0x0fff] to [bus 1e] add_size 1000
+[Sun Jun 18 16:15:48 2023] pci 0000:00:18.4: bridge window [io  0x1000-0x0fff] to [bus 1f] add_size 1000
+[Sun Jun 18 16:15:48 2023] pci 0000:00:18.5: bridge window [io  0x1000-0x0fff] to [bus 20] add_size 1000
+[Sun Jun 18 16:15:48 2023] pci 0000:00:18.6: bridge window [io  0x1000-0x0fff] to [bus 21] add_size 1000
+[Sun Jun 18 16:15:48 2023] pci 0000:00:18.7: bridge window [io  0x1000-0x0fff] to [bus 22] add_size 1000
+[Sun Jun 18 16:15:48 2023] clipped [mem size 0x00000000 64bit] to [mem size 0xfffffffffffc4000 64bit] for e820 entry [mem 0x000c0000-0x000fffff]
+[Sun Jun 18 16:15:48 2023] clipped [mem size 0x00000000 64bit] to [mem size 0xfffffffffffd4000 64bit] for e820 entry [mem 0x000c0000-0x000fffff]
+[Sun Jun 18 16:15:48 2023] clipped [mem size 0x00000000 64bit] to [mem size 0xfffffffffffe4000 64bit] for e820 entry [mem 0x000c0000-0x000fffff]
+[Sun Jun 18 16:15:48 2023] clipped [mem size 0x00008000 64bit] to [mem size 0xfffffffffffcc000 64bit] for e820 entry [mem 0x000c0000-0x000fffff]
+[Sun Jun 18 16:15:48 2023] clipped [mem size 0x00008000 64bit] to [mem size 0xfffffffffffdc000 64bit] for e820 entry [mem 0x000c0000-0x000fffff]
+[Sun Jun 18 16:15:48 2023] clipped [mem size 0x0000c000 64bit] to [mem size 0xffffffffffff0000 64bit] for e820 entry [mem 0x000c0000-0x000fffff]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:07.7: BAR 1: assigned [mem 0xc0000000-0xc003ffff 64bit]
+[Sun Jun 18 16:15:48 2023] clipped [mem size 0x00008000 pref] to [mem size 0xfffffffffffcc000 pref] for e820 entry [mem 0x000c0000-0x000fffff]
+[Sun Jun 18 16:15:48 2023] clipped [mem size 0x00008000 pref] to [mem size 0xfffffffffffdc000 pref] for e820 entry [mem 0x000c0000-0x000fffff]
+[Sun Jun 18 16:15:48 2023] clipped [mem size 0x0000c000 pref] to [mem size 0xffffffffffff0000 pref] for e820 entry [mem 0x000c0000-0x000fffff]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:10.0: BAR 6: assigned [mem 0xc0040000-0xc0043fff pref]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:15.0: BAR 13: assigned [io  0x3000-0x3fff]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:15.1: BAR 13: assigned [io  0x4000-0x4fff]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:15.2: BAR 13: assigned [io  0x6000-0x6fff]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:15.3: BAR 13: assigned [io  0x7000-0x7fff]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:15.4: BAR 13: assigned [io  0x8000-0x8fff]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:15.5: BAR 13: assigned [io  0x9000-0x9fff]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:15.6: BAR 13: assigned [io  0xa000-0xafff]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:15.7: BAR 13: assigned [io  0xb000-0xbfff]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:16.0: BAR 13: assigned [io  0xc000-0xcfff]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:16.1: BAR 13: assigned [io  0xd000-0xdfff]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:16.2: BAR 13: assigned [io  0xe000-0xefff]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:16.3: BAR 13: assigned [io  0xf000-0xffff]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:16.4: BAR 13: no space for [io  size 0x1000]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:16.4: BAR 13: failed to assign [io  size 0x1000]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:16.5: BAR 13: no space for [io  size 0x1000]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:16.5: BAR 13: failed to assign [io  size 0x1000]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:16.6: BAR 13: no space for [io  size 0x1000]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:16.6: BAR 13: failed to assign [io  size 0x1000]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:16.7: BAR 13: no space for [io  size 0x1000]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:16.7: BAR 13: failed to assign [io  size 0x1000]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:17.0: BAR 13: no space for [io  size 0x1000]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:17.0: BAR 13: failed to assign [io  size 0x1000]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:17.1: BAR 13: no space for [io  size 0x1000]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:17.1: BAR 13: failed to assign [io  size 0x1000]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:17.2: BAR 13: no space for [io  size 0x1000]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:17.2: BAR 13: failed to assign [io  size 0x1000]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:17.3: BAR 13: no space for [io  size 0x1000]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:17.3: BAR 13: failed to assign [io  size 0x1000]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:17.4: BAR 13: no space for [io  size 0x1000]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:17.4: BAR 13: failed to assign [io  size 0x1000]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:17.5: BAR 13: no space for [io  size 0x1000]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:17.5: BAR 13: failed to assign [io  size 0x1000]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:17.6: BAR 13: no space for [io  size 0x1000]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:17.6: BAR 13: failed to assign [io  size 0x1000]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:17.7: BAR 13: no space for [io  size 0x1000]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:17.7: BAR 13: failed to assign [io  size 0x1000]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:18.0: BAR 13: no space for [io  size 0x1000]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:18.0: BAR 13: failed to assign [io  size 0x1000]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:18.1: BAR 13: no space for [io  size 0x1000]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:18.1: BAR 13: failed to assign [io  size 0x1000]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:18.2: BAR 13: no space for [io  size 0x1000]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:18.2: BAR 13: failed to assign [io  size 0x1000]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:18.3: BAR 13: no space for [io  size 0x1000]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:18.3: BAR 13: failed to assign [io  size 0x1000]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:18.4: BAR 13: no space for [io  size 0x1000]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:18.4: BAR 13: failed to assign [io  size 0x1000]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:18.5: BAR 13: no space for [io  size 0x1000]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:18.5: BAR 13: failed to assign [io  size 0x1000]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:18.6: BAR 13: no space for [io  size 0x1000]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:18.6: BAR 13: failed to assign [io  size 0x1000]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:18.7: BAR 13: no space for [io  size 0x1000]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:18.7: BAR 13: failed to assign [io  size 0x1000]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:07.7: BAR 0: assigned [io  0x2400-0x243f]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:07.7: BAR 0: assigned [io  0x2400-0x243f]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:18.7: BAR 13: assigned [io  0x3000-0x3fff]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:18.6: BAR 13: assigned [io  0x4000-0x4fff]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:18.5: BAR 13: assigned [io  0x6000-0x6fff]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:18.4: BAR 13: assigned [io  0x7000-0x7fff]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:18.3: BAR 13: assigned [io  0x8000-0x8fff]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:18.2: BAR 13: assigned [io  0x9000-0x9fff]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:18.1: BAR 13: assigned [io  0xa000-0xafff]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:18.0: BAR 13: assigned [io  0xb000-0xbfff]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:17.7: BAR 13: assigned [io  0xc000-0xcfff]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:17.6: BAR 13: assigned [io  0xd000-0xdfff]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:17.5: BAR 13: assigned [io  0xe000-0xefff]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:17.4: BAR 13: assigned [io  0xf000-0xffff]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:17.3: BAR 13: no space for [io  size 0x1000]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:17.3: BAR 13: failed to assign [io  size 0x1000]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:17.2: BAR 13: no space for [io  size 0x1000]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:17.2: BAR 13: failed to assign [io  size 0x1000]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:17.1: BAR 13: no space for [io  size 0x1000]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:17.1: BAR 13: failed to assign [io  size 0x1000]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:17.0: BAR 13: no space for [io  size 0x1000]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:17.0: BAR 13: failed to assign [io  size 0x1000]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:16.7: BAR 13: no space for [io  size 0x1000]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:16.7: BAR 13: failed to assign [io  size 0x1000]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:16.6: BAR 13: no space for [io  size 0x1000]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:16.6: BAR 13: failed to assign [io  size 0x1000]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:16.5: BAR 13: no space for [io  size 0x1000]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:16.5: BAR 13: failed to assign [io  size 0x1000]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:16.4: BAR 13: no space for [io  size 0x1000]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:16.4: BAR 13: failed to assign [io  size 0x1000]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:16.3: BAR 13: no space for [io  size 0x1000]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:16.3: BAR 13: failed to assign [io  size 0x1000]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:16.2: BAR 13: no space for [io  size 0x1000]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:16.2: BAR 13: failed to assign [io  size 0x1000]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:16.1: BAR 13: no space for [io  size 0x1000]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:16.1: BAR 13: failed to assign [io  size 0x1000]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:16.0: BAR 13: no space for [io  size 0x1000]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:16.0: BAR 13: failed to assign [io  size 0x1000]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:15.7: BAR 13: no space for [io  size 0x1000]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:15.7: BAR 13: failed to assign [io  size 0x1000]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:15.6: BAR 13: no space for [io  size 0x1000]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:15.6: BAR 13: failed to assign [io  size 0x1000]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:15.5: BAR 13: no space for [io  size 0x1000]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:15.5: BAR 13: failed to assign [io  size 0x1000]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:15.4: BAR 13: no space for [io  size 0x1000]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:15.4: BAR 13: failed to assign [io  size 0x1000]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:15.3: BAR 13: no space for [io  size 0x1000]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:15.3: BAR 13: failed to assign [io  size 0x1000]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:15.2: BAR 13: no space for [io  size 0x1000]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:15.2: BAR 13: failed to assign [io  size 0x1000]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:15.1: BAR 13: no space for [io  size 0x1000]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:15.1: BAR 13: failed to assign [io  size 0x1000]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:15.0: BAR 13: no space for [io  size 0x1000]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:15.0: BAR 13: failed to assign [io  size 0x1000]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:01.0: PCI bridge to [bus 01]
+[Sun Jun 18 16:15:48 2023] pci 0000:02:01.0: BAR 6: assigned [mem 0xfc030000-0xfc03ffff pref]
+[Sun Jun 18 16:15:48 2023] pci 0000:02:04.0: BAR 6: assigned [mem 0xfc040000-0xfc04ffff pref]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:11.0: PCI bridge to [bus 02]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:11.0:   bridge window [io  0x1000-0x1fff]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:11.0:   bridge window [mem 0xfc000000-0xfc9fffff]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:11.0:   bridge window [mem 0xf8000000-0xf84fffff 64bit pref]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:15.0: PCI bridge to [bus 03]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:15.0:   bridge window [mem 0xfea00000-0xfeafffff]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:15.0:   bridge window [mem 0xfa400000-0xfa4fffff 64bit pref]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:15.1: PCI bridge to [bus 04]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:15.1:   bridge window [mem 0xfe900000-0xfe9fffff]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:15.1:   bridge window [mem 0xfa300000-0xfa3fffff 64bit pref]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:15.2: PCI bridge to [bus 05]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:15.2:   bridge window [mem 0xfe800000-0xfe8fffff]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:15.2:   bridge window [mem 0xfa200000-0xfa2fffff 64bit pref]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:15.3: PCI bridge to [bus 06]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:15.3:   bridge window [mem 0xfe700000-0xfe7fffff]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:15.3:   bridge window [mem 0xfa100000-0xfa1fffff 64bit pref]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:15.4: PCI bridge to [bus 07]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:15.4:   bridge window [mem 0xfe600000-0xfe6fffff]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:15.4:   bridge window [mem 0xfa000000-0xfa0fffff 64bit pref]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:15.5: PCI bridge to [bus 08]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:15.5:   bridge window [mem 0xfe500000-0xfe5fffff]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:15.5:   bridge window [mem 0xf9f00000-0xf9ffffff 64bit pref]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:15.6: PCI bridge to [bus 09]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:15.6:   bridge window [mem 0xfe400000-0xfe4fffff]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:15.6:   bridge window [mem 0xf9e00000-0xf9efffff 64bit pref]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:15.7: PCI bridge to [bus 0a]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:15.7:   bridge window [mem 0xfe300000-0xfe3fffff]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:15.7:   bridge window [mem 0xf9d00000-0xf9dfffff 64bit pref]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:16.0: PCI bridge to [bus 0b]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:16.0:   bridge window [mem 0xfe200000-0xfe2fffff]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:16.0:   bridge window [mem 0xf9c00000-0xf9cfffff 64bit pref]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:16.1: PCI bridge to [bus 0c]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:16.1:   bridge window [mem 0xfe100000-0xfe1fffff]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:16.1:   bridge window [mem 0xf9b00000-0xf9bfffff 64bit pref]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:16.2: PCI bridge to [bus 0d]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:16.2:   bridge window [mem 0xfe000000-0xfe0fffff]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:16.2:   bridge window [mem 0xf9a00000-0xf9afffff 64bit pref]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:16.3: PCI bridge to [bus 0e]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:16.3:   bridge window [mem 0xfdf00000-0xfdffffff]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:16.3:   bridge window [mem 0xf9900000-0xf99fffff 64bit pref]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:16.4: PCI bridge to [bus 0f]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:16.4:   bridge window [mem 0xfde00000-0xfdefffff]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:16.4:   bridge window [mem 0xf9800000-0xf98fffff 64bit pref]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:16.5: PCI bridge to [bus 10]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:16.5:   bridge window [mem 0xfdd00000-0xfddfffff]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:16.5:   bridge window [mem 0xf9700000-0xf97fffff 64bit pref]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:16.6: PCI bridge to [bus 11]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:16.6:   bridge window [mem 0xfdc00000-0xfdcfffff]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:16.6:   bridge window [mem 0xf9600000-0xf96fffff 64bit pref]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:16.7: PCI bridge to [bus 12]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:16.7:   bridge window [mem 0xfdb00000-0xfdbfffff]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:16.7:   bridge window [mem 0xf9500000-0xf95fffff 64bit pref]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:17.0: PCI bridge to [bus 13]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:17.0:   bridge window [mem 0xfda00000-0xfdafffff]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:17.0:   bridge window [mem 0xf9400000-0xf94fffff 64bit pref]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:17.1: PCI bridge to [bus 14]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:17.1:   bridge window [mem 0xfd900000-0xfd9fffff]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:17.1:   bridge window [mem 0xf9300000-0xf93fffff 64bit pref]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:17.2: PCI bridge to [bus 15]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:17.2:   bridge window [mem 0xfd800000-0xfd8fffff]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:17.2:   bridge window [mem 0xf9200000-0xf92fffff 64bit pref]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:17.3: PCI bridge to [bus 16]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:17.3:   bridge window [mem 0xfd700000-0xfd7fffff]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:17.3:   bridge window [mem 0xf9100000-0xf91fffff 64bit pref]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:17.4: PCI bridge to [bus 17]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:17.4:   bridge window [io  0xf000-0xffff]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:17.4:   bridge window [mem 0xfd600000-0xfd6fffff]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:17.4:   bridge window [mem 0xf9000000-0xf90fffff 64bit pref]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:17.5: PCI bridge to [bus 18]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:17.5:   bridge window [io  0xe000-0xefff]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:17.5:   bridge window [mem 0xfd500000-0xfd5fffff]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:17.5:   bridge window [mem 0xf8f00000-0xf8ffffff 64bit pref]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:17.6: PCI bridge to [bus 19]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:17.6:   bridge window [io  0xd000-0xdfff]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:17.6:   bridge window [mem 0xfd400000-0xfd4fffff]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:17.6:   bridge window [mem 0xf8e00000-0xf8efffff 64bit pref]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:17.7: PCI bridge to [bus 1a]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:17.7:   bridge window [io  0xc000-0xcfff]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:17.7:   bridge window [mem 0xfd300000-0xfd3fffff]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:17.7:   bridge window [mem 0xf8d00000-0xf8dfffff 64bit pref]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:18.0: PCI bridge to [bus 1b]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:18.0:   bridge window [io  0xb000-0xbfff]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:18.0:   bridge window [mem 0xfd200000-0xfd2fffff]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:18.0:   bridge window [mem 0xf8c00000-0xf8cfffff 64bit pref]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:18.1: PCI bridge to [bus 1c]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:18.1:   bridge window [io  0xa000-0xafff]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:18.1:   bridge window [mem 0xfd100000-0xfd1fffff]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:18.1:   bridge window [mem 0xf8b00000-0xf8bfffff 64bit pref]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:18.2: PCI bridge to [bus 1d]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:18.2:   bridge window [io  0x9000-0x9fff]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:18.2:   bridge window [mem 0xfd000000-0xfd0fffff]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:18.2:   bridge window [mem 0xf8a00000-0xf8afffff 64bit pref]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:18.3: PCI bridge to [bus 1e]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:18.3:   bridge window [io  0x8000-0x8fff]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:18.3:   bridge window [mem 0xfcf00000-0xfcffffff]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:18.3:   bridge window [mem 0xf8900000-0xf89fffff 64bit pref]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:18.4: PCI bridge to [bus 1f]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:18.4:   bridge window [io  0x7000-0x7fff]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:18.4:   bridge window [mem 0xfce00000-0xfcefffff]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:18.4:   bridge window [mem 0xf8800000-0xf88fffff 64bit pref]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:18.5: PCI bridge to [bus 20]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:18.5:   bridge window [io  0x6000-0x6fff]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:18.5:   bridge window [mem 0xfcd00000-0xfcdfffff]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:18.5:   bridge window [mem 0xf8700000-0xf87fffff 64bit pref]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:18.6: PCI bridge to [bus 21]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:18.6:   bridge window [io  0x4000-0x4fff]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:18.6:   bridge window [mem 0xfcc00000-0xfccfffff]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:18.6:   bridge window [mem 0xf8600000-0xf86fffff 64bit pref]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:18.7: PCI bridge to [bus 22]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:18.7:   bridge window [io  0x3000-0x3fff]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:18.7:   bridge window [mem 0xfcb00000-0xfcbfffff]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:18.7:   bridge window [mem 0xf8500000-0xf85fffff 64bit pref]
+[Sun Jun 18 16:15:48 2023] pci_bus 0000:00: resource 4 [io  0x0000-0x0cf7 window]
+[Sun Jun 18 16:15:48 2023] pci_bus 0000:00: resource 5 [io  0x0d00-0xffff window]
+[Sun Jun 18 16:15:48 2023] pci_bus 0000:00: resource 6 [mem 0x000a0000-0x000bffff window]
+[Sun Jun 18 16:15:48 2023] pci_bus 0000:00: resource 7 [mem 0x000c4000-0x000cbfff window]
+[Sun Jun 18 16:15:48 2023] pci_bus 0000:00: resource 8 [mem 0x000d4000-0x000dbfff window]
+[Sun Jun 18 16:15:48 2023] pci_bus 0000:00: resource 9 [mem 0x000e4000-0x000effff window]
+[Sun Jun 18 16:15:48 2023] pci_bus 0000:00: resource 10 [mem 0xc0000000-0xefffffff window]
+[Sun Jun 18 16:15:48 2023] pci_bus 0000:00: resource 11 [mem 0xfa500000-0xfebfffff window]
+[Sun Jun 18 16:15:48 2023] pci_bus 0000:00: resource 12 [mem 0xfec10000-0xfed3ffff window]
+[Sun Jun 18 16:15:48 2023] pci_bus 0000:00: resource 13 [mem 0xfed45000-0xfedfffff window]
+[Sun Jun 18 16:15:48 2023] pci_bus 0000:00: resource 14 [mem 0xfef00000-0xffdfffff window]
+[Sun Jun 18 16:15:48 2023] pci_bus 0000:00: resource 15 [mem 0xf0000000-0xfa4fffff pref window]
+[Sun Jun 18 16:15:48 2023] pci_bus 0000:02: resource 0 [io  0x1000-0x1fff]
+[Sun Jun 18 16:15:48 2023] pci_bus 0000:02: resource 1 [mem 0xfc000000-0xfc9fffff]
+[Sun Jun 18 16:15:48 2023] pci_bus 0000:02: resource 2 [mem 0xf8000000-0xf84fffff 64bit pref]
+[Sun Jun 18 16:15:48 2023] pci_bus 0000:02: resource 4 [io  0x0000-0x0cf7 window]
+[Sun Jun 18 16:15:48 2023] pci_bus 0000:02: resource 5 [io  0x0d00-0xffff window]
+[Sun Jun 18 16:15:48 2023] pci_bus 0000:02: resource 6 [mem 0x000a0000-0x000bffff window]
+[Sun Jun 18 16:15:48 2023] pci_bus 0000:02: resource 7 [mem 0x000c4000-0x000cbfff window]
+[Sun Jun 18 16:15:48 2023] pci_bus 0000:02: resource 8 [mem 0x000d4000-0x000dbfff window]
+[Sun Jun 18 16:15:48 2023] pci_bus 0000:02: resource 9 [mem 0x000e4000-0x000effff window]
+[Sun Jun 18 16:15:48 2023] pci_bus 0000:02: resource 10 [mem 0xc0000000-0xefffffff window]
+[Sun Jun 18 16:15:48 2023] pci_bus 0000:02: resource 11 [mem 0xfa500000-0xfebfffff window]
+[Sun Jun 18 16:15:48 2023] pci_bus 0000:02: resource 12 [mem 0xfec10000-0xfed3ffff window]
+[Sun Jun 18 16:15:48 2023] pci_bus 0000:02: resource 13 [mem 0xfed45000-0xfedfffff window]
+[Sun Jun 18 16:15:48 2023] pci_bus 0000:02: resource 14 [mem 0xfef00000-0xffdfffff window]
+[Sun Jun 18 16:15:48 2023] pci_bus 0000:02: resource 15 [mem 0xf0000000-0xfa4fffff pref window]
+[Sun Jun 18 16:15:48 2023] pci_bus 0000:03: resource 1 [mem 0xfea00000-0xfeafffff]
+[Sun Jun 18 16:15:48 2023] pci_bus 0000:03: resource 2 [mem 0xfa400000-0xfa4fffff 64bit pref]
+[Sun Jun 18 16:15:48 2023] pci_bus 0000:04: resource 1 [mem 0xfe900000-0xfe9fffff]
+[Sun Jun 18 16:15:48 2023] pci_bus 0000:04: resource 2 [mem 0xfa300000-0xfa3fffff 64bit pref]
+[Sun Jun 18 16:15:48 2023] pci_bus 0000:05: resource 1 [mem 0xfe800000-0xfe8fffff]
+[Sun Jun 18 16:15:48 2023] pci_bus 0000:05: resource 2 [mem 0xfa200000-0xfa2fffff 64bit pref]
+[Sun Jun 18 16:15:48 2023] pci_bus 0000:06: resource 1 [mem 0xfe700000-0xfe7fffff]
+[Sun Jun 18 16:15:48 2023] pci_bus 0000:06: resource 2 [mem 0xfa100000-0xfa1fffff 64bit pref]
+[Sun Jun 18 16:15:48 2023] pci_bus 0000:07: resource 1 [mem 0xfe600000-0xfe6fffff]
+[Sun Jun 18 16:15:48 2023] pci_bus 0000:07: resource 2 [mem 0xfa000000-0xfa0fffff 64bit pref]
+[Sun Jun 18 16:15:48 2023] pci_bus 0000:08: resource 1 [mem 0xfe500000-0xfe5fffff]
+[Sun Jun 18 16:15:48 2023] pci_bus 0000:08: resource 2 [mem 0xf9f00000-0xf9ffffff 64bit pref]
+[Sun Jun 18 16:15:48 2023] pci_bus 0000:09: resource 1 [mem 0xfe400000-0xfe4fffff]
+[Sun Jun 18 16:15:48 2023] pci_bus 0000:09: resource 2 [mem 0xf9e00000-0xf9efffff 64bit pref]
+[Sun Jun 18 16:15:48 2023] pci_bus 0000:0a: resource 1 [mem 0xfe300000-0xfe3fffff]
+[Sun Jun 18 16:15:48 2023] pci_bus 0000:0a: resource 2 [mem 0xf9d00000-0xf9dfffff 64bit pref]
+[Sun Jun 18 16:15:48 2023] pci_bus 0000:0b: resource 1 [mem 0xfe200000-0xfe2fffff]
+[Sun Jun 18 16:15:48 2023] pci_bus 0000:0b: resource 2 [mem 0xf9c00000-0xf9cfffff 64bit pref]
+[Sun Jun 18 16:15:48 2023] pci_bus 0000:0c: resource 1 [mem 0xfe100000-0xfe1fffff]
+[Sun Jun 18 16:15:48 2023] pci_bus 0000:0c: resource 2 [mem 0xf9b00000-0xf9bfffff 64bit pref]
+[Sun Jun 18 16:15:48 2023] pci_bus 0000:0d: resource 1 [mem 0xfe000000-0xfe0fffff]
+[Sun Jun 18 16:15:48 2023] pci_bus 0000:0d: resource 2 [mem 0xf9a00000-0xf9afffff 64bit pref]
+[Sun Jun 18 16:15:48 2023] pci_bus 0000:0e: resource 1 [mem 0xfdf00000-0xfdffffff]
+[Sun Jun 18 16:15:48 2023] pci_bus 0000:0e: resource 2 [mem 0xf9900000-0xf99fffff 64bit pref]
+[Sun Jun 18 16:15:48 2023] pci_bus 0000:0f: resource 1 [mem 0xfde00000-0xfdefffff]
+[Sun Jun 18 16:15:48 2023] pci_bus 0000:0f: resource 2 [mem 0xf9800000-0xf98fffff 64bit pref]
+[Sun Jun 18 16:15:48 2023] pci_bus 0000:10: resource 1 [mem 0xfdd00000-0xfddfffff]
+[Sun Jun 18 16:15:48 2023] pci_bus 0000:10: resource 2 [mem 0xf9700000-0xf97fffff 64bit pref]
+[Sun Jun 18 16:15:48 2023] pci_bus 0000:11: resource 1 [mem 0xfdc00000-0xfdcfffff]
+[Sun Jun 18 16:15:48 2023] pci_bus 0000:11: resource 2 [mem 0xf9600000-0xf96fffff 64bit pref]
+[Sun Jun 18 16:15:48 2023] pci_bus 0000:12: resource 1 [mem 0xfdb00000-0xfdbfffff]
+[Sun Jun 18 16:15:48 2023] pci_bus 0000:12: resource 2 [mem 0xf9500000-0xf95fffff 64bit pref]
+[Sun Jun 18 16:15:48 2023] pci_bus 0000:13: resource 1 [mem 0xfda00000-0xfdafffff]
+[Sun Jun 18 16:15:48 2023] pci_bus 0000:13: resource 2 [mem 0xf9400000-0xf94fffff 64bit pref]
+[Sun Jun 18 16:15:48 2023] pci_bus 0000:14: resource 1 [mem 0xfd900000-0xfd9fffff]
+[Sun Jun 18 16:15:48 2023] pci_bus 0000:14: resource 2 [mem 0xf9300000-0xf93fffff 64bit pref]
+[Sun Jun 18 16:15:48 2023] pci_bus 0000:15: resource 1 [mem 0xfd800000-0xfd8fffff]
+[Sun Jun 18 16:15:48 2023] pci_bus 0000:15: resource 2 [mem 0xf9200000-0xf92fffff 64bit pref]
+[Sun Jun 18 16:15:48 2023] pci_bus 0000:16: resource 1 [mem 0xfd700000-0xfd7fffff]
+[Sun Jun 18 16:15:48 2023] pci_bus 0000:16: resource 2 [mem 0xf9100000-0xf91fffff 64bit pref]
+[Sun Jun 18 16:15:48 2023] pci_bus 0000:17: resource 0 [io  0xf000-0xffff]
+[Sun Jun 18 16:15:48 2023] pci_bus 0000:17: resource 1 [mem 0xfd600000-0xfd6fffff]
+[Sun Jun 18 16:15:48 2023] pci_bus 0000:17: resource 2 [mem 0xf9000000-0xf90fffff 64bit pref]
+[Sun Jun 18 16:15:48 2023] pci_bus 0000:18: resource 0 [io  0xe000-0xefff]
+[Sun Jun 18 16:15:48 2023] pci_bus 0000:18: resource 1 [mem 0xfd500000-0xfd5fffff]
+[Sun Jun 18 16:15:48 2023] pci_bus 0000:18: resource 2 [mem 0xf8f00000-0xf8ffffff 64bit pref]
+[Sun Jun 18 16:15:48 2023] pci_bus 0000:19: resource 0 [io  0xd000-0xdfff]
+[Sun Jun 18 16:15:48 2023] pci_bus 0000:19: resource 1 [mem 0xfd400000-0xfd4fffff]
+[Sun Jun 18 16:15:48 2023] pci_bus 0000:19: resource 2 [mem 0xf8e00000-0xf8efffff 64bit pref]
+[Sun Jun 18 16:15:48 2023] pci_bus 0000:1a: resource 0 [io  0xc000-0xcfff]
+[Sun Jun 18 16:15:48 2023] pci_bus 0000:1a: resource 1 [mem 0xfd300000-0xfd3fffff]
+[Sun Jun 18 16:15:48 2023] pci_bus 0000:1a: resource 2 [mem 0xf8d00000-0xf8dfffff 64bit pref]
+[Sun Jun 18 16:15:48 2023] pci_bus 0000:1b: resource 0 [io  0xb000-0xbfff]
+[Sun Jun 18 16:15:48 2023] pci_bus 0000:1b: resource 1 [mem 0xfd200000-0xfd2fffff]
+[Sun Jun 18 16:15:48 2023] pci_bus 0000:1b: resource 2 [mem 0xf8c00000-0xf8cfffff 64bit pref]
+[Sun Jun 18 16:15:48 2023] pci_bus 0000:1c: resource 0 [io  0xa000-0xafff]
+[Sun Jun 18 16:15:48 2023] pci_bus 0000:1c: resource 1 [mem 0xfd100000-0xfd1fffff]
+[Sun Jun 18 16:15:48 2023] pci_bus 0000:1c: resource 2 [mem 0xf8b00000-0xf8bfffff 64bit pref]
+[Sun Jun 18 16:15:48 2023] pci_bus 0000:1d: resource 0 [io  0x9000-0x9fff]
+[Sun Jun 18 16:15:48 2023] pci_bus 0000:1d: resource 1 [mem 0xfd000000-0xfd0fffff]
+[Sun Jun 18 16:15:48 2023] pci_bus 0000:1d: resource 2 [mem 0xf8a00000-0xf8afffff 64bit pref]
+[Sun Jun 18 16:15:48 2023] pci_bus 0000:1e: resource 0 [io  0x8000-0x8fff]
+[Sun Jun 18 16:15:48 2023] pci_bus 0000:1e: resource 1 [mem 0xfcf00000-0xfcffffff]
+[Sun Jun 18 16:15:48 2023] pci_bus 0000:1e: resource 2 [mem 0xf8900000-0xf89fffff 64bit pref]
+[Sun Jun 18 16:15:48 2023] pci_bus 0000:1f: resource 0 [io  0x7000-0x7fff]
+[Sun Jun 18 16:15:48 2023] pci_bus 0000:1f: resource 1 [mem 0xfce00000-0xfcefffff]
+[Sun Jun 18 16:15:48 2023] pci_bus 0000:1f: resource 2 [mem 0xf8800000-0xf88fffff 64bit pref]
+[Sun Jun 18 16:15:48 2023] pci_bus 0000:20: resource 0 [io  0x6000-0x6fff]
+[Sun Jun 18 16:15:48 2023] pci_bus 0000:20: resource 1 [mem 0xfcd00000-0xfcdfffff]
+[Sun Jun 18 16:15:48 2023] pci_bus 0000:20: resource 2 [mem 0xf8700000-0xf87fffff 64bit pref]
+[Sun Jun 18 16:15:48 2023] pci_bus 0000:21: resource 0 [io  0x4000-0x4fff]
+[Sun Jun 18 16:15:48 2023] pci_bus 0000:21: resource 1 [mem 0xfcc00000-0xfccfffff]
+[Sun Jun 18 16:15:48 2023] pci_bus 0000:21: resource 2 [mem 0xf8600000-0xf86fffff 64bit pref]
+[Sun Jun 18 16:15:48 2023] pci_bus 0000:22: resource 0 [io  0x3000-0x3fff]
+[Sun Jun 18 16:15:48 2023] pci_bus 0000:22: resource 1 [mem 0xfcb00000-0xfcbfffff]
+[Sun Jun 18 16:15:48 2023] pci_bus 0000:22: resource 2 [mem 0xf8500000-0xf85fffff 64bit pref]
+[Sun Jun 18 16:15:48 2023] pci 0000:00:00.0: Limiting direct PCI/PCI transfers
+[Sun Jun 18 16:15:48 2023] pci 0000:02:01.0: CLS mismatch (32 != 64), using 64 bytes
+[Sun Jun 18 16:15:48 2023] PCI-DMA: Using software bounce buffering for IO (SWIOTLB)
+[Sun Jun 18 16:15:48 2023] software IO TLB: mapped [mem 0x00000000bc000000-0x00000000c0000000] (64MB)
+[Sun Jun 18 16:15:48 2023] clocksource: tsc: mask: 0xffffffffffffffff max_cycles: 0x22984789d8d, max_idle_ns: 440795236594 ns
+[Sun Jun 18 16:15:48 2023] clocksource: Switched to clocksource tsc
+[Sun Jun 18 16:15:48 2023] Trying to unpack rootfs image as initramfs...
+[Sun Jun 18 16:15:48 2023] Initialise system trusted keyrings
+[Sun Jun 18 16:15:48 2023] Key type blacklist registered
+[Sun Jun 18 16:15:48 2023] workingset: timestamp_bits=36 max_order=21 bucket_order=0
+[Sun Jun 18 16:15:48 2023] zbud: loaded
+[Sun Jun 18 16:15:48 2023] squashfs: version 4.0 (2009/01/31) Phillip Lougher
+[Sun Jun 18 16:15:48 2023] fuse: init (API version 7.34)
+[Sun Jun 18 16:15:48 2023] integrity: Platform Keyring initialized
+[Sun Jun 18 16:15:48 2023] Key type asymmetric registered
+[Sun Jun 18 16:15:48 2023] Asymmetric key parser 'x509' registered
+[Sun Jun 18 16:15:48 2023] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 243)
+[Sun Jun 18 16:15:48 2023] io scheduler mq-deadline registered
+[Sun Jun 18 16:15:48 2023] pcieport 0000:00:15.0: PME: Signaling with IRQ 24
+[Sun Jun 18 16:15:48 2023] pcieport 0000:00:15.0: pciehp: Slot #160 AttnBtn+ PwrCtrl+ MRL- AttnInd- PwrInd- HotPlug+ Surprise- Interlock- NoCompl+ IbPresDis- LLActRep+
+[Sun Jun 18 16:15:48 2023] pcieport 0000:00:15.1: PME: Signaling with IRQ 25
+[Sun Jun 18 16:15:48 2023] pcieport 0000:00:15.1: pciehp: Slot #161 AttnBtn+ PwrCtrl+ MRL- AttnInd- PwrInd- HotPlug+ Surprise- Interlock- NoCompl+ IbPresDis- LLActRep+
+[Sun Jun 18 16:15:48 2023] pcieport 0000:00:15.2: PME: Signaling with IRQ 26
+[Sun Jun 18 16:15:48 2023] pcieport 0000:00:15.2: pciehp: Slot #162 AttnBtn+ PwrCtrl+ MRL- AttnInd- PwrInd- HotPlug+ Surprise- Interlock- NoCompl+ IbPresDis- LLActRep+
+[Sun Jun 18 16:15:48 2023] pcieport 0000:00:15.3: PME: Signaling with IRQ 27
+[Sun Jun 18 16:15:48 2023] pcieport 0000:00:15.3: pciehp: Slot #163 AttnBtn+ PwrCtrl+ MRL- AttnInd- PwrInd- HotPlug+ Surprise- Interlock- NoCompl+ IbPresDis- LLActRep+
+[Sun Jun 18 16:15:48 2023] pcieport 0000:00:15.4: PME: Signaling with IRQ 28
+[Sun Jun 18 16:15:48 2023] pcieport 0000:00:15.4: pciehp: Slot #164 AttnBtn+ PwrCtrl+ MRL- AttnInd- PwrInd- HotPlug+ Surprise- Interlock- NoCompl+ IbPresDis- LLActRep+
+[Sun Jun 18 16:15:48 2023] pcieport 0000:00:15.5: PME: Signaling with IRQ 29
+[Sun Jun 18 16:15:48 2023] pcieport 0000:00:15.5: pciehp: Slot #165 AttnBtn+ PwrCtrl+ MRL- AttnInd- PwrInd- HotPlug+ Surprise- Interlock- NoCompl+ IbPresDis- LLActRep+
+[Sun Jun 18 16:15:48 2023] pcieport 0000:00:15.6: PME: Signaling with IRQ 30
+[Sun Jun 18 16:15:48 2023] pcieport 0000:00:15.6: pciehp: Slot #166 AttnBtn+ PwrCtrl+ MRL- AttnInd- PwrInd- HotPlug+ Surprise- Interlock- NoCompl+ IbPresDis- LLActRep+
+[Sun Jun 18 16:15:48 2023] pcieport 0000:00:15.7: PME: Signaling with IRQ 31
+[Sun Jun 18 16:15:48 2023] pcieport 0000:00:15.7: pciehp: Slot #167 AttnBtn+ PwrCtrl+ MRL- AttnInd- PwrInd- HotPlug+ Surprise- Interlock- NoCompl+ IbPresDis- LLActRep+
+[Sun Jun 18 16:15:48 2023] pcieport 0000:00:16.0: PME: Signaling with IRQ 32
+[Sun Jun 18 16:15:48 2023] pcieport 0000:00:16.0: pciehp: Slot #192 AttnBtn+ PwrCtrl+ MRL- AttnInd- PwrInd- HotPlug+ Surprise- Interlock- NoCompl+ IbPresDis- LLActRep+
+[Sun Jun 18 16:15:48 2023] pcieport 0000:00:16.1: PME: Signaling with IRQ 33
+[Sun Jun 18 16:15:48 2023] pcieport 0000:00:16.1: pciehp: Slot #193 AttnBtn+ PwrCtrl+ MRL- AttnInd- PwrInd- HotPlug+ Surprise- Interlock- NoCompl+ IbPresDis- LLActRep+
+[Sun Jun 18 16:15:48 2023] pcieport 0000:00:16.2: PME: Signaling with IRQ 34
+[Sun Jun 18 16:15:48 2023] pcieport 0000:00:16.2: pciehp: Slot #194 AttnBtn+ PwrCtrl+ MRL- AttnInd- PwrInd- HotPlug+ Surprise- Interlock- NoCompl+ IbPresDis- LLActRep+
+[Sun Jun 18 16:15:48 2023] pcieport 0000:00:16.3: PME: Signaling with IRQ 35
+[Sun Jun 18 16:15:48 2023] pcieport 0000:00:16.3: pciehp: Slot #195 AttnBtn+ PwrCtrl+ MRL- AttnInd- PwrInd- HotPlug+ Surprise- Interlock- NoCompl+ IbPresDis- LLActRep+
+[Sun Jun 18 16:15:48 2023] pcieport 0000:00:16.4: PME: Signaling with IRQ 36
+[Sun Jun 18 16:15:48 2023] pcieport 0000:00:16.4: pciehp: Slot #196 AttnBtn+ PwrCtrl+ MRL- AttnInd- PwrInd- HotPlug+ Surprise- Interlock- NoCompl+ IbPresDis- LLActRep+
+[Sun Jun 18 16:15:48 2023] pcieport 0000:00:16.5: PME: Signaling with IRQ 37
+[Sun Jun 18 16:15:48 2023] pcieport 0000:00:16.5: pciehp: Slot #197 AttnBtn+ PwrCtrl+ MRL- AttnInd- PwrInd- HotPlug+ Surprise- Interlock- NoCompl+ IbPresDis- LLActRep+
+[Sun Jun 18 16:15:48 2023] pcieport 0000:00:16.6: PME: Signaling with IRQ 38
+[Sun Jun 18 16:15:48 2023] pcieport 0000:00:16.6: pciehp: Slot #198 AttnBtn+ PwrCtrl+ MRL- AttnInd- PwrInd- HotPlug+ Surprise- Interlock- NoCompl+ IbPresDis- LLActRep+
+[Sun Jun 18 16:15:48 2023] pcieport 0000:00:16.7: PME: Signaling with IRQ 39
+[Sun Jun 18 16:15:48 2023] pcieport 0000:00:16.7: pciehp: Slot #199 AttnBtn+ PwrCtrl+ MRL- AttnInd- PwrInd- HotPlug+ Surprise- Interlock- NoCompl+ IbPresDis- LLActRep+
+[Sun Jun 18 16:15:48 2023] pcieport 0000:00:17.0: PME: Signaling with IRQ 40
+[Sun Jun 18 16:15:48 2023] pcieport 0000:00:17.0: pciehp: Slot #224 AttnBtn+ PwrCtrl+ MRL- AttnInd- PwrInd- HotPlug+ Surprise- Interlock- NoCompl+ IbPresDis- LLActRep+
+[Sun Jun 18 16:15:48 2023] pcieport 0000:00:17.1: PME: Signaling with IRQ 41
+[Sun Jun 18 16:15:48 2023] pcieport 0000:00:17.1: pciehp: Slot #225 AttnBtn+ PwrCtrl+ MRL- AttnInd- PwrInd- HotPlug+ Surprise- Interlock- NoCompl+ IbPresDis- LLActRep+
+[Sun Jun 18 16:15:48 2023] pcieport 0000:00:17.2: PME: Signaling with IRQ 42
+[Sun Jun 18 16:15:48 2023] pcieport 0000:00:17.2: pciehp: Slot #226 AttnBtn+ PwrCtrl+ MRL- AttnInd- PwrInd- HotPlug+ Surprise- Interlock- NoCompl+ IbPresDis- LLActRep+
+[Sun Jun 18 16:15:48 2023] pcieport 0000:00:17.3: PME: Signaling with IRQ 43
+[Sun Jun 18 16:15:48 2023] pcieport 0000:00:17.3: pciehp: Slot #227 AttnBtn+ PwrCtrl+ MRL- AttnInd- PwrInd- HotPlug+ Surprise- Interlock- NoCompl+ IbPresDis- LLActRep+
+[Sun Jun 18 16:15:48 2023] pcieport 0000:00:17.4: PME: Signaling with IRQ 44
+[Sun Jun 18 16:15:48 2023] pcieport 0000:00:17.4: pciehp: Slot #228 AttnBtn+ PwrCtrl+ MRL- AttnInd- PwrInd- HotPlug+ Surprise- Interlock- NoCompl+ IbPresDis- LLActRep+
+[Sun Jun 18 16:15:48 2023] pcieport 0000:00:17.5: PME: Signaling with IRQ 45
+[Sun Jun 18 16:15:48 2023] pcieport 0000:00:17.5: pciehp: Slot #229 AttnBtn+ PwrCtrl+ MRL- AttnInd- PwrInd- HotPlug+ Surprise- Interlock- NoCompl+ IbPresDis- LLActRep+
+[Sun Jun 18 16:15:48 2023] pcieport 0000:00:17.6: PME: Signaling with IRQ 46
+[Sun Jun 18 16:15:48 2023] pcieport 0000:00:17.6: pciehp: Slot #230 AttnBtn+ PwrCtrl+ MRL- AttnInd- PwrInd- HotPlug+ Surprise- Interlock- NoCompl+ IbPresDis- LLActRep+
+[Sun Jun 18 16:15:48 2023] pcieport 0000:00:17.7: PME: Signaling with IRQ 47
+[Sun Jun 18 16:15:48 2023] pcieport 0000:00:17.7: pciehp: Slot #231 AttnBtn+ PwrCtrl+ MRL- AttnInd- PwrInd- HotPlug+ Surprise- Interlock- NoCompl+ IbPresDis- LLActRep+
+[Sun Jun 18 16:15:48 2023] pcieport 0000:00:18.0: PME: Signaling with IRQ 48
+[Sun Jun 18 16:15:48 2023] pcieport 0000:00:18.0: pciehp: Slot #256 AttnBtn+ PwrCtrl+ MRL- AttnInd- PwrInd- HotPlug+ Surprise- Interlock- NoCompl+ IbPresDis- LLActRep+
+[Sun Jun 18 16:15:48 2023] pcieport 0000:00:18.1: PME: Signaling with IRQ 49
+[Sun Jun 18 16:15:48 2023] pcieport 0000:00:18.1: pciehp: Slot #257 AttnBtn+ PwrCtrl+ MRL- AttnInd- PwrInd- HotPlug+ Surprise- Interlock- NoCompl+ IbPresDis- LLActRep+
+[Sun Jun 18 16:15:48 2023] pcieport 0000:00:18.2: PME: Signaling with IRQ 50
+[Sun Jun 18 16:15:48 2023] pcieport 0000:00:18.2: pciehp: Slot #258 AttnBtn+ PwrCtrl+ MRL- AttnInd- PwrInd- HotPlug+ Surprise- Interlock- NoCompl+ IbPresDis- LLActRep+
+[Sun Jun 18 16:15:48 2023] pcieport 0000:00:18.3: PME: Signaling with IRQ 51
+[Sun Jun 18 16:15:48 2023] pcieport 0000:00:18.3: pciehp: Slot #259 AttnBtn+ PwrCtrl+ MRL- AttnInd- PwrInd- HotPlug+ Surprise- Interlock- NoCompl+ IbPresDis- LLActRep+
+[Sun Jun 18 16:15:48 2023] pcieport 0000:00:18.4: PME: Signaling with IRQ 52
+[Sun Jun 18 16:15:48 2023] pcieport 0000:00:18.4: pciehp: Slot #260 AttnBtn+ PwrCtrl+ MRL- AttnInd- PwrInd- HotPlug+ Surprise- Interlock- NoCompl+ IbPresDis- LLActRep+
+[Sun Jun 18 16:15:48 2023] pcieport 0000:00:18.5: PME: Signaling with IRQ 53
+[Sun Jun 18 16:15:48 2023] pcieport 0000:00:18.5: pciehp: Slot #261 AttnBtn+ PwrCtrl+ MRL- AttnInd- PwrInd- HotPlug+ Surprise- Interlock- NoCompl+ IbPresDis- LLActRep+
+[Sun Jun 18 16:15:48 2023] pcieport 0000:00:18.6: PME: Signaling with IRQ 54
+[Sun Jun 18 16:15:48 2023] pcieport 0000:00:18.6: pciehp: Slot #262 AttnBtn+ PwrCtrl+ MRL- AttnInd- PwrInd- HotPlug+ Surprise- Interlock- NoCompl+ IbPresDis- LLActRep+
+[Sun Jun 18 16:15:48 2023] pcieport 0000:00:18.7: PME: Signaling with IRQ 55
+[Sun Jun 18 16:15:48 2023] pcieport 0000:00:18.7: pciehp: Slot #263 AttnBtn+ PwrCtrl+ MRL- AttnInd- PwrInd- HotPlug+ Surprise- Interlock- NoCompl+ IbPresDis- LLActRep+
+[Sun Jun 18 16:15:48 2023] shpchp: Standard Hot Plug PCI Controller Driver version: 0.4
+[Sun Jun 18 16:15:48 2023] ACPI: AC: AC Adapter [ACAD] (on-line)
+[Sun Jun 18 16:15:48 2023] input: Power Button as /devices/LNXSYSTM:00/LNXPWRBN:00/input/input0
+[Sun Jun 18 16:15:48 2023] ACPI: button: Power Button [PWRF]
+[Sun Jun 18 16:15:48 2023] Serial: 8250/16550 driver, 32 ports, IRQ sharing enabled
+[Sun Jun 18 16:15:48 2023] 00:05: ttyS0 at I/O 0x3f8 (irq = 4, base_baud = 115200) is a 16550A
+[Sun Jun 18 16:15:48 2023] Linux agpgart interface v0.103
+[Sun Jun 18 16:15:48 2023] agpgart-intel 0000:00:00.0: Intel 440BX Chipset
+[Sun Jun 18 16:15:48 2023] agpgart-intel 0000:00:00.0: AGP aperture is 256M @ 0x0
+[Sun Jun 18 16:15:48 2023] loop: module loaded
+[Sun Jun 18 16:15:48 2023] ata_piix 0000:00:07.1: version 2.13
+[Sun Jun 18 16:15:48 2023] scsi host0: ata_piix
+[Sun Jun 18 16:15:48 2023] scsi host1: ata_piix
+[Sun Jun 18 16:15:48 2023] ata1: PATA max UDMA/33 cmd 0x1f0 ctl 0x3f6 bmdma 0x2150 irq 14
+[Sun Jun 18 16:15:48 2023] ata2: PATA max UDMA/33 cmd 0x170 ctl 0x376 bmdma 0x2158 irq 15
+[Sun Jun 18 16:15:48 2023] tun: Universal TUN/TAP device driver, 1.6
+[Sun Jun 18 16:15:48 2023] PPP generic driver version 2.4.2
+[Sun Jun 18 16:15:48 2023] VFIO - User Level meta-driver version: 0.3
+[Sun Jun 18 16:15:48 2023] ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+[Sun Jun 18 16:15:48 2023] ehci-pci: EHCI PCI platform driver
+[Sun Jun 18 16:15:48 2023] ehci-pci 0000:02:03.0: EHCI Host Controller
+[Sun Jun 18 16:15:48 2023] ehci-pci 0000:02:03.0: new USB bus registered, assigned bus number 1
+[Sun Jun 18 16:15:48 2023] ehci-pci 0000:02:03.0: irq 17, io mem 0xfc051000
+[Sun Jun 18 16:15:48 2023] ehci-pci 0000:02:03.0: USB 2.0 started, EHCI 1.00
+[Sun Jun 18 16:15:48 2023] usb usb1: New USB device found, idVendor=1d6b, idProduct=0002, bcdDevice= 5.15
+[Sun Jun 18 16:15:48 2023] usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[Sun Jun 18 16:15:48 2023] usb usb1: Product: EHCI Host Controller
+[Sun Jun 18 16:15:48 2023] usb usb1: Manufacturer: Linux 5.15.0-75-generic ehci_hcd
+[Sun Jun 18 16:15:48 2023] usb usb1: SerialNumber: 0000:02:03.0
+[Sun Jun 18 16:15:48 2023] hub 1-0:1.0: USB hub found
+[Sun Jun 18 16:15:48 2023] hub 1-0:1.0: 6 ports detected
+[Sun Jun 18 16:15:48 2023] ehci-platform: EHCI generic platform driver
+[Sun Jun 18 16:15:48 2023] ohci_hcd: USB 1.1 'Open' Host Controller (OHCI) Driver
+[Sun Jun 18 16:15:48 2023] ohci-pci: OHCI PCI platform driver
+[Sun Jun 18 16:15:48 2023] ohci-platform: OHCI generic platform driver
+[Sun Jun 18 16:15:48 2023] uhci_hcd: USB Universal Host Controller Interface driver
+[Sun Jun 18 16:15:48 2023] uhci_hcd 0000:02:00.0: UHCI Host Controller
+[Sun Jun 18 16:15:48 2023] uhci_hcd 0000:02:00.0: new USB bus registered, assigned bus number 2
+[Sun Jun 18 16:15:48 2023] uhci_hcd 0000:02:00.0: detected 2 ports
+[Sun Jun 18 16:15:48 2023] uhci_hcd 0000:02:00.0: irq 18, io base 0x00001080
+[Sun Jun 18 16:15:48 2023] usb usb2: New USB device found, idVendor=1d6b, idProduct=0001, bcdDevice= 5.15
+[Sun Jun 18 16:15:48 2023] usb usb2: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[Sun Jun 18 16:15:48 2023] usb usb2: Product: UHCI Host Controller
+[Sun Jun 18 16:15:48 2023] usb usb2: Manufacturer: Linux 5.15.0-75-generic uhci_hcd
+[Sun Jun 18 16:15:48 2023] usb usb2: SerialNumber: 0000:02:00.0
+[Sun Jun 18 16:15:48 2023] hub 2-0:1.0: USB hub found
+[Sun Jun 18 16:15:48 2023] hub 2-0:1.0: 2 ports detected
+[Sun Jun 18 16:15:48 2023] i8042: PNP: PS/2 Controller [PNP0303:KBC,PNP0f13:MOUS] at 0x60,0x64 irq 1,12
+[Sun Jun 18 16:15:48 2023] serio: i8042 KBD port at 0x60,0x64 irq 1
+[Sun Jun 18 16:15:48 2023] serio: i8042 AUX port at 0x60,0x64 irq 12
+[Sun Jun 18 16:15:48 2023] mousedev: PS/2 mouse device common for all mice
+[Sun Jun 18 16:15:48 2023] rtc_cmos 00:01: registered as rtc0
+[Sun Jun 18 16:15:48 2023] rtc_cmos 00:01: setting system clock to 2023-06-18T15:47:44 UTC (1687103264)
+[Sun Jun 18 16:15:48 2023] rtc_cmos 00:01: alarms up to one month, y3k, 242 bytes nvram
+[Sun Jun 18 16:15:48 2023] i2c_dev: i2c /dev entries driver
+[Sun Jun 18 16:15:48 2023] device-mapper: core: CONFIG_IMA_DISABLE_HTABLE is disabled. Duplicate IMA measurements will not be recorded in the IMA log.
+[Sun Jun 18 16:15:48 2023] device-mapper: uevent: version 1.0.3
+[Sun Jun 18 16:15:48 2023] device-mapper: ioctl: 4.45.0-ioctl (2021-03-22) initialised: dm-devel@redhat.com
+[Sun Jun 18 16:15:48 2023] platform eisa.0: Probing EISA bus 0
+[Sun Jun 18 16:15:48 2023] platform eisa.0: EISA: Cannot allocate resource for mainboard
+[Sun Jun 18 16:15:48 2023] platform eisa.0: Cannot allocate resource for EISA slot 1
+[Sun Jun 18 16:15:48 2023] platform eisa.0: Cannot allocate resource for EISA slot 2
+[Sun Jun 18 16:15:48 2023] platform eisa.0: Cannot allocate resource for EISA slot 3
+[Sun Jun 18 16:15:48 2023] platform eisa.0: Cannot allocate resource for EISA slot 4
+[Sun Jun 18 16:15:48 2023] platform eisa.0: Cannot allocate resource for EISA slot 5
+[Sun Jun 18 16:15:48 2023] platform eisa.0: Cannot allocate resource for EISA slot 6
+[Sun Jun 18 16:15:48 2023] platform eisa.0: Cannot allocate resource for EISA slot 7
+[Sun Jun 18 16:15:48 2023] platform eisa.0: Cannot allocate resource for EISA slot 8
+[Sun Jun 18 16:15:48 2023] platform eisa.0: EISA: Detected 0 cards
+[Sun Jun 18 16:15:48 2023] intel_pstate: CPU model not supported
+[Sun Jun 18 16:15:48 2023] ledtrig-cpu: registered to indicate activity on CPUs
+[Sun Jun 18 16:15:48 2023] efifb: probing for efifb
+[Sun Jun 18 16:15:48 2023] efifb: No BGRT, not showing boot graphics
+[Sun Jun 18 16:15:48 2023] efifb: framebuffer at 0xf0000000, using 3072k, total 3072k
+[Sun Jun 18 16:15:48 2023] efifb: mode is 1024x768x32, linelength=4096, pages=1
+[Sun Jun 18 16:15:48 2023] efifb: scrolling: redraw
+[Sun Jun 18 16:15:48 2023] efifb: Truecolor: size=8:8:8:8, shift=24:16:8:0
+[Sun Jun 18 16:15:48 2023] Console: switching to colour frame buffer device 128x48
+[Sun Jun 18 16:15:48 2023] fb0: EFI VGA frame buffer device
+[Sun Jun 18 16:15:48 2023] EFI Variables Facility v0.08 2004-May-17
+[Sun Jun 18 16:15:48 2023] drop_monitor: Initializing network drop monitor service
+[Sun Jun 18 16:15:48 2023] NET: Registered PF_INET6 protocol family
+[Sun Jun 18 16:15:48 2023] input: AT Translated Set 2 keyboard as /devices/platform/i8042/serio0/input/input1
+[Sun Jun 18 16:15:48 2023] usb 2-1: new full-speed USB device number 2 using uhci_hcd
+[Sun Jun 18 16:15:48 2023] usb 2-1: New USB device found, idVendor=0e0f, idProduct=0003, bcdDevice= 1.03
+[Sun Jun 18 16:15:48 2023] usb 2-1: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[Sun Jun 18 16:15:48 2023] usb 2-1: Product: VMware Virtual USB Mouse
+[Sun Jun 18 16:15:48 2023] usb 2-1: Manufacturer: VMware
+[Sun Jun 18 16:15:49 2023] usb 2-2: new full-speed USB device number 3 using uhci_hcd
+[Sun Jun 18 16:15:49 2023] usb 2-2: New USB device found, idVendor=0e0f, idProduct=0002, bcdDevice= 1.00
+[Sun Jun 18 16:15:49 2023] usb 2-2: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[Sun Jun 18 16:15:49 2023] usb 2-2: Product: VMware Virtual USB Hub
+[Sun Jun 18 16:15:49 2023] usb 2-2: Manufacturer: VMware, Inc.
+[Sun Jun 18 16:15:49 2023] hub 2-2:1.0: USB hub found
+[Sun Jun 18 16:15:49 2023] hub 2-2:1.0: 7 ports detected
+[Sun Jun 18 16:15:49 2023] usb 2-2.1: new full-speed USB device number 4 using uhci_hcd
+[Sun Jun 18 16:15:49 2023] usb 2-2.1: New USB device found, idVendor=0e0f, idProduct=0008, bcdDevice= 1.00
+[Sun Jun 18 16:15:49 2023] usb 2-2.1: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[Sun Jun 18 16:15:49 2023] usb 2-2.1: Product: Virtual Bluetooth Adapter
+[Sun Jun 18 16:15:49 2023] usb 2-2.1: Manufacturer: VMware
+[Sun Jun 18 16:15:49 2023] usb 2-2.1: SerialNumber: 000650268328
+[Sun Jun 18 16:15:50 2023] Freeing initrd memory: 107924K
+[Sun Jun 18 16:15:50 2023] Segment Routing with IPv6
+[Sun Jun 18 16:15:50 2023] In-situ OAM (IOAM) with IPv6
+[Sun Jun 18 16:15:50 2023] NET: Registered PF_PACKET protocol family
+[Sun Jun 18 16:15:50 2023] Key type dns_resolver registered
+[Sun Jun 18 16:15:50 2023] IPI shorthand broadcast: enabled
+[Sun Jun 18 16:15:50 2023] sched_clock: Marking stable (6125817696, 4227341)->(6132938852, -2893815)
+[Sun Jun 18 16:15:50 2023] registered taskstats version 1
+[Sun Jun 18 16:15:50 2023] Loading compiled-in X.509 certificates
+[Sun Jun 18 16:15:50 2023] Loaded X.509 cert 'Build time autogenerated kernel key: acd0201aea49cb68f63071af9eed0e832d3fd5b7'
+[Sun Jun 18 16:15:50 2023] Loaded X.509 cert 'Canonical Ltd. Live Patch Signing: 14df34d1a87cf37625abec039ef2bf521249b969'
+[Sun Jun 18 16:15:50 2023] Loaded X.509 cert 'Canonical Ltd. Kernel Module Signing: 88f752e560a1e0737e31163a466ad7b70a850c19'
+[Sun Jun 18 16:15:50 2023] blacklist: Loading compiled-in revocation X.509 certificates
+[Sun Jun 18 16:15:50 2023] Loaded X.509 cert 'Canonical Ltd. Secure Boot Signing: 61482aa2830d0ab2ad5af10b7250da9033ddcef0'
+[Sun Jun 18 16:15:50 2023] Loaded X.509 cert 'Canonical Ltd. Secure Boot Signing (2017): 242ade75ac4a15e50d50c84b0d45ff3eae707a03'
+[Sun Jun 18 16:15:50 2023] Loaded X.509 cert 'Canonical Ltd. Secure Boot Signing (ESM 2018): 365188c1d374d6b07c3c8f240f8ef722433d6a8b'
+[Sun Jun 18 16:15:50 2023] Loaded X.509 cert 'Canonical Ltd. Secure Boot Signing (2019): c0746fd6c5da3ae827864651ad66ae47fe24b3e8'
+[Sun Jun 18 16:15:50 2023] Loaded X.509 cert 'Canonical Ltd. Secure Boot Signing (2021 v1): a8d54bbb3825cfb94fa13c9f8a594a195c107b8d'
+[Sun Jun 18 16:15:50 2023] Loaded X.509 cert 'Canonical Ltd. Secure Boot Signing (2021 v2): 4cf046892d6fd3c9a5b03f98d845f90851dc6a8c'
+[Sun Jun 18 16:15:50 2023] Loaded X.509 cert 'Canonical Ltd. Secure Boot Signing (2021 v3): 100437bb6de6e469b581e61cd66bce3ef4ed53af'
+[Sun Jun 18 16:15:50 2023] Loaded X.509 cert 'Canonical Ltd. Secure Boot Signing (Ubuntu Core 2019): c1d57b8f6b743f23ee41f4f7ee292f06eecadfb9'
+[Sun Jun 18 16:15:50 2023] zswap: loaded using pool lzo/zbud
+[Sun Jun 18 16:15:50 2023] Key type .fscrypt registered
+[Sun Jun 18 16:15:50 2023] Key type fscrypt-provisioning registered
+[Sun Jun 18 16:15:50 2023] Key type encrypted registered
+[Sun Jun 18 16:15:50 2023] AppArmor: AppArmor sha1 policy hashing enabled
+[Sun Jun 18 16:15:50 2023] integrity: Loading X.509 certificate: UEFI:db
+[Sun Jun 18 16:15:50 2023] integrity: Loaded X.509 cert 'VMware, Inc.: 4ad8ba0472073d28127706ddc6ccb9050441bbc7'
+[Sun Jun 18 16:15:50 2023] integrity: Loading X.509 certificate: UEFI:db
+[Sun Jun 18 16:15:50 2023] integrity: Loaded X.509 cert 'VMware, Inc.: VMware Secure Boot Signing: 04597f3e1ffb240bba0ff0f05d5eb05f3e15f6d7'
+[Sun Jun 18 16:15:50 2023] integrity: Loading X.509 certificate: UEFI:db
+[Sun Jun 18 16:15:50 2023] integrity: Loaded X.509 cert 'Microsoft Corporation UEFI CA 2011: 13adbf4309bd82709c8cd54f316ed522988a1bd4'
+[Sun Jun 18 16:15:50 2023] integrity: Loading X.509 certificate: UEFI:db
+[Sun Jun 18 16:15:50 2023] integrity: Loaded X.509 cert 'Microsoft Windows Production PCA 2011: a92902398e16c49778cd90f99e4f9ae17c55af53'
+[Sun Jun 18 16:15:50 2023] integrity: Revoking X.509 certificate: UEFI:dbx
+[Sun Jun 18 16:15:50 2023] blacklist: Revoked X.509 cert 'Debian Secure Boot Signer: 00a7468def'
+[Sun Jun 18 16:15:50 2023] integrity: Loading X.509 certificate: UEFI:MokListRT (MOKvar table)
+[Sun Jun 18 16:15:50 2023] integrity: Loaded X.509 cert 'Canonical Ltd. Master Certificate Authority: ad91990bc22ab1f517048c23b6655a268e345a63'
+[Sun Jun 18 16:15:50 2023] ima: No TPM chip found, activating TPM-bypass!
+[Sun Jun 18 16:15:50 2023] Loading compiled-in module X.509 certificates
+[Sun Jun 18 16:15:50 2023] Loaded X.509 cert 'Build time autogenerated kernel key: acd0201aea49cb68f63071af9eed0e832d3fd5b7'
+[Sun Jun 18 16:15:50 2023] ima: Allocated hash algorithm: sha1
+[Sun Jun 18 16:15:50 2023] ima: No architecture policies found
+[Sun Jun 18 16:15:50 2023] evm: Initialising EVM extended attributes:
+[Sun Jun 18 16:15:50 2023] evm: security.selinux
+[Sun Jun 18 16:15:50 2023] evm: security.SMACK64
+[Sun Jun 18 16:15:50 2023] evm: security.SMACK64EXEC
+[Sun Jun 18 16:15:50 2023] evm: security.SMACK64TRANSMUTE
+[Sun Jun 18 16:15:50 2023] evm: security.SMACK64MMAP
+[Sun Jun 18 16:15:50 2023] evm: security.apparmor
+[Sun Jun 18 16:15:50 2023] evm: security.ima
+[Sun Jun 18 16:15:50 2023] evm: security.capability
+[Sun Jun 18 16:15:50 2023] evm: HMAC attrs: 0x1
+[Sun Jun 18 16:15:50 2023] PM:   Magic number: 11:180:791
+[Sun Jun 18 16:15:50 2023] RAS: Correctable Errors collector initialized.
+[Sun Jun 18 16:15:50 2023] Freeing unused decrypted memory: 2036K
+[Sun Jun 18 16:15:50 2023] Freeing unused kernel image (initmem) memory: 3248K
+[Sun Jun 18 16:15:51 2023] Write protecting the kernel read-only data: 30720k
+[Sun Jun 18 16:15:51 2023] Freeing unused kernel image (text/rodata gap) memory: 2036K
+[Sun Jun 18 16:15:51 2023] Freeing unused kernel image (rodata/data gap) memory: 1444K
+[Sun Jun 18 16:15:51 2023] x86/mm: Checked W+X mappings: passed, no W+X pages found.
+[Sun Jun 18 16:15:51 2023] x86/mm: Checking user space page tables
+[Sun Jun 18 16:15:51 2023] x86/mm: Checked W+X mappings: passed, no W+X pages found.
+[Sun Jun 18 16:15:51 2023] Run /init as init process
+[Sun Jun 18 16:15:51 2023]   with arguments:
+[Sun Jun 18 16:15:51 2023]     /init
+[Sun Jun 18 16:15:51 2023]   with environment:
+[Sun Jun 18 16:15:51 2023]     HOME=/
+[Sun Jun 18 16:15:51 2023]     TERM=linux
+[Sun Jun 18 16:15:51 2023]     BOOT_IMAGE=/vmlinuz-5.15.0-75-generic
+[Sun Jun 18 16:15:51 2023] e1000: Intel(R) PRO/1000 Network Driver
+[Sun Jun 18 16:15:51 2023] e1000: Copyright (c) 1999-2006 Intel Corporation.
+[Sun Jun 18 16:15:51 2023] e1000 0000:02:01.0: enabling device (0110 -> 0113)
+[Sun Jun 18 16:15:51 2023] cryptd: max_cpu_qlen set to 1000
+[Sun Jun 18 16:15:51 2023] Fusion MPT base driver 3.04.20
+[Sun Jun 18 16:15:51 2023] ahci 0000:02:04.0: version 3.0
+[Sun Jun 18 16:15:51 2023] Copyright (c) 1999-2008 LSI Corporation
+[Sun Jun 18 16:15:51 2023] hid: raw HID events driver (C) Jiri Kosina
+[Sun Jun 18 16:15:51 2023] ahci 0000:02:04.0: AHCI 0001.0300 32 slots 30 ports 6 Gbps 0x3fffffff impl SATA mode
+[Sun Jun 18 16:15:51 2023] ahci 0000:02:04.0: flags: 64bit ncq clo only 
+[Sun Jun 18 16:15:51 2023] input: VirtualPS/2 VMware VMMouse as /devices/platform/i8042/serio1/input/input4
+[Sun Jun 18 16:15:51 2023] piix4_smbus 0000:00:07.3: SMBus base address uninitialized - upgrade BIOS or use force_addr=0xaddr
+[Sun Jun 18 16:15:51 2023] AVX2 version of gcm_enc/dec engaged.
+[Sun Jun 18 16:15:51 2023] AES CTR mode by8 optimization enabled
+[Sun Jun 18 16:15:51 2023] Fusion MPT SPI Host driver 3.04.20
+[Sun Jun 18 16:15:51 2023] input: VirtualPS/2 VMware VMMouse as /devices/platform/i8042/serio1/input/input3
+[Sun Jun 18 16:15:51 2023] mptbase: ioc0: Initiating bringup
+[Sun Jun 18 16:15:51 2023] usbcore: registered new interface driver usbhid
+[Sun Jun 18 16:15:51 2023] usbhid: USB HID core driver
+[Sun Jun 18 16:15:51 2023] scsi host2: ahci
+[Sun Jun 18 16:15:51 2023] scsi host3: ahci
+[Sun Jun 18 16:15:51 2023] scsi host4: ahci
+[Sun Jun 18 16:15:51 2023] input: VMware VMware Virtual USB Mouse as /devices/pci0000:00/0000:00:11.0/0000:02:00.0/usb2/2-1/2-1:1.0/0003:0E0F:0003.0001/input/input5
+[Sun Jun 18 16:15:51 2023] ioc0: LSI53C1030 B0: Capabilities={Initiator}
+[Sun Jun 18 16:15:51 2023] scsi host5: ahci
+[Sun Jun 18 16:15:51 2023] hid-generic 0003:0E0F:0003.0001: input,hidraw0: USB HID v1.10 Mouse [VMware VMware Virtual USB Mouse] on usb-0000:02:00.0-1/input0
+[Sun Jun 18 16:15:51 2023] scsi host6: ahci
+[Sun Jun 18 16:15:51 2023] scsi host7: ahci
+[Sun Jun 18 16:15:51 2023] e1000 0000:02:01.0 eth0: (PCI:66MHz:32-bit) 00:0c:29:4d:31:f5
+[Sun Jun 18 16:15:51 2023] scsi host8: ahci
+[Sun Jun 18 16:15:51 2023] e1000 0000:02:01.0 eth0: Intel(R) PRO/1000 Network Connection
+[Sun Jun 18 16:15:51 2023] scsi host9: ahci
+[Sun Jun 18 16:15:51 2023] scsi host10: ahci
+[Sun Jun 18 16:15:51 2023] e1000 0000:02:01.0 ens33: renamed from eth0
+[Sun Jun 18 16:15:51 2023] scsi host11: ahci
+[Sun Jun 18 16:15:52 2023] Console: switching to colour dummy device 80x25
+[Sun Jun 18 16:15:52 2023] vmwgfx 0000:00:0f.0: vgaarb: deactivate vga console
+[Sun Jun 18 16:15:52 2023] scsi host12: ahci
+[Sun Jun 18 16:15:52 2023] [TTM] Zone  kernel: Available graphics memory: 2457206 KiB
+[Sun Jun 18 16:15:52 2023] [TTM] Zone   dma32: Available graphics memory: 2097152 KiB
+[Sun Jun 18 16:15:52 2023] vmwgfx 0000:00:0f.0: [drm] FIFO at 0x00000000fb800000 size is 8192 kiB
+[Sun Jun 18 16:15:52 2023] vmwgfx 0000:00:0f.0: [drm] VRAM at 0x00000000f0000000 size is 131072 kiB
+[Sun Jun 18 16:15:52 2023] scsi host13: ahci
+[Sun Jun 18 16:15:52 2023] vmwgfx 0000:00:0f.0: [drm] Running on SVGA version 2.
+[Sun Jun 18 16:15:52 2023] vmwgfx 0000:00:0f.0: [drm] DMA map mode: Caching DMA mappings.
+[Sun Jun 18 16:15:52 2023] vmwgfx 0000:00:0f.0: [drm] Legacy memory limits: VRAM = 4096 kB, FIFO = 256 kB, surface = 0 kB
+[Sun Jun 18 16:15:52 2023] vmwgfx 0000:00:0f.0: [drm] MOB limits: max mob size = 1048576 kB, max mob pages = 2097152
+[Sun Jun 18 16:15:52 2023] vmwgfx 0000:00:0f.0: [drm] Capabilities: rect copy, cursor, cursor bypass, cursor bypass 2, 8bit emulation, alpha cursor, 3D, extended fifo, multimon, pitchlock, irq mask, display topology, gmr, traces, gmr2, screen object 2, command buffers, command buffers 2, gbobject, dx, hp cmd queue, no bb restriction, cap2 register, 
+[Sun Jun 18 16:15:52 2023] vmwgfx 0000:00:0f.0: [drm] Capabilities2: grow otable, intra surface copy, dx2, gb memsize 2, screendma reg, otable ptdepth2, non ms to ms stretchblt, cursor mob, mshint, cb max size 4mb, dx3, frame type, trace full fb, extra regs, lo staging, 
+[Sun Jun 18 16:15:52 2023] vmwgfx 0000:00:0f.0: [drm] Max GMR ids is 64
+[Sun Jun 18 16:15:52 2023] vmwgfx 0000:00:0f.0: [drm] Max number of GMR pages is 65536
+[Sun Jun 18 16:15:52 2023] vmwgfx 0000:00:0f.0: [drm] Maximum display memory size is 262144 kiB
+[Sun Jun 18 16:15:52 2023] scsi host14: ahci
+[Sun Jun 18 16:15:52 2023] scsi host15: ahci
+[Sun Jun 18 16:15:52 2023] scsi host16: ahci
+[Sun Jun 18 16:15:52 2023] scsi host17: ahci
+[Sun Jun 18 16:15:52 2023] scsi host18: ahci
+[Sun Jun 18 16:15:52 2023] scsi host19: ahci
+[Sun Jun 18 16:15:52 2023] scsi host20: ahci
+[Sun Jun 18 16:15:52 2023] scsi host21: ahci
+[Sun Jun 18 16:15:52 2023] scsi host22: ahci
+[Sun Jun 18 16:15:52 2023] scsi host23: ahci
+[Sun Jun 18 16:15:52 2023] scsi host24: ahci
+[Sun Jun 18 16:15:52 2023] scsi host25: ahci
+[Sun Jun 18 16:15:52 2023] vmwgfx 0000:00:0f.0: [drm] Screen Target display unit initialized
+[Sun Jun 18 16:15:52 2023] scsi host26: ahci
+[Sun Jun 18 16:15:52 2023] scsi host27: ahci
+[Sun Jun 18 16:15:52 2023] scsi host28: ahci
+[Sun Jun 18 16:15:52 2023] scsi host29: ahci
+[Sun Jun 18 16:15:52 2023] scsi host30: ahci
+[Sun Jun 18 16:15:52 2023] vmwgfx 0000:00:0f.0: [drm] Fifo max 0x00040000 min 0x00001000 cap 0x0000077f
+[Sun Jun 18 16:15:52 2023] scsi host31: ahci
+[Sun Jun 18 16:15:52 2023] ata3: SATA max UDMA/133 abar m4096@0xfc050000 port 0xfc050100 irq 56
+[Sun Jun 18 16:15:52 2023] ata4: SATA max UDMA/133 abar m4096@0xfc050000 port 0xfc050180 irq 56
+[Sun Jun 18 16:15:52 2023] ata5: SATA max UDMA/133 abar m4096@0xfc050000 port 0xfc050200 irq 56
+[Sun Jun 18 16:15:52 2023] ata6: SATA max UDMA/133 abar m4096@0xfc050000 port 0xfc050280 irq 56
+[Sun Jun 18 16:15:52 2023] ata7: SATA max UDMA/133 abar m4096@0xfc050000 port 0xfc050300 irq 56
+[Sun Jun 18 16:15:52 2023] ata8: SATA max UDMA/133 abar m4096@0xfc050000 port 0xfc050380 irq 56
+[Sun Jun 18 16:15:52 2023] ata9: SATA max UDMA/133 abar m4096@0xfc050000 port 0xfc050400 irq 56
+[Sun Jun 18 16:15:52 2023] ata10: SATA max UDMA/133 abar m4096@0xfc050000 port 0xfc050480 irq 56
+[Sun Jun 18 16:15:52 2023] ata11: SATA max UDMA/133 abar m4096@0xfc050000 port 0xfc050500 irq 56
+[Sun Jun 18 16:15:52 2023] ata12: SATA max UDMA/133 abar m4096@0xfc050000 port 0xfc050580 irq 56
+[Sun Jun 18 16:15:52 2023] ata13: SATA max UDMA/133 abar m4096@0xfc050000 port 0xfc050600 irq 56
+[Sun Jun 18 16:15:52 2023] ata14: SATA max UDMA/133 abar m4096@0xfc050000 port 0xfc050680 irq 56
+[Sun Jun 18 16:15:52 2023] ata15: SATA max UDMA/133 abar m4096@0xfc050000 port 0xfc050700 irq 56
+[Sun Jun 18 16:15:52 2023] ata16: SATA max UDMA/133 abar m4096@0xfc050000 port 0xfc050780 irq 56
+[Sun Jun 18 16:15:52 2023] ata17: SATA max UDMA/133 abar m4096@0xfc050000 port 0xfc050800 irq 56
+[Sun Jun 18 16:15:52 2023] ata18: SATA max UDMA/133 abar m4096@0xfc050000 port 0xfc050880 irq 56
+[Sun Jun 18 16:15:52 2023] ata19: SATA max UDMA/133 abar m4096@0xfc050000 port 0xfc050900 irq 56
+[Sun Jun 18 16:15:52 2023] ata20: SATA max UDMA/133 abar m4096@0xfc050000 port 0xfc050980 irq 56
+[Sun Jun 18 16:15:52 2023] ata21: SATA max UDMA/133 abar m4096@0xfc050000 port 0xfc050a00 irq 56
+[Sun Jun 18 16:15:52 2023] ata22: SATA max UDMA/133 abar m4096@0xfc050000 port 0xfc050a80 irq 56
+[Sun Jun 18 16:15:52 2023] ata23: SATA max UDMA/133 abar m4096@0xfc050000 port 0xfc050b00 irq 56
+[Sun Jun 18 16:15:52 2023] ata24: SATA max UDMA/133 abar m4096@0xfc050000 port 0xfc050b80 irq 56
+[Sun Jun 18 16:15:52 2023] ata25: SATA max UDMA/133 abar m4096@0xfc050000 port 0xfc050c00 irq 56
+[Sun Jun 18 16:15:52 2023] ata26: SATA max UDMA/133 abar m4096@0xfc050000 port 0xfc050c80 irq 56
+[Sun Jun 18 16:15:52 2023] ata27: SATA max UDMA/133 abar m4096@0xfc050000 port 0xfc050d00 irq 56
+[Sun Jun 18 16:15:52 2023] ata28: SATA max UDMA/133 abar m4096@0xfc050000 port 0xfc050d80 irq 56
+[Sun Jun 18 16:15:52 2023] ata29: SATA max UDMA/133 abar m4096@0xfc050000 port 0xfc050e00 irq 56
+[Sun Jun 18 16:15:52 2023] ata30: SATA max UDMA/133 abar m4096@0xfc050000 port 0xfc050e80 irq 56
+[Sun Jun 18 16:15:52 2023] ata31: SATA max UDMA/133 abar m4096@0xfc050000 port 0xfc050f00 irq 56
+[Sun Jun 18 16:15:52 2023] ata32: SATA max UDMA/133 abar m4096@0xfc050000 port 0xfc050f80 irq 56
+[Sun Jun 18 16:15:52 2023] vmwgfx 0000:00:0f.0: [drm] Using command buffers with DMA pool.
+[Sun Jun 18 16:15:52 2023] vmwgfx 0000:00:0f.0: [drm] Available shader model: SM_5.
+[Sun Jun 18 16:15:52 2023] scsi host32: ioc0: LSI53C1030 B0, FwRev=01032920h, Ports=1, MaxQ=128, IRQ=17
+[Sun Jun 18 16:15:52 2023] fbcon: svgadrmfb (fb0) is primary device
+[Sun Jun 18 16:15:52 2023] Console: switching to colour frame buffer device 128x48
+[Sun Jun 18 16:15:52 2023] [drm] Initialized vmwgfx 2.19.0 20210722 for 0000:00:0f.0 on minor 0
+[Sun Jun 18 16:15:52 2023] scsi 32:0:0:0: Direct-Access     VMware,  VMware Virtual S 1.0  PQ: 0 ANSI: 2
+[Sun Jun 18 16:15:52 2023] scsi target32:0:0: Beginning Domain Validation
+[Sun Jun 18 16:15:52 2023] scsi target32:0:0: Domain Validation skipping write tests
+[Sun Jun 18 16:15:52 2023] scsi target32:0:0: Ending Domain Validation
+[Sun Jun 18 16:15:52 2023] scsi target32:0:0: FAST-40 WIDE SCSI 80.0 MB/s ST (25 ns, offset 127)
+[Sun Jun 18 16:15:52 2023] sd 32:0:0:0: [sda] 83886080 512-byte logical blocks: (42.9 GB/40.0 GiB)
+[Sun Jun 18 16:15:52 2023] sd 32:0:0:0: Attached scsi generic sg0 type 0
+[Sun Jun 18 16:15:52 2023] sd 32:0:0:0: [sda] Write Protect is off
+[Sun Jun 18 16:15:52 2023] sd 32:0:0:0: [sda] Mode Sense: 61 00 00 00
+[Sun Jun 18 16:15:52 2023] sd 32:0:0:0: [sda] Cache data unavailable
+[Sun Jun 18 16:15:52 2023] sd 32:0:0:0: [sda] Assuming drive cache: write through
+[Sun Jun 18 16:15:52 2023]  sda: sda1 sda2 sda3
+[Sun Jun 18 16:15:52 2023] sd 32:0:0:0: [sda] Attached SCSI disk
+[Sun Jun 18 16:15:52 2023] ata5: SATA link down (SStatus 0 SControl 300)
+[Sun Jun 18 16:15:52 2023] ata3: SATA link down (SStatus 0 SControl 300)
+[Sun Jun 18 16:15:52 2023] ata8: SATA link down (SStatus 0 SControl 300)
+[Sun Jun 18 16:15:52 2023] ata6: SATA link down (SStatus 0 SControl 300)
+[Sun Jun 18 16:15:52 2023] ata10: SATA link down (SStatus 0 SControl 300)
+[Sun Jun 18 16:15:52 2023] ata4: SATA link up 6.0 Gbps (SStatus 133 SControl 300)
+[Sun Jun 18 16:15:52 2023] ata4.00: ATAPI: VMware Virtual SATA CDRW Drive, 00000001, max UDMA/33
+[Sun Jun 18 16:15:52 2023] ata4.00: configured for UDMA/33
+[Sun Jun 18 16:15:52 2023] scsi 3:0:0:0: CD-ROM            NECVMWar VMware SATA CD01 1.00 PQ: 0 ANSI: 5
+[Sun Jun 18 16:15:52 2023] ata13: SATA link down (SStatus 0 SControl 300)
+[Sun Jun 18 16:15:52 2023] ata7: SATA link down (SStatus 0 SControl 300)
+[Sun Jun 18 16:15:52 2023] ata16: SATA link down (SStatus 0 SControl 300)
+[Sun Jun 18 16:15:52 2023] ata19: SATA link down (SStatus 0 SControl 300)
+[Sun Jun 18 16:15:52 2023] ata11: SATA link down (SStatus 0 SControl 300)
+[Sun Jun 18 16:15:52 2023] ata9: SATA link down (SStatus 0 SControl 300)
+[Sun Jun 18 16:15:52 2023] ata20: SATA link down (SStatus 0 SControl 300)
+[Sun Jun 18 16:15:52 2023] ata12: SATA link down (SStatus 0 SControl 300)
+[Sun Jun 18 16:15:52 2023] ata14: SATA link down (SStatus 0 SControl 300)
+[Sun Jun 18 16:15:52 2023] ata31: SATA link down (SStatus 0 SControl 300)
+[Sun Jun 18 16:15:52 2023] ata27: SATA link down (SStatus 0 SControl 300)
+[Sun Jun 18 16:15:52 2023] ata22: SATA link down (SStatus 0 SControl 300)
+[Sun Jun 18 16:15:52 2023] ata18: SATA link down (SStatus 0 SControl 300)
+[Sun Jun 18 16:15:52 2023] ata24: SATA link down (SStatus 0 SControl 300)
+[Sun Jun 18 16:15:52 2023] ata29: SATA link down (SStatus 0 SControl 300)
+[Sun Jun 18 16:15:52 2023] ata25: SATA link down (SStatus 0 SControl 300)
+[Sun Jun 18 16:15:52 2023] ata32: SATA link down (SStatus 0 SControl 300)
+[Sun Jun 18 16:15:52 2023] ata17: SATA link down (SStatus 0 SControl 300)
+[Sun Jun 18 16:15:52 2023] ata21: SATA link down (SStatus 0 SControl 300)
+[Sun Jun 18 16:15:52 2023] ata15: SATA link down (SStatus 0 SControl 300)
+[Sun Jun 18 16:15:52 2023] ata23: SATA link down (SStatus 0 SControl 300)
+[Sun Jun 18 16:15:52 2023] ata30: SATA link down (SStatus 0 SControl 300)
+[Sun Jun 18 16:15:52 2023] ata26: SATA link down (SStatus 0 SControl 300)
+[Sun Jun 18 16:15:52 2023] ata28: SATA link down (SStatus 0 SControl 300)
+[Sun Jun 18 16:15:52 2023] sr 3:0:0:0: [sr0] scsi3-mmc drive: 1x/1x writer dvd-ram cd/rw xa/form2 cdda tray
+[Sun Jun 18 16:15:52 2023] cdrom: Uniform CD-ROM driver Revision: 3.20
+[Sun Jun 18 16:15:52 2023] sr 3:0:0:0: Attached scsi CD-ROM sr0
+[Sun Jun 18 16:15:52 2023] sr 3:0:0:0: Attached scsi generic sg1 type 5
+[Sun Jun 18 16:15:52 2023] raid6: avx2x4   gen() 49955 MB/s
+[Sun Jun 18 16:15:52 2023] raid6: avx2x4   xor() 21833 MB/s
+[Sun Jun 18 16:15:53 2023] raid6: avx2x2   gen() 48211 MB/s
+[Sun Jun 18 16:15:53 2023] raid6: avx2x2   xor() 31319 MB/s
+[Sun Jun 18 16:15:53 2023] raid6: avx2x1   gen() 41825 MB/s
+[Sun Jun 18 16:15:53 2023] raid6: avx2x1   xor() 25438 MB/s
+[Sun Jun 18 16:15:53 2023] raid6: sse2x4   gen() 19377 MB/s
+[Sun Jun 18 16:15:53 2023] raid6: sse2x4   xor() 11329 MB/s
+[Sun Jun 18 16:15:53 2023] raid6: sse2x2   gen() 20442 MB/s
+[Sun Jun 18 16:15:53 2023] raid6: sse2x2   xor() 12627 MB/s
+[Sun Jun 18 16:15:53 2023] raid6: sse2x1   gen() 16735 MB/s
+[Sun Jun 18 16:15:53 2023] raid6: sse2x1   xor()  8843 MB/s
+[Sun Jun 18 16:15:53 2023] raid6: using algorithm avx2x4 gen() 49955 MB/s
+[Sun Jun 18 16:15:53 2023] raid6: .... xor() 21833 MB/s, rmw enabled
+[Sun Jun 18 16:15:53 2023] raid6: using avx2x2 recovery algorithm
+[Sun Jun 18 16:15:53 2023] xor: automatically using best checksumming function   avx       
+[Sun Jun 18 16:15:53 2023] async_tx: api initialized (async)
+[Sun Jun 18 16:15:53 2023] Btrfs loaded, crc32c=crc32c-intel, zoned=yes, fsverity=yes
+[Sun Jun 18 16:15:54 2023] EXT4-fs (dm-0): mounted filesystem with ordered data mode. Opts: (null). Quota mode: none.
+[Sun Jun 18 16:15:54 2023] systemd[1]: Inserted module 'autofs4'
+[Sun Jun 18 16:15:54 2023] systemd[1]: systemd 249.11-0ubuntu3.9 running in system mode (+PAM +AUDIT +SELINUX +APPARMOR +IMA +SMACK +SECCOMP +GCRYPT +GNUTLS +OPENSSL +ACL +BLKID +CURL +ELFUTILS +FIDO2 +IDN2 -IDN +IPTC +KMOD +LIBCRYPTSETUP +LIBFDISK +PCRE2 -PWQUALITY -P11KIT -QRENCODE +BZIP2 +LZ4 +XZ +ZLIB +ZSTD -XKBCOMMON +UTMP +SYSVINIT default-hierarchy=unified)
+[Sun Jun 18 16:15:54 2023] systemd[1]: Detected virtualization vmware.
+[Sun Jun 18 16:15:54 2023] systemd[1]: Detected architecture x86-64.
+[Sun Jun 18 16:15:54 2023] systemd[1]: Hostname set to <server1>.
+[Sun Jun 18 16:15:54 2023] systemd[1]: Queued start job for default target Graphical Interface.
+[Sun Jun 18 16:15:54 2023] systemd[1]: Created slice Slice /system/modprobe.
+[Sun Jun 18 16:15:54 2023] systemd[1]: Created slice Slice /system/systemd-fsck.
+[Sun Jun 18 16:15:54 2023] systemd[1]: Created slice User and Session Slice.
+[Sun Jun 18 16:15:54 2023] systemd[1]: Started Forward Password Requests to Wall Directory Watch.
+[Sun Jun 18 16:15:54 2023] systemd[1]: Set up automount Arbitrary Executable File Formats File System Automount Point.
+[Sun Jun 18 16:15:54 2023] systemd[1]: Reached target Slice Units.
+[Sun Jun 18 16:15:54 2023] systemd[1]: Reached target Mounting snaps.
+[Sun Jun 18 16:15:54 2023] systemd[1]: Reached target Local Verity Protected Volumes.
+[Sun Jun 18 16:15:54 2023] systemd[1]: Listening on Device-mapper event daemon FIFOs.
+[Sun Jun 18 16:15:54 2023] systemd[1]: Listening on LVM2 poll daemon socket.
+[Sun Jun 18 16:15:54 2023] systemd[1]: Listening on multipathd control socket.
+[Sun Jun 18 16:15:54 2023] systemd[1]: Listening on Syslog Socket.
+[Sun Jun 18 16:15:54 2023] systemd[1]: Listening on fsck to fsckd communication Socket.
+[Sun Jun 18 16:15:54 2023] systemd[1]: Listening on initctl Compatibility Named Pipe.
+[Sun Jun 18 16:15:54 2023] systemd[1]: Listening on Journal Audit Socket.
+[Sun Jun 18 16:15:54 2023] systemd[1]: Listening on Journal Socket (/dev/log).
+[Sun Jun 18 16:15:54 2023] systemd[1]: Listening on Journal Socket.
+[Sun Jun 18 16:15:54 2023] systemd[1]: Listening on Network Service Netlink Socket.
+[Sun Jun 18 16:15:54 2023] systemd[1]: Listening on udev Control Socket.
+[Sun Jun 18 16:15:54 2023] systemd[1]: Listening on udev Kernel Socket.
+[Sun Jun 18 16:15:54 2023] systemd[1]: Mounting Huge Pages File System...
+[Sun Jun 18 16:15:54 2023] systemd[1]: Mounting POSIX Message Queue File System...
+[Sun Jun 18 16:15:54 2023] systemd[1]: Mounting Kernel Debug File System...
+[Sun Jun 18 16:15:54 2023] systemd[1]: Mounting Kernel Trace File System...
+[Sun Jun 18 16:15:54 2023] systemd[1]: Starting Journal Service...
+[Sun Jun 18 16:15:54 2023] systemd[1]: Starting Set the console keyboard layout...
+[Sun Jun 18 16:15:54 2023] systemd[1]: Starting Create List of Static Device Nodes...
+[Sun Jun 18 16:15:54 2023] systemd[1]: Starting Monitoring of LVM2 mirrors, snapshots etc. using dmeventd or progress polling...
+[Sun Jun 18 16:15:54 2023] systemd[1]: Condition check resulted in LXD - agent being skipped.
+[Sun Jun 18 16:15:54 2023] systemd[1]: Starting Load Kernel Module chromeos_pstore...
+[Sun Jun 18 16:15:54 2023] systemd[1]: Starting Load Kernel Module configfs...
+[Sun Jun 18 16:15:54 2023] systemd[1]: Starting Load Kernel Module drm...
+[Sun Jun 18 16:15:54 2023] systemd[1]: Starting Load Kernel Module efi_pstore...
+[Sun Jun 18 16:15:54 2023] systemd[1]: Starting Load Kernel Module fuse...
+[Sun Jun 18 16:15:54 2023] systemd[1]: Starting Load Kernel Module pstore_blk...
+[Sun Jun 18 16:15:54 2023] systemd[1]: Starting Load Kernel Module pstore_zone...
+[Sun Jun 18 16:15:54 2023] systemd[1]: Starting Load Kernel Module ramoops...
+[Sun Jun 18 16:15:54 2023] systemd[1]: Condition check resulted in OpenVSwitch configuration for cleanup being skipped.
+[Sun Jun 18 16:15:54 2023] systemd[1]: Condition check resulted in File System Check on Root Device being skipped.
+[Sun Jun 18 16:15:54 2023] pstore: Using crash dump compression: deflate
+[Sun Jun 18 16:15:54 2023] pstore: Registered efi as persistent store backend
+[Sun Jun 18 16:15:54 2023] systemd[1]: Starting Load Kernel Modules...
+[Sun Jun 18 16:15:54 2023] systemd[1]: Starting Remount Root and Kernel File Systems...
+[Sun Jun 18 16:15:54 2023] systemd[1]: Starting Coldplug All udev Devices...
+[Sun Jun 18 16:15:54 2023] systemd[1]: Mounted Huge Pages File System.
+[Sun Jun 18 16:15:54 2023] systemd[1]: Mounted POSIX Message Queue File System.
+[Sun Jun 18 16:15:54 2023] systemd[1]: Mounted Kernel Debug File System.
+[Sun Jun 18 16:15:54 2023] systemd[1]: Mounted Kernel Trace File System.
+[Sun Jun 18 16:15:54 2023] EXT4-fs (dm-0): re-mounted. Opts: (null). Quota mode: none.
+[Sun Jun 18 16:15:54 2023] systemd[1]: Finished Create List of Static Device Nodes.
+[Sun Jun 18 16:15:54 2023] systemd[1]: modprobe@configfs.service: Deactivated successfully.
+[Sun Jun 18 16:15:54 2023] systemd[1]: Finished Load Kernel Module configfs.
+[Sun Jun 18 16:15:54 2023] systemd[1]: modprobe@drm.service: Deactivated successfully.
+[Sun Jun 18 16:15:54 2023] systemd[1]: Finished Load Kernel Module drm.
+[Sun Jun 18 16:15:54 2023] systemd[1]: modprobe@efi_pstore.service: Deactivated successfully.
+[Sun Jun 18 16:15:55 2023] systemd[1]: Finished Load Kernel Module efi_pstore.
+[Sun Jun 18 16:15:55 2023] systemd[1]: modprobe@fuse.service: Deactivated successfully.
+[Sun Jun 18 16:15:55 2023] systemd[1]: Finished Load Kernel Module fuse.
+[Sun Jun 18 16:15:55 2023] systemd[1]: modprobe@pstore_blk.service: Deactivated successfully.
+[Sun Jun 18 16:15:55 2023] systemd[1]: Finished Load Kernel Module pstore_blk.
+[Sun Jun 18 16:15:55 2023] systemd[1]: Finished Set the console keyboard layout.
+[Sun Jun 18 16:15:55 2023] systemd[1]: modprobe@pstore_zone.service: Deactivated successfully.
+[Sun Jun 18 16:15:55 2023] systemd[1]: Finished Load Kernel Module pstore_zone.
+[Sun Jun 18 16:15:55 2023] systemd[1]: modprobe@ramoops.service: Deactivated successfully.
+[Sun Jun 18 16:15:55 2023] systemd[1]: Finished Load Kernel Module ramoops.
+[Sun Jun 18 16:15:55 2023] systemd[1]: Finished Load Kernel Modules.
+[Sun Jun 18 16:15:55 2023] systemd[1]: Finished Remount Root and Kernel File Systems.
+[Sun Jun 18 16:15:55 2023] systemd[1]: Activating swap /swap.img...
+[Sun Jun 18 16:15:55 2023] systemd[1]: Mounting FUSE Control File System...
+[Sun Jun 18 16:15:55 2023] systemd[1]: Mounting Kernel Configuration File System...
+[Sun Jun 18 16:15:55 2023] Adding 4194300k swap on /swap.img.  Priority:-2 extents:11 across:9101308k FS
+[Sun Jun 18 16:15:55 2023] systemd[1]: Starting Device-Mapper Multipath Device Controller...
+[Sun Jun 18 16:15:55 2023] systemd[1]: Starting Apply Kernel Variables...
+[Sun Jun 18 16:15:55 2023] systemd[1]: Starting Create System Users...
+[Sun Jun 18 16:15:55 2023] alua: device handler registered
+[Sun Jun 18 16:15:55 2023] systemd[1]: Activated swap /swap.img.
+[Sun Jun 18 16:15:55 2023] systemd[1]: Finished Monitoring of LVM2 mirrors, snapshots etc. using dmeventd or progress polling.
+[Sun Jun 18 16:15:55 2023] emc: device handler registered
+[Sun Jun 18 16:15:55 2023] systemd[1]: modprobe@chromeos_pstore.service: Deactivated successfully.
+[Sun Jun 18 16:15:55 2023] systemd[1]: Finished Load Kernel Module chromeos_pstore.
+[Sun Jun 18 16:15:55 2023] rdac: device handler registered
+[Sun Jun 18 16:15:55 2023] systemd[1]: Mounted FUSE Control File System.
+[Sun Jun 18 16:15:55 2023] systemd[1]: Mounted Kernel Configuration File System.
+[Sun Jun 18 16:15:55 2023] systemd[1]: Reached target Swaps.
+[Sun Jun 18 16:15:55 2023] systemd[1]: Finished Apply Kernel Variables.
+[Sun Jun 18 16:15:55 2023] systemd[1]: Finished Create System Users.
+[Sun Jun 18 16:15:55 2023] systemd[1]: Starting Create Static Device Nodes in /dev...
+[Sun Jun 18 16:15:55 2023] systemd[1]: Finished Create Static Device Nodes in /dev.
+[Sun Jun 18 16:15:55 2023] systemd[1]: Starting Rule-based Manager for Device Events and Files...
+[Sun Jun 18 16:15:55 2023] systemd[1]: Started Journal Service.
+[Sun Jun 18 16:15:55 2023] vmw_vmci 0000:00:07.7: enabling device (0000 -> 0003)
+[Sun Jun 18 16:15:55 2023] vmw_vmci 0000:00:07.7: MMIO register access is available
+[Sun Jun 18 16:15:55 2023] vmw_vmci 0000:00:07.7: Using capabilities 0x3c
+[Sun Jun 18 16:15:55 2023] Guest personality initialized and is active
+[Sun Jun 18 16:15:55 2023] VMCI host device registered (name=vmci, major=10, minor=123)
+[Sun Jun 18 16:15:55 2023] Initialized host personality
+[Sun Jun 18 16:15:55 2023] Bluetooth: Core ver 2.22
+[Sun Jun 18 16:15:55 2023] NET: Registered PF_BLUETOOTH protocol family
+[Sun Jun 18 16:15:55 2023] Bluetooth: HCI device and connection manager initialized
+[Sun Jun 18 16:15:55 2023] Bluetooth: HCI socket layer initialized
+[Sun Jun 18 16:15:55 2023] Bluetooth: L2CAP socket layer initialized
+[Sun Jun 18 16:15:55 2023] Bluetooth: SCO socket layer initialized
+[Sun Jun 18 16:15:55 2023] usbcore: registered new interface driver btusb
+[Sun Jun 18 16:15:55 2023] snd_ens1371 0000:02:02.0: enabling device (0000 -> 0001)
+[Sun Jun 18 16:15:55 2023] RAPL PMU: API unit is 2^-32 Joules, 0 fixed counters, 10737418240 ms ovfl timer
+[Sun Jun 18 16:15:55 2023] EXT4-fs (sda2): mounted filesystem with ordered data mode. Opts: (null). Quota mode: none.
+[Sun Jun 18 16:15:55 2023] EXT4-fs (dm-1): mounted filesystem with ordered data mode. Opts: (null). Quota mode: none.
+[Sun Jun 18 16:15:55 2023] loop0: detected capacity change from 0 to 229272
+[Sun Jun 18 16:15:55 2023] loop1: detected capacity change from 0 to 129600
+[Sun Jun 18 16:15:55 2023] loop2: detected capacity change from 0 to 102072
+[Sun Jun 18 16:15:55 2023] systemd-journald[597]: Received client request to flush runtime journal.
+[Sun Jun 18 16:15:55 2023] systemd-journald[597]: File /var/log/journal/937c0390acbd4340aab942519e7668c3/system.journal corrupted or uncleanly shut down, renaming and replacing.
+[Sun Jun 18 16:15:55 2023] audit: type=1400 audit(1687103272.011:2): apparmor="STATUS" operation="profile_load" profile="unconfined" name="lsb_release" pid=859 comm="apparmor_parser"
+[Sun Jun 18 16:15:55 2023] audit: type=1400 audit(1687103272.011:3): apparmor="STATUS" operation="profile_load" profile="unconfined" name="nvidia_modprobe" pid=860 comm="apparmor_parser"
+[Sun Jun 18 16:15:55 2023] audit: type=1400 audit(1687103272.011:4): apparmor="STATUS" operation="profile_load" profile="unconfined" name="nvidia_modprobe//kmod" pid=860 comm="apparmor_parser"
+[Sun Jun 18 16:15:55 2023] audit: type=1400 audit(1687103272.011:5): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/bin/man" pid=862 comm="apparmor_parser"
+[Sun Jun 18 16:15:55 2023] audit: type=1400 audit(1687103272.011:6): apparmor="STATUS" operation="profile_load" profile="unconfined" name="man_filter" pid=862 comm="apparmor_parser"
+[Sun Jun 18 16:15:55 2023] audit: type=1400 audit(1687103272.011:7): apparmor="STATUS" operation="profile_load" profile="unconfined" name="man_groff" pid=862 comm="apparmor_parser"
+[Sun Jun 18 16:15:55 2023] audit: type=1400 audit(1687103272.015:8): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/snapd/snap-confine" pid=864 comm="apparmor_parser"
+[Sun Jun 18 16:15:55 2023] audit: type=1400 audit(1687103272.015:9): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/snapd/snap-confine//mount-namespace-capture-helper" pid=864 comm="apparmor_parser"
+[Sun Jun 18 16:15:55 2023] audit: type=1400 audit(1687103272.019:10): apparmor="STATUS" operation="profile_load" profile="unconfined" name="tcpdump" pid=863 comm="apparmor_parser"
+[Sun Jun 18 16:15:55 2023] audit: type=1400 audit(1687103272.023:11): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-client.action" pid=861 comm="apparmor_parser"
+[Sun Jun 18 16:15:56 2023] NET: Registered PF_VSOCK protocol family
+[Sun Jun 18 16:15:56 2023] e1000: ens33 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: None
+[Sun Jun 18 16:15:56 2023] IPv6: ADDRCONF(NETDEV_CHANGE): ens33: link becomes ready
+[Sun Jun 18 16:16:03 2023] loop3: detected capacity change from 0 to 8
+[Sun Jun 18 16:16:03 2023] kauditd_printk_skb: 19 callbacks suppressed
+[Sun Jun 18 16:16:03 2023] audit: type=1400 audit(1687103279.215:31): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/snap/snapd/18357/usr/lib/snapd/snap-confine" pid=1147 comm="apparmor_parser"
+[Sun Jun 18 16:16:03 2023] audit: type=1400 audit(1687103279.231:32): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/snap/snapd/18357/usr/lib/snapd/snap-confine//mount-namespace-capture-helper" pid=1147 comm="apparmor_parser"
+[Sun Jun 18 16:16:03 2023] audit: type=1400 audit(1687103279.235:33): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="snap-update-ns.lxd" pid=1149 comm="apparmor_parser"
+[Sun Jun 18 16:16:03 2023] audit: type=1400 audit(1687103279.239:34): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="snap.lxd.check-kernel" pid=1153 comm="apparmor_parser"
+[Sun Jun 18 16:16:03 2023] audit: type=1400 audit(1687103279.239:35): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="snap.lxd.benchmark" pid=1151 comm="apparmor_parser"
+[Sun Jun 18 16:16:03 2023] audit: type=1400 audit(1687103279.243:36): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="snap.lxd.activate" pid=1150 comm="apparmor_parser"
+[Sun Jun 18 16:16:03 2023] audit: type=1400 audit(1687103279.243:37): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="snap.lxd.buginfo" pid=1152 comm="apparmor_parser"
+[Sun Jun 18 16:16:03 2023] audit: type=1400 audit(1687103279.243:38): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="snap.lxd.hook.configure" pid=1155 comm="apparmor_parser"
+[Sun Jun 18 16:16:03 2023] audit: type=1400 audit(1687103279.243:39): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="snap.lxd.daemon" pid=1154 comm="apparmor_parser"
+[Sun Jun 18 16:16:03 2023] audit: type=1400 audit(1687103279.247:40): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="snap.lxd.hook.install" pid=1156 comm="apparmor_parser"
+[Sun Jun 18 16:21:19 2023] loop3: detected capacity change from 0 to 109072
+[Sun Jun 18 16:21:19 2023] kauditd_printk_skb: 6 callbacks suppressed
+[Sun Jun 18 16:21:19 2023] audit: type=1400 audit(1687103596.359:47): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/snap/snapd/19361/usr/lib/snapd/snap-confine" pid=1631 comm="apparmor_parser"
+[Sun Jun 18 16:21:19 2023] audit: type=1400 audit(1687103596.359:48): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/snap/snapd/19361/usr/lib/snapd/snap-confine//mount-namespace-capture-helper" pid=1631 comm="apparmor_parser"
+[Sun Jun 18 16:21:19 2023] audit: type=1400 audit(1687103596.371:49): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="snap-update-ns.lxd" pid=1634 comm="apparmor_parser"
+[Sun Jun 18 16:21:20 2023] audit: type=1400 audit(1687103596.375:50): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="snap.lxd.activate" pid=1635 comm="apparmor_parser"
+[Sun Jun 18 16:21:20 2023] audit: type=1400 audit(1687103596.375:51): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="snap.lxd.check-kernel" pid=1638 comm="apparmor_parser"
+[Sun Jun 18 16:21:20 2023] audit: type=1400 audit(1687103596.375:52): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="snap.lxd.buginfo" pid=1637 comm="apparmor_parser"
+[Sun Jun 18 16:21:20 2023] audit: type=1400 audit(1687103596.375:53): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="snap.lxd.benchmark" pid=1636 comm="apparmor_parser"
+[Sun Jun 18 16:21:20 2023] audit: type=1400 audit(1687103596.379:54): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="snap.lxd.daemon" pid=1639 comm="apparmor_parser"
+[Sun Jun 18 16:21:20 2023] audit: type=1400 audit(1687103596.379:55): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="snap.lxd.hook.configure" pid=1640 comm="apparmor_parser"
+[Sun Jun 18 16:21:20 2023] audit: type=1400 audit(1687103596.383:56): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="snap.lxd.hook.install" pid=1641 comm="apparmor_parser"
+[Sun Jun 18 16:21:21 2023] loop4: detected capacity change from 0 to 8
+[Sun Jun 18 16:21:28 2023] loop4: detected capacity change from 0 to 129952
+[Sun Jun 18 18:32:20 2023] usb 2-2.1: reset full-speed USB device number 4 using uhci_hcd

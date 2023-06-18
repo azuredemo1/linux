@@ -1,0 +1,37 @@
+[Sun Jun 18 16:15:55 2023] audit: type=1400 audit(1687103272.011:5): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/bin/man" pid=862 comm="apparmor_parser"
+[Sun Jun 18 16:15:55 2023] audit: type=1400 audit(1687103272.011:6): apparmor="STATUS" operation="profile_load" profile="unconfined" name="man_filter" pid=862 comm="apparmor_parser"
+[Sun Jun 18 16:15:55 2023] audit: type=1400 audit(1687103272.011:7): apparmor="STATUS" operation="profile_load" profile="unconfined" name="man_groff" pid=862 comm="apparmor_parser"
+[Sun Jun 18 16:15:55 2023] audit: type=1400 audit(1687103272.015:8): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/snapd/snap-confine" pid=864 comm="apparmor_parser"
+[Sun Jun 18 16:15:55 2023] audit: type=1400 audit(1687103272.015:9): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/snapd/snap-confine//mount-namespace-capture-helper" pid=864 comm="apparmor_parser"
+[Sun Jun 18 16:15:55 2023] audit: type=1400 audit(1687103272.019:10): apparmor="STATUS" operation="profile_load" profile="unconfined" name="tcpdump" pid=863 comm="apparmor_parser"
+[Sun Jun 18 16:15:55 2023] audit: type=1400 audit(1687103272.023:11): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-client.action" pid=861 comm="apparmor_parser"
+[Sun Jun 18 16:15:56 2023] NET: Registered PF_VSOCK protocol family
+[Sun Jun 18 16:15:56 2023] e1000: ens33 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: None
+[Sun Jun 18 16:15:56 2023] IPv6: ADDRCONF(NETDEV_CHANGE): ens33: link becomes ready
+[Sun Jun 18 16:16:03 2023] loop3: detected capacity change from 0 to 8
+[Sun Jun 18 16:16:03 2023] kauditd_printk_skb: 19 callbacks suppressed
+[Sun Jun 18 16:16:03 2023] audit: type=1400 audit(1687103279.215:31): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/snap/snapd/18357/usr/lib/snapd/snap-confine" pid=1147 comm="apparmor_parser"
+[Sun Jun 18 16:16:03 2023] audit: type=1400 audit(1687103279.231:32): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/snap/snapd/18357/usr/lib/snapd/snap-confine//mount-namespace-capture-helper" pid=1147 comm="apparmor_parser"
+[Sun Jun 18 16:16:03 2023] audit: type=1400 audit(1687103279.235:33): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="snap-update-ns.lxd" pid=1149 comm="apparmor_parser"
+[Sun Jun 18 16:16:03 2023] audit: type=1400 audit(1687103279.239:34): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="snap.lxd.check-kernel" pid=1153 comm="apparmor_parser"
+[Sun Jun 18 16:16:03 2023] audit: type=1400 audit(1687103279.239:35): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="snap.lxd.benchmark" pid=1151 comm="apparmor_parser"
+[Sun Jun 18 16:16:03 2023] audit: type=1400 audit(1687103279.243:36): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="snap.lxd.activate" pid=1150 comm="apparmor_parser"
+[Sun Jun 18 16:16:03 2023] audit: type=1400 audit(1687103279.243:37): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="snap.lxd.buginfo" pid=1152 comm="apparmor_parser"
+[Sun Jun 18 16:16:03 2023] audit: type=1400 audit(1687103279.243:38): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="snap.lxd.hook.configure" pid=1155 comm="apparmor_parser"
+[Sun Jun 18 16:16:03 2023] audit: type=1400 audit(1687103279.243:39): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="snap.lxd.daemon" pid=1154 comm="apparmor_parser"
+[Sun Jun 18 16:16:03 2023] audit: type=1400 audit(1687103279.247:40): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="snap.lxd.hook.install" pid=1156 comm="apparmor_parser"
+[Sun Jun 18 16:21:19 2023] loop3: detected capacity change from 0 to 109072
+[Sun Jun 18 16:21:19 2023] kauditd_printk_skb: 6 callbacks suppressed
+[Sun Jun 18 16:21:19 2023] audit: type=1400 audit(1687103596.359:47): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/snap/snapd/19361/usr/lib/snapd/snap-confine" pid=1631 comm="apparmor_parser"
+[Sun Jun 18 16:21:19 2023] audit: type=1400 audit(1687103596.359:48): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/snap/snapd/19361/usr/lib/snapd/snap-confine//mount-namespace-capture-helper" pid=1631 comm="apparmor_parser"
+[Sun Jun 18 16:21:19 2023] audit: type=1400 audit(1687103596.371:49): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="snap-update-ns.lxd" pid=1634 comm="apparmor_parser"
+[Sun Jun 18 16:21:20 2023] audit: type=1400 audit(1687103596.375:50): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="snap.lxd.activate" pid=1635 comm="apparmor_parser"
+[Sun Jun 18 16:21:20 2023] audit: type=1400 audit(1687103596.375:51): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="snap.lxd.check-kernel" pid=1638 comm="apparmor_parser"
+[Sun Jun 18 16:21:20 2023] audit: type=1400 audit(1687103596.375:52): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="snap.lxd.buginfo" pid=1637 comm="apparmor_parser"
+[Sun Jun 18 16:21:20 2023] audit: type=1400 audit(1687103596.375:53): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="snap.lxd.benchmark" pid=1636 comm="apparmor_parser"
+[Sun Jun 18 16:21:20 2023] audit: type=1400 audit(1687103596.379:54): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="snap.lxd.daemon" pid=1639 comm="apparmor_parser"
+[Sun Jun 18 16:21:20 2023] audit: type=1400 audit(1687103596.379:55): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="snap.lxd.hook.configure" pid=1640 comm="apparmor_parser"
+[Sun Jun 18 16:21:20 2023] audit: type=1400 audit(1687103596.383:56): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="snap.lxd.hook.install" pid=1641 comm="apparmor_parser"
+[Sun Jun 18 16:21:21 2023] loop4: detected capacity change from 0 to 8
+[Sun Jun 18 16:21:28 2023] loop4: detected capacity change from 0 to 129952
+[Sun Jun 18 18:32:20 2023] usb 2-2.1: reset full-speed USB device number 4 using uhci_hcd
