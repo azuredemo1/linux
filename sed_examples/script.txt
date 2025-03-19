@@ -1,0 +1,10 @@
+# SED script dosyalarında kesme işareti ('') kullanmamıza gerek yok. Her satır ayrı bir komuttur.
+# İlk satır bir sonraki girdi satırını pattern alanına ekler.
+N
+# Newline'ı nokta ve boşuk ile değiştirir.
+s/\n/. /
+s/thunder/lightning/g
+s/Thunder,/Lightning,/g
+
+# G komutu çift boşluk yaptırır. 
+G

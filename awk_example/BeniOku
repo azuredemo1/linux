@@ -1,0 +1,22 @@
+1. employee.txt dosyasını awk komutu ile herhangi bir değişiklik yapmadan ekrana yazdırın.
+
+2. employee.txt dosyasında ismi s harfi ile başlayan çalışanların bilgilerini ekrana yazdırın.
+
+3.  employee.txt dosyasında ismi a veya s harfi ile başlamayan çalışanların bilgilerini ekrana yazdırın.
+
+4. employee.txt dosyasındaki çalışanların isimlerini ekrana yazdırın.
+ 
+5. employee.txt dosyasındaki çalışanların isimlerini ve yanlarına maaşlarını ekrana yazdırın.
+
+6. employee.txt dosyasındaki toplam calışan sayısını Toplam Çalışan Sayısı: şeklinde ekrana yazırın.
+
+7. employee.txt dosyasında manager pozisyonunda olan çalışanların isimlerini ekrana yazdırın.
+
+8. employee.txt dosyasında 50000 e eşit veya fazla maaşı olan çalışanların isimlerini ve maaşlarını ekrana yazdırın.
+
+9. employee.txt dosyasında en yüksek maaşı En Yüksek Maaş: şeklinde ekrana yazdırın.
+
+10. employee.txt dosyasını kullanarak şirket tarafından ödenen toplam maaşı hesaplayıp ekrana yazdırınız.
+
+11. lyrics.txt dosyasının 5 ile 8'inci satırları arasını (dahil) ekrana yazdırınız.
+ 

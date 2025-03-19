@@ -1,0 +1,7 @@
+1. Üssünüzde bir gizli rapor 2025 adlı dosyanız var. Dosyanın adını bir değişkene atayın. Sonra da değişkeni kullanarak dosyanın içeriğini okuyun.
+
+2. Harekât komuta merkezi, sistemdeki güncel tarih bilgisini bir rapor dosyasına yazmanızı istiyor.
+
+3. echo komutunu kullanarak kriptolu_mesaj adlı bir dosyanın içine aynen şu satırları yazın: Bu bir "şifreli" belgedir.
+
+4. echo komutunu kullanarak talimatlar adlı bir dosyanın içine aynen şu satırları yazın: Özel karakterler: "çift tırnak", 'tek tırnak', \ters eğik çizgi mesajlarda kullanılmayacaktır.

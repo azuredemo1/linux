@@ -1,0 +1,19 @@
+1. employee.txt dosyasını çalışan isimlerine göre sırala.
+
+2. employee.txt dosyasını çalışanların maaşlarına göre yüksekten aza doğru sırala.
+
+3. number.txt dosyasındaki uniq değerleri sırala.
+
+4. Klasördeki dosyaları uzantılarına göre sırala.
+
+5. /etc/passwd dosyasını kullanıcı adlarına göre sırala.
+
+6. /etc/passwd dosyasını id'lerine göre numerik sırala.
+
+7. /etc/group dosyasının sadece 1 ve 3'ncü sutünlarını al ve bunları GID değerlerine göre sırala.
+
+8. Dracula.txt dosyasının kaç kelimeden oluştuğunu bulunuz.
+
+9. Dracula.txt dosyasını 250 KB boyutunda parçalara bölünüz. 
+
+10. Dracula.txt dosyasının tamamının ve parçalarının kaç satırdan oluştuğunu ekrana yazdırınız.

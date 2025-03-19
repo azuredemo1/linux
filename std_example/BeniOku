@@ -1,0 +1,9 @@
+1. /etc dizini altındaki dosyalardan hosts ifadesi geçenleri sırala ve directory.txt adlı dosyaya yaz.
+
+2. google.com'u 3 defa başarılı bir şekilde ping'le ve çıktıyı hem ekrana hem ping.log dosyasına yazdır.
+
+3. alpha* adıyla başlayan dosyaları alpha-total.txt adlı bir dosyada birleştir.
+
+4. /proc/1 dizinin içeriğini yazdır ancak hatalar ekranda gözükmesin.
+
+5. fruits.txt dosyasının içeriğini ekrana BÜYÜK HARFLER ile yazdır

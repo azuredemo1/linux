@@ -1,0 +1,15 @@
+1. lyrics.txt dosyasının 5 ile 8'inci satırlarını ekrana yazdır.
+
+2. lyrics.txt dosyasının 5 ile 8'inci satırları hariç ekrana yazdır.
+
+3. lyrics.txt dosyasında içerisinde thunder kelimesi geçen satırları silerek ekrana yazdır.
+
+4. lyrics.txt dosyasında içerisinde thunder veya magic kelimesi geçen satırları silerek ekrana yazdır. 
+
+5. lyrics.txt dosyasında thunder kelimesinin geçtiği her yerde lighting olarak değiştirerek ekrana yazdırın.
+
+6. script.txt adlı sed script dosyasının lyrics.txt üzerinde çalıştır.
+
+7. linux.txt adlı dosyadaki tüm unix ifadelerini linux olarak değiştirin.
+
+8. linux.txt adlı dosyadaki sadece dördüncü satırındaki unix ifadelerini linux olarak değiştirin.

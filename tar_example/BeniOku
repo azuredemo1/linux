@@ -1,0 +1,3 @@
+1. 10 K'dan büyük dosyaları uydu üzerinden transfer edemiyorsunuz. O yüzden logları tar ve split ile 10K lık parçalar dosyayı bölerek halinde aktaracağız.
+
+2. log-2023-06-15.txt adlı dosyayı dahil ETMEYEREK bir tar oluşturup XZ ile sıkıştırarak secili_loglar.tar.xz adı altında toplayınız.

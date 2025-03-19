@@ -1,0 +1,11 @@
+set number
+set hlsearch
+set autoindent
+set tabstop=2
+set expandtab
+set cuc
+set incsearch
+set wildmenu
+set smartcase
+set showmatch
+syntax on

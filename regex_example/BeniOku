@@ -1,0 +1,11 @@
+1. colour ve color dosyalarını süzünüz.
+
+2. 444'lü numara formatındaki numaraları süzünüz.
+
+3. eposta adreslerini süzünüz.
+
+4. HTTP adreslerini süz
+
+5. /var/log/syslog dosyası içerisinden 18 veya 19 mart 2025 tarihlerinde alınmış error kodlarını süzün.
+
+ 

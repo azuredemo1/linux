@@ -1,0 +1,12 @@
+Tebrikler!
+
+Eğer aşağıdaki komutları kullansaydınız hata alacaktınız.
+
+file_name=gizli rapor 2025
+cat $file_name
+
+Doğruları şunlardı:
+
+file_name="gizli rapor 2025"
+cat "$file_name"
+

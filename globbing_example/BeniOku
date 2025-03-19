@@ -1,0 +1,23 @@
+Bir askeri üssün dijital kayıtlarını düzenleyen bir sistem yöneticisisiniz. Kayıtlar, farklı türde raporları içeren dosyalardan oluşuyor. Bu dosyaları belirli kriterlere göre listelemek, taşımak veya silmek için Globbing kullanmanız gerekiyor.
+
+1. Üstünüz size, üste bulunan tüm rapor dosyalarının listesini göndermenizi istiyor. Raporların .txt uzantılı olduğunu biliyorsunuz.
+
+2. Üssün lojistik birimiyle ilgili raporları görmek istiyorsunuz. Bu raporlar "lojistik_" ile başlıyor.
+
+3. Gizli belgelerin _gizli ekiyle bittiğini biliyorsunuz. Bu dosyaları bulup arşivlemek istiyorsunuz.
+
+4. Farklı yıllara ait harekât planları var ve sadece 2023 ve 2024 yıllarına ait olanları listelemek istiyorsunuz.
+
+5. Lojistik ve personel raporlarını aynı anda listelemek istiyorsunuz.
+
+6. İstihbarat raporları istihbarat_rapor_1.txt ile istihbarat_rapor_5.txt arasında numaralandırılmış. Bunları seçmek istiyorsunuz.
+
+7. Tüm .csv raporlarını "arsiv/" klasörüne kopyalamak istiyorsunuz.
+ 
+8. Güvenlik nedeniyle gizli bilgiler içeren dosyaların (isimlerinin sonunda _gizli.txt bulunanlar) listelenmesini istemiyorsunuz. Tüm diğer raporları görmek için bu dosyaları hariç tutabilirsiniz.
+
+9. Sisteminizde "harekat" veya "operasyon" ile başlayan dosyalarınız var. Bu dosyalar bazen gizli (_gizli.txt) bzaen de şifreli (_sifreli.txt) olarak da saklanabiliyor. Hem gizli hem de sifreli dosyaları listelemek istiyorsunuz.
+
+10. Keşif rapor dosyalarınız, kesif_raporu_ ile başlayıp, sonrasında tam olarak 3 karakterlik bir kod bulunan ve .txt ile biten isimlerde. Diğerlerini istemiyorsunuz. Bunları listeleyin.
+
+11. Arşivinizde farklı formatlarda rapor dosyalarınız mevcut:  .csv , .xml ve .def uzantılı dosyalar. Hepsini tek bir komutla listelemek istiyorsunuz.
