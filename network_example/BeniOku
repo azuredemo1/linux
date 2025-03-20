@@ -50,4 +50,6 @@
 
 13. Web sunucusunun (Apache veya Nginx) çalıştığından emin olmak istiyorsunuz. Web sunucusu tarafından kaç aktif bağlantı olduğunu bulun.
 
-14. Sistemde TCP ve UDP ğzerinden dinlemede olan tüm portları bulun.
+14. Sistemde TCP ve UDP uzerinden dinlemede olan tüm portları bulun.
+
+15. telehack.com adresine telnet bağlantısı kurun ve starwars yazın. Oluşan trafiği iftop ile izleyin.
