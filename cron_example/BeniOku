@@ -1,0 +1,31 @@
+1. Akşam saat 22.00'de tüm login olmuş kullanıcılara "Bakım Zamanı: Logout olunuz!" uyarısı gönderecek bir at komutu çalıştırınız.
+
+2. Oluşturduğunuz job da dahil olmak üzere at kuyruğunu görüntüleyiniz.
+
+3. Oluşturduğunuz at job'unu iptal ediniz.
+
+4. Şuandan 3 dakika sonra gerçekleşmek üzere, temizlik.sh scriptini at komutu ile çalıştırınız.
+
+5. Oluşturduğunuz at job'ını env değişkenleri ile birlikte gösteriniz.
+
+6. Yarın bu saatte gerçekleşmek üzere, guncelleme.sh scriptini at komutu ile çalıştırınız.
+
+7. Sistem yükünün düşük olduğu bir zamanda çalıştırılmak üzere backup.sh scriptini planlayınız.
+
+8. backup.sh scriptini hergün saat 23'de çalışacak şekilde ayarlayınız.
+
+9. backup.sh scriptini ayın 1'inci ve 15'inci günleri saat 01.00'da çalışacak şekilde ayarlayınız.
+
+10. backup.sh scriptini her hafta Cuma günü saat 17.00'de çalışacak şekilde ayarlayınız.
+
+11. Sunucuyu ayın ilk 10 günü saat 02:30 'da reboot edecek şekilde ayarlayınız.
+
+12. temizlik.sh scriptini her hafta Cuma günü saat 17.00'de çalışacak şekilde ayarlayınız.
+
+13. En son oluşturduğunuz cron jobuna(her hafta Cuma günü saat 17.00) backup.sh scriptini de dahil ediniz.
+
+14. Her reboot sonrası sys_info.sh dosyasının çalışmasını sağlayınız.
+
+15. guncelleme.sh scriptini yönetici tarafından ayın 1 ve 15'inci günleri gece yarısında çalıştıracak şekilde ayarlayınız.
+
+10.

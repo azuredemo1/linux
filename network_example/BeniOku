@@ -1,0 +1,53 @@
+1. Mevcut IPv4 adresinizi ve CIDR formatında subnetinizi ekrana yazdırınız.
+
+2. Varsayılan ağ geçidinizi ekrana yazdırınız.
+
+3. Bulunduğunuz subnette yeni bir IP adresini ip komutunu kullanarak atayın.
+
+4. Kullandığınız DNS ayarlarını ve DNS sunucunun bilgilerini ekrana yazdırınız.
+
+5. Bulunduğunuz subnet içerisinde statik bir IP adresini netplan aracılığı ile atayın.
+
+6. onur1.net, onur2.net şeklinde 1'den 100 e kadar tüm adresleri pingleyin ve DNS istatistiklerini gösterin.
+
+7. onur.net DNS adresini çözümleyin.
+
+8. onur.net tarafından kullanılan eposta sunucularının adresini bulunuz.
+
+9. 10.1.2.200 IP adresi için deneme.local adında lokal bir DNS kaydı oluşturun.
+
+10. MAC adresini ekrana yazıdırın.
+
+11. Bulunduğunuz subnetin arp tablosunu (IP_MAC Adres eşleştirmesini) gösterin.
+
+12. MAC adresinin bir karakterini değiştirin.1~1. Mevcut IPv4 adresinizi ve CIDR formatında subnetinizi ekrana yazdırınız.
+
+2. Varsayılan ağ geçidinizi ekrana yazdırınız.
+
+3. Bulunduğunuz subnette yeni bir IP adresini ip komutunu kullanarak atayın.
+
+4. Kullandığınız DNS ayarlarını ve DNS sunucunun bilgilerini ekrana yazdırınız.
+
+5. Bulunduğunuz subnet içerisinde statik bir IP adresini netplan aracılığı ile atayın.
+
+6. onur1.net, onur2.net şeklinde 1'den 100 e kadar tüm adresleri pingleyin ve DNS istatistiklerini gösterin.
+
+7. onur.net DNS adresini çözümleyin.
+
+8. onur.net tarafından kullanılan eposta sunucularının adresini bulunuz.
+
+9. 10.1.2.200 IP adresi için deneme.local adında lokal bir DNS kaydı oluşturun.
+
+10. MAC adresini ekrana yazıdırın.
+
+11. Bulunduğunuz subnetin arp tablosunu (IP_MAC Adres eşleştirmesini) gösterin.
+
+12. MAC adresinin bir karakterini değiştirin.
+
+13. Nginx web sunucu kurunuz. Browserdan web sayfasının erişilebilir olduğunu kontrol ediniz.
+
+14. Nginx web sunucusunun anasayfasına "Hosgeldiniz. Bu test maksatli bir calismadir." yazınız. 
+
+13. Web sunucusunun (Apache veya Nginx) çalıştığından emin olmak istiyorsunuz. Web sunucusu tarafından kaç aktif bağlantı olduğunu bulun.
+
+14. Sistemde TCP ve UDP ğzerinden dinlemede olan tüm portları bulun.
