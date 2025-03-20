@@ -1,0 +1,54 @@
+1. checkonur.sh adlı bir script yazın. Bu script:
+	
+	a. https://www.onur.net/tr/ sayfasını kontrol etsin. 
+
+	b. Eğer sayfa ayakta ise çalışıyor diye STDOUTPUT a bildirsin. 
+
+
+2. checkonurresponse.sh adlı bir script yazın. (İpucu: REGEX)
+
+	Bu script:
+
+        a. https://www.onur.net/tr/ sayfasını kontrol etsin.
+
+        b. Eğer sayfa ayakta ise HTTP RESPONSE kodunu STDOUTPUT a bildirsin.
+
+3. sys_info.sh adlı bir script hazırlayın. 
+	
+	Bu script :
+
+	a. Eğer argüman verilmezse system_info_tarih şeklinde, verilirse de argüman_tarih şeklinde uniq loglar üretsin.
+	
+	b. Sunucu hostname'ini kayıt altına alsın.
+
+	c. OS bilgilerini kayıt altına alsın.
+
+	d. Mevcut memory bilgilerini kayıt altına alsın.
+
+	e. Disk kullanım bilgilerini kayıt altına alsın.
+
+	f. İnteraktif çalıştırıldığında hangi dosyaya kaydettiğini kullanıcıya bildirsin.
+
+  
+4. homefoldertest.sh adlı script yazın. (İpucu: READ) 
+	
+	Bu script: 
+
+	a. İnteraktif olarak kullanıcı kodunu alsın.
+
+	b. /home dizini altında bu kullanıcın home dizini varsa ise var diye yoksa yok diye bildirsin.
+
+5. videos.sh adlı bir script yazın. Bu script çalıştırıldığında video1.mp4, video2.mp4 ... şeklinde 10 tane dosya üretsin. (İpucu: FOR döngüsü, SEQ komutu)
+
+6. hello.sh adlı bir script yazın. (İpucu: Case döngüsü)
+
+	Bu script:
+
+	a. Scripte argüman olarak verilen 1 string'i kabul etsin.
+
+	b. hello veya hi denildiğinde "Size de merhaba!" diye cevap versin.
+
+	c. goodbye denildiğinde "Görüşmek üzere" diye cevap versin.
+
+	d. Başka bir şey denildiğinde "Ne dediğinizi anlamadım" diye cevap versin.
+
