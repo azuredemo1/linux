@@ -1,0 +1,48 @@
+1. Sunucunuzda belirli periyotlarla çalışan bir sistem yedeği oluşturmanız gerekiyor. Ancak, aynı anda başka bakım işleriyle de ilgilenmelisiniz.
+
+	Görevler:
+
+	a. tar -czf backup.tar.gz /etc && sleep 60  komutunu çalıştırarak sistemin /etc dizinini yedekleyin.
+
+	b. Komutu çalıştırdıktan sonra CTRL + Z tuş kombinasyonu ile duraklatın. Terminalin çıktısını inceleyin.
+
+	c. Süreci arka plana almak için uygun komutu kullanın.
+
+	d. jobs komutunu kullanarak sürecin durumunu inceleyin.
+
+	e. Arka planda çalışan bu sürecin önceliğini düşürmek için uygun komutu kullanın. (İpucu: nice veya renice)
+	
+	f. Arka plandaki bir sürecin önceliğini değiştirmek neden önemlidir?
+
+2. Uzaktan bağlandığınız sunucuda, uzun sürecek bir işlem başlattınız. Ancak bağlantınızın kopabileceğini öngörüyorsunuz ve işlemin kesilmeden devam etmesini sağlamalısınız.
+
+	Görevler:
+
+	a. sleep 300 komutunu başlatın ve CTRL + Z ile duraklatın.
+
+	b. bg komutu ile arka plana gönderin.
+	
+	c. disown komutunu kullanarak süreci oturumdan bağımsız hale getirin.
+
+	d. exit komutuyla oturumu kapatın ve tekrar bağlanın.
+
+	e. ps aux | grep sleep komutu ile sürecin hala çalıştığını doğrulayın.
+
+	f. disown ve nohup komutları arasındaki fark nedir? Ne zaman hangisini tercih edersiniz?
+
+3. Sunucuda aynı anda birden fazla bakım süreci yürütüyorsunuz. Bir süreci öne almanız, bir diğerini durdurmanız ve başka birini tamamen sonlandırmanız gerekiyor.
+
+	Görevler:
+
+	a. ping -c 100 google.com & ve sleep 500 & komutlarını çalıştırarak iki arka plan süreci başlatın.
+
+	b. jobs komutu ile süreçleri kontrol edin.
+
+	c. fg %1 komutuyla ilk süreci ön plana alın.
+
+	d. CTRL + Z ile süreci durdurun ve kill %1 komutuyla sonlandırın.
+
+	e. jobs komutu ile kalan süreçleri kontrol edin ve sadece ikinci süreci (sleep 500) çalışır halde bırakın.
+
+	f. kill komutunun farklı sinyalleri vardır (örneğin SIGTERM, SIGKILL). Bir süreci düzgün bir şekilde sonlandırmak için hangi sinyali kullanmalısınız?
+
